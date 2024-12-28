@@ -28,9 +28,9 @@ void demonstrateMap() {
     map<string, int> scores;
     
     // Inserting elements
-    scores["Alice"] = 95;
-    scores["Bob"] = 89;
-    scores.insert({"Charlie", 78});
+    scores["Amit"] = 95;
+    scores["sumit"] = 89;
+    scores.insert({"tum", 78});
     
     // Accessing elements
     for(const auto& [name, score] : scores) {
