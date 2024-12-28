@@ -18,7 +18,7 @@ int add(int a, int b);
 int fact(int n);
 
 int main(){
-    // here is every basic component of c++ feel free to practice and contact Amit (sumitkr95078@gmail.com) if you need to learn something new
+    // here is every basic component of c++ feel free to practice and contact Amit (sumitkr95078@gmail.com) if you want to learn something new
     //for some part (19 and 24 to 30) you need extra lib files so try to avoid it or download if you really want to play around it (-;
     
     // 1. Hello World: Basic program to print "Hello World" to the console. This is the simplest C++ program.
