@@ -42,47 +42,111 @@ C++ is one of the most powerful programming languages, providing flexibility for
 - **Control Flow**: If-else, loops, switch-case.
 - **Functions**: Defining and calling functions, recursion, inline functions.
 
+## Detailed C++ Concepts
+
+### Memory Management
+1. **Stack Memory**
+   - Automatic allocation/deallocation
+   - Fixed size, faster access
+   - Used for local variables
+
+2. **Heap Memory**
+   - Dynamic allocation using `new/delete`
+   - Manual memory management
+   - Used for runtime-sized data structures
+
+3. **References vs Pointers**
+   - References: Aliases to existing variables
+   - Pointers: Store memory addresses
+   - Smart pointers: `unique_ptr`, `shared_ptr`, `weak_ptr`
+
+### Advanced Features
+1. **Exception Handling**
+   ```cpp
+   try {
+       // risky code
+   } catch (exception& e) {
+       // handle error
+   }
+   ```
+
+2. **Templates**
+   - Function templates
+   - Class templates
+   - Variadic templates
+   - SFINAE (Substitution Failure Is Not An Error)
+
+3. **STL Containers Deep Dive**
+   - **Sequence Containers**
+     - `vector`: Dynamic array
+     - `deque`: Double-ended queue
+     - `list`: Doubly-linked list
+   - **Associative Containers**
+     - `set/multiset`: Sorted unique/non-unique elements
+     - `map/multimap`: Key-value pairs
+   - **Unordered Containers**
+     - `unordered_set/map`: Hash-based containers
+
 ---
 
 ## Data Structures
 
 Data structures form the backbone of efficient programming. They help store and organize data for quick access and modification.
 
-### Topics Covered in Detail:
+### Detailed Theory:
 1. **Arrays**
    - Sequential memory allocation.
-   - Operations: Traversal, insertion, deletion, and searching.
-   - Applications: Matrix manipulation, prefix sums.
+   - Fixed size, with elements stored contiguously.
+   - Common operations include traversal, insertion, deletion, and searching.
+   - Applications: Used in problems like matrix manipulation and prefix sums.
 
 2. **Linked List**
-   - **Singly Linked List**: Linear connections, dynamic size.
-   - **Doubly Linked List**: Nodes with forward and backward pointers.
-   - **Circular Linked List**: Last node points back to the first.
+   - A linear data structure where elements (nodes) are linked using pointers.
+   - Types:
+     - **Singly Linked List**: Each node contains data and a pointer to the next node.
+     - **Doubly Linked List**: Nodes contain pointers to both the previous and next nodes.
+     - **Circular Linked List**: Last node points to the first node, forming a circle.
+   - Advantages: Dynamic memory allocation and efficient insertion/deletion.
 
 3. **Stacks**
    - LIFO (Last In, First Out) structure.
-   - Applications: Undo functionality, parsing expressions.
+   - Operations: `push`, `pop`, `peek`.
+   - Applications: Undo functionality in text editors, parsing expressions, backtracking algorithms.
 
 4. **Queues**
    - FIFO (First In, First Out) structure.
-   - Types: Simple Queue, Circular Queue, Priority Queue.
+   - Types:
+     - **Simple Queue**: Basic enqueue and dequeue.
+     - **Circular Queue**: Overcomes the limitation of unused space in arrays.
+     - **Priority Queue**: Elements are dequeued based on priority.
 
 5. **Trees**
-   - Non-linear hierarchical structure.
-   - Types: Binary Trees, Binary Search Trees (BST), AVL Trees, Heaps.
-   - Applications: Database indexing, Huffman encoding.
+   - Hierarchical structure with nodes connected by edges.
+   - Types:
+     - **Binary Trees**: Each node has at most two children.
+     - **Binary Search Trees (BST)**: Left child < root < right child.
+     - **AVL Trees**: Self-balancing BST.
+     - **Heaps**: Specialized tree-based data structure for priority queues.
+   - Applications: Database indexing, Huffman coding.
 
 6. **Graphs**
-   - Representing relationships (nodes and edges).
-   - Algorithms: BFS, DFS, Dijkstra, and Floyd-Warshall.
+   - Represent relationships between entities using nodes (vertices) and edges.
+   - Representations:
+     - **Adjacency Matrix**
+     - **Adjacency List**
+   - Key algorithms: BFS, DFS, Dijkstra, and Floyd-Warshall.
 
 7. **Hashing**
-   - Efficient data retrieval using hash tables.
-   - Collision resolution strategies: Chaining and open addressing.
+   - Efficient data retrieval using hash functions.
+   - Resolving collisions:
+     - **Chaining**: Use linked lists.
+     - **Open Addressing**: Probing techniques (linear, quadratic).
 
 8. **Dynamic Programming (DP)**
-   - Optimizing recursive solutions using memoization and tabulation.
-   - Famous Problems: Fibonacci sequence, Longest Common Subsequence.
+   - Optimizes recursive solutions by storing intermediate results.
+   - Examples:
+     - Longest Common Subsequence (LCS)
+     - Knapsack Problem
 
 ---
 
@@ -90,30 +154,57 @@ Data structures form the backbone of efficient programming. They help store and 
 
 Algorithms are well-defined steps to solve computational problems. Mastering them is crucial for competitive programming and real-world applications.
 
-### Topics Covered in Detail:
+### Detailed Theory:
 1. **Sorting Algorithms**
-   - Comparison-based: Bubble, Selection, Insertion, Merge, Quick Sort.
-   - Non-comparison-based: Counting Sort, Radix Sort.
+   - Divide datasets into sorted order.
+   - Common techniques:
+     - **Bubble Sort**: Repeatedly swap adjacent elements.
+     - **Merge Sort**: Divide and conquer approach.
+     - **Quick Sort**: Partitioning around a pivot element.
+   - Applications: Organizing data, optimizing search operations.
 
 2. **Searching Algorithms**
-   - **Linear Search**: Sequential search for unsorted data.
-   - **Binary Search**: Efficient search for sorted data.
+   - Locate elements in data structures.
+   - Techniques:
+     - **Linear Search**: Check each element sequentially.
+     - **Binary Search**: Works on sorted data; O(log n) time complexity.
 
-3. **Divide and Conquer**
-   - Break problems into smaller sub-problems, solve recursively, and combine.
-   - Examples: Merge Sort, Quick Sort.
-
-4. **Greedy Algorithms**
-   - Make locally optimal choices to achieve global solutions.
+3. **Greedy Algorithms**
+   - Make locally optimal choices.
    - Examples: Activity Selection, Huffman Coding.
 
-5. **Backtracking**
-   - Trial-and-error approach to solve constraint satisfaction problems.
-   - Examples: N-Queens, Sudoku Solver.
+4. **Backtracking**
+   - Explore all possibilities by trial-and-error.
+   - Examples: Solving N-Queens, Sudoku.
 
-6. **Graph Algorithms**
-   - Shortest Path: Dijkstra, Bellman-Ford.
-   - Minimum Spanning Tree: Prim's and Kruskal's Algorithms.
+## Advanced Algorithms
+
+### Graph Algorithms
+1. **Minimum Spanning Tree**
+   - Kruskal's Algorithm
+   - Prim's Algorithm
+   - Applications in network design
+
+2. **Shortest Path**
+   - Dijkstra's Algorithm
+   - Bellman-Ford Algorithm
+   - Floyd-Warshall Algorithm
+
+3. **Network Flow**
+   - Ford-Fulkerson Algorithm
+   - Maximum Flow Problem
+   - Bipartite Matching
+
+### String Algorithms
+1. **Pattern Matching**
+   - KMP Algorithm
+   - Rabin-Karp Algorithm
+   - Boyer-Moore Algorithm
+
+2. **String Processing**
+   - Trie Data Structure
+   - Suffix Arrays
+   - Aho-Corasick Algorithm
 
 ---
 
@@ -121,17 +212,80 @@ Algorithms are well-defined steps to solve computational problems. Mastering the
 
 OOP enables modular and reusable code by organizing data and behavior into objects.
 
-### Core Principles Explained:
-1. **Encapsulation**: Wrapping data (variables) and code (methods) into a single unit.
-2. **Abstraction**: Exposing essential details while hiding implementation complexities.
-3. **Inheritance**: Reusing properties and methods from a parent class in derived classes.
-4. **Polymorphism**: Ability of functions or operators to behave differently in different contexts.
+### Detailed Theory:
+1. **Encapsulation**
+   - Combine data and methods in a class.
+   - Benefits: Data hiding and modularity.
 
-### Advanced OOP Topics:
-- **Virtual Functions**: Achieving runtime polymorphism.
-- **Abstract Classes and Interfaces**: Creating blueprints for classes.
-- **Operator Overloading**: Customizing operator behavior.
-- **Templates**: Writing generic code for multiple data types.
+2. **Abstraction**
+   - Focus on essential details, hiding complexity.
+   - Achieved via abstract classes and interfaces.
+
+3. **Inheritance**
+   - Reuse code from base classes in derived classes.
+   - Types:
+     - Single, Multiple, Multilevel, Hierarchical, Hybrid.
+
+4. **Polymorphism**
+   - Ability of methods to perform different actions based on the object.
+   - Achieved through method overloading (compile-time) and overriding (runtime).
+
+5. **Advanced Topics**
+   - **Virtual Functions**: Support runtime polymorphism.
+   - **Templates**: Write generic and reusable code.
+   - **Operator Overloading**: Customize the behavior of operators for user-defined types.
+
+## Advanced OOP Concepts
+
+### Design Patterns
+1. **Creational Patterns**
+   - Singleton
+   - Factory Method
+   - Abstract Factory
+   - Builder Pattern
+
+2. **Structural Patterns**
+   - Adapter
+   - Bridge
+   - Composite
+   - Decorator
+
+3. **Behavioral Patterns**
+   - Observer
+   - Strategy
+   - Command
+   - State
+
+### SOLID Principles
+1. **Single Responsibility Principle**
+   - A class should have only one reason to change
+
+2. **Open/Closed Principle**
+   - Open for extension, closed for modification
+
+3. **Liskov Substitution Principle**
+   - Derived classes must be substitutable for base classes
+
+4. **Interface Segregation**
+   - Many specific interfaces better than one general
+
+5. **Dependency Inversion**
+   - Depend on abstractions, not concretions
+
+### Memory Management in OOP
+1. **Rule of Three**
+   - Destructor
+   - Copy constructor
+   - Copy assignment operator
+
+2. **Rule of Five (Modern C++)**
+   - Move constructor
+   - Move assignment operator
+   - Plus Rule of Three
+
+3. **RAII Pattern**
+   - Resource Acquisition Is Initialization
+   - Automatic resource management
 
 ---
 
@@ -160,3 +314,20 @@ Master advanced features to unlock the true potential of C++.
    ```bash
    git clone https://github.com/Amit-jha98/cpp_DSA_oops.git
    cd cpp_DSA_oops
+   ```
+2. **Navigate Through Folders**: Each folder represents a specific topic with organized code examples.
+3. **Read Theory**: Start with theoretical explanations provided in markdown files within each folder.
+4. **Run Code**: Compile and run code examples to understand implementations practically.
+
+---
+
+## Contributing
+
+Contributions are welcome! If you have suggestions, find issues, or want to add more topics, feel free to open a pull request.
+
+---
+
+## License
+
+This repository is licensed under the MIT License. You are free to use, modify, and distribute the code and content with proper attribution.
+
