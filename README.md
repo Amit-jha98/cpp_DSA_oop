@@ -9,7 +9,11 @@ Welcome to the **C++ DSA and OOPs** repository! This project is a comprehensive 
 Hello! My name is **Amit Kumar Jha**, and I am currently a student at **GEC Madhubani College**. I am passionate about programming, problem-solving, and software development. My aim is to make learning C++, DSA, and OOPs more accessible and engaging for everyone.  
 Feel free to reach out to me for any questions, feedback, or collaboration opportunities.  
 
-📧 Email: [Sumitkr95078@gmail.com](mailto:Sumitkr95078@gmail.com)  
+📧 Email: [Sumitkr95078@gmail.com](mailto:Sumitkr95078@gmail.com) 
+
+📄
+ LinkedIn: [Amit Kumar Jha](https://www.linkedin.com/in/amit-jha-5897102b1)
+
 
 ---
 
