@@ -1,4 +1,9 @@
-# C++ DSA and OOP Repository
+
+# Data Structures and Algorithms Mind Map
+
+Welcome to the comprehensive guide on Data Structures and Algorithms (DSA). This document serves as a mind map to help you navigate through various fundamental concepts and implementations in C++. Whether you are a beginner or looking to brush up on your DSA knowledge, this guide provides detailed explanations, code examples, and practical applications for each topic. Dive in to enhance your understanding and improve your problem-solving skills.
+
+---
 
 ## Table of Contents
 1. [1D Arrays](#module-1-1d-arrays)
