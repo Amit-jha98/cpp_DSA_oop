@@ -146,21 +146,165 @@ int add(int a, int b) {
 ## Module 4: Binary Search
 
 ### Definition
-Binary search divides the array into halves to find the target element.
+Binary Search is a highly efficient searching algorithm that works on sorted arrays by repeatedly dividing the search space in half.
 
-### Algorithm
-1. Find the middle element of the array
-2. If the middle element equals the target, return its index
-3. If the target is smaller, search in the left half
-4. Otherwise, search in the right half
+### Key Concepts
 
-### Time Complexity
-- Best case: O(1)
-- Average/Worst case: O(logn)
+1. **Prerequisites**
+   - Array must be sorted
+   - Random access to elements (array or similar data structure)
 
-### Applications
-- Efficient searching in large datasets
-- Algorithms for sorted data
+2. **Working Principle**
+   - Compare target with middle element
+   - If target is smaller, search left half
+   - If target is larger, search right half
+   - Repeat until found or search space is empty
+
+### Implementation Approaches
+
+1. **Iterative Implementation**
+```cpp
+int binarySearch(vector<int>& arr, int target) {
+    int left = 0;
+    int right = arr.size() - 1;
+    
+    while (left <= right) {
+        int mid = left + (right - left) / 2;  // Prevents overflow
+        
+        if (arr[mid] == target) 
+            return mid;       // Found target
+        
+        if (arr[mid] < target)
+            left = mid + 1;   // Search right half
+        else
+            right = mid - 1;  // Search left half
+    }
+    return -1;  // Target not found
+}
+```
+
+2. **Recursive Implementation**
+```cpp
+int binarySearchRecursive(vector<int>& arr, int target, int left, int right) {
+    if (left > right) return -1;
+    
+    int mid = left + (right - left) / 2;
+    
+    if (arr[mid] == target) return mid;
+    
+    if (arr[mid] < target)
+        return binarySearchRecursive(arr, target, mid + 1, right);
+    else
+        return binarySearchRecursive(arr, target, left, mid - 1);
+}
+```
+
+### Complexity Analysis
+
+1. **Time Complexity**
+   - Best Case: O(1) - Target is middle element
+   - Average Case: O(log n)
+   - Worst Case: O(log n)
+
+2. **Space Complexity**
+   - Iterative: O(1)
+   - Recursive: O(log n) due to call stack
+
+### Common Variations
+
+1. **Finding First Occurrence**
+```cpp
+int findFirstOccurrence(vector<int>& arr, int target) {
+    int left = 0, right = arr.size() - 1;
+    int result = -1;
+    
+    while (left <= right) {
+        int mid = left + (right - left) / 2;
+        if (arr[mid] == target) {
+            result = mid;
+            right = mid - 1;  // Continue searching left
+        }
+        else if (arr[mid] < target)
+            left = mid + 1;
+        else
+            right = mid - 1;
+    }
+    return result;
+}
+```
+
+2. **Finding Last Occurrence**
+```cpp
+int findLastOccurrence(vector<int>& arr, int target) {
+    int left = 0, right = arr.size() - 1;
+    int result = -1;
+    
+    while (left <= right) {
+        int mid = left + (right - left) / 2;
+        if (arr[mid] == target) {
+            result = mid;
+            left = mid + 1;  // Continue searching right
+        }
+        else if (arr[mid] < target)
+            left = mid + 1;
+        else
+            right = mid - 1;
+    }
+    return result;
+}
+```
+
+### Real-world Applications
+
+1. **Database Searching**
+   - Finding records in sorted databases
+   - Index searching in B-trees
+
+2. **System Applications**
+   - Finding processes by ID
+   - Memory management
+   - File system searching
+
+3. **Problem-Solving Scenarios**
+   - Finding insertion position
+   - Range queries
+   - Peak finding
+
+### Common Pitfalls
+
+1. **Implementation Issues**
+   - Incorrect middle calculation (potential overflow)
+   - Wrong comparison operators
+   - Improper handling of boundaries
+
+2. **Usage Mistakes**
+   - Using on unsorted array
+   - Not handling duplicates properly
+   - Incorrect array indices
+
+### Practice Problems
+
+1. **Basic Problems**
+   - Find element in sorted array
+   - Count occurrences of number
+   - Find insertion position
+
+2. **Advanced Problems**
+   - Search in rotated sorted array
+   - Find peak element
+   - Search in 2D sorted matrix
+
+### Best Practices
+
+1. **Code Implementation**
+   - Use `mid = left + (right - left) / 2` to prevent overflow
+   - Clear boundary conditions
+   - Proper handling of duplicates
+
+2. **Performance Optimization**
+   - Choose iterative over recursive for better space complexity
+   - Handle small arrays with linear search
+   - Consider binary search variations based on requirements
 
 ---
 
