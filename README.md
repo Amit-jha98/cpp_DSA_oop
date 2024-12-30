@@ -1,12 +1,12 @@
-# C++ Programming: DSA and OOPs Repository
+# C++ Programming: DSA and OOP Repository
 
-Welcome to the **C++ DSA and OOPs** repository! This project is a comprehensive collection of theoretical concepts, code snippets, and implementations covering **Data Structures and Algorithms (DSA)**, **Object-Oriented Programming (OOP)**, and other important aspects of **C++ programming**. This repository is meticulously designed to help learners and developers master the art of problem-solving and programming in C++.
+Welcome to the **C++ DSA and OOP** repository! This project is a comprehensive collection of theoretical concepts, code snippets, and implementations covering **Data Structures and Algorithms (DSA)**, **Object-Oriented Programming (OOP)**, and other important aspects of **C++ programming**. This repository is meticulously designed to help learners and developers master the art of problem-solving and programming in C++.
 
 ---
 
 ## About the Author
 
-Hello! My name is **Amit Kumar Jha**, and I am currently a student at **GEC Madhubani College**. I am passionate about programming, problem-solving, and software development. My aim is to make learning C++, DSA, and OOPs more accessible and engaging for everyone.  
+Hello! My name is **Amit Kumar Jha**, and I am currently a student at **GEC Madhubani College**. I am passionate about programming, problem-solving, and software development. My aim is to make learning C++, DSA, and OOP more accessible and engaging for everyone.  
 Feel free to reach out to me for any questions, feedback, or collaboration opportunities.  
 
 📧 Email: [Sumitkr95078@gmail.com](mailto:Sumitkr95078@gmail.com) 
@@ -43,7 +43,7 @@ C++ is one of the most powerful programming languages, providing flexibility for
 ### Key Concepts Covered:
 - **Syntax and Structure**: Basics of writing, compiling, and running a C++ program.
 - **Data Types and Variables**: Integer, float, char, string, etc.
-- **Control Flow**: If-else, loops, switch-case.
+- **Control Flow**: If-else, lOOP, switch-case.
 - **Functions**: Defining and calling functions, recursion, inline functions.
 
 ## Detailed C++ Concepts
@@ -316,8 +316,8 @@ Master advanced features to unlock the true potential of C++.
 
 1. **Clone the Repository**:
    ```bash
-   git clone https://github.com/Amit-jha98/cpp_DSA_oops.git
-   cd cpp_DSA_oops
+   git clone https://github.com/Amit-jha98/cpp_DSA_OOP.git
+   cd cpp_DSA_OOP
    ```
 2. **Navigate Through Folders**: Each folder represents a specific topic with organized code examples.
 3. **Read Theory**: Start with theoretical explanations provided in markdown files within each folder.
