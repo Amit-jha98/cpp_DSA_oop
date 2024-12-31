@@ -19,7 +19,7 @@ Welcome to the comprehensive guide on Data Structures and Algorithms (DSA). This
 12. [Graphs](#module-12-graphs)
 13. [Sorting](#module-13-sorting)
 
-## Module 1: 1D Arrays (Detailed Exploration)
+## Module 1: 1D Arrays  
 
 ### 1. Fundamental Concepts
 
@@ -237,7 +237,7 @@ void buildPrefixSum(int arr[], int prefixSum[], int size) {
 
 ---
 
-## Module 2: 2D Arrays (Detailed Exploration)
+## Module 2: 2D Arrays  
 
 ### 1. Fundamental Concepts
 
@@ -485,7 +485,7 @@ void deleteMatrix(int** arr, int rows) {
 
 ---
 
-## Module 3: Functions (Detailed Exploration)
+## Module 3: Functions  
 
 ### 1. Core Concepts
 
@@ -919,7 +919,7 @@ int findLastOccurrence(vector<int>& arr, int target) {
 
 ---
 
-## Module 5: Recursion (Detailed Exploration)
+## Module 5: Recursion  
 
 ### 1. Core Concepts
 
@@ -1180,7 +1180,7 @@ int power(int base, int exp) {
 
 ---
 
-## Module 6: Stacks (Detailed Exploration)
+## Module 6: Stacks  
 
 ### 1. Fundamental Concepts
 
@@ -1507,7 +1507,7 @@ public:
 
 ---
 
-## Module 7: Queues (Detailed Exploration)
+## Module 7: Queues  
 
 ### 1. Fundamental Concepts
 
@@ -1868,7 +1868,7 @@ public:
 
 ---
 
-## Module 8: Linked Lists (Detailed Exploration)
+## Module 8: Linked Lists  
 
 ### 1. Core Concepts
 
@@ -2218,7 +2218,7 @@ Node<T>* mergeSorted(Node<T>* l1, Node<T>* l2) {
 
 ---
 
-## Module 9: Hashing (Detailed Exploration)
+## Module 9: Hashing  
 
 ### 1. Fundamental Concepts
 
@@ -2532,7 +2532,7 @@ public:
 
 ---
 
-## Module 10: Heaps (Detailed Exploration)
+## Module 10: Heaps  
 
 ### 1. Fundamental Concepts
 
@@ -2650,7 +2650,7 @@ void heapSort(vector<int>& arr) {
 | Build Heap  | O(n)          |
 | Heapify     | O(log n)      |
 
-## Module 11: Trees (Detailed Exploration)
+## Module 11: Trees  
 
 ### 1. Tree Types and Implementations
 
@@ -2788,7 +2788,7 @@ AVLNode* balance(AVLNode* node) {
 }
 ```
 
-## Module 12: Graphs (Detailed Exploration)
+## Module 12: Graphs  
 
 ### 1. Graph Representations
 
