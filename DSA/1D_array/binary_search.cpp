@@ -27,18 +27,28 @@ enter element that You Want to search:
 9
 Element Does NoT Exist:
 
+.....When Array is Not Sorted....
+
+Enter size of Array:
+5
+ enter elemnt of the array:
+87652
+
+Array is not Sorted.
+
 */
 
 #include <iostream>
 using namespace std;
 
+// To check Array is sorted or not
 bool isSorted(int arr[], int size) {
     for(int i = 0; i < size-1; i++) {
         if(arr[i] > arr[i+1]) return false;
     }
     return true;
 }
-
+ // If array is sorted it will do binary Search
 int binarySearch(int arr[], int size, int key){
     int left = 0, right = size -1;
     while(left<=right){
@@ -60,11 +70,10 @@ int main(){
     for(int i=0; i<size; i++){
         cin >> arr[i];
     }
-
+        if(isSorted(arr,size) == 1){
     cout << "enter element that You Want to search: " << endl;
      cin >> key;
 
-     if(isSorted(arr,size)== 1){
       int result = binarySearch(arr,size,key);
      if(result==-1){
         cout << "Element Does NoT Exist: ";
