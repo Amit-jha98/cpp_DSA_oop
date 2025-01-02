@@ -31,6 +31,14 @@ Element Does NoT Exist:
 
 #include <iostream>
 using namespace std;
+
+bool isSorted(int arr[], int size) {
+    for(int i = 0; i < size-1; i++) {
+        if(arr[i] > arr[i+1]) return false;
+    }
+    return true;
+}
+
 int binarySearch(int arr[], int size, int key){
     int left = 0, right = size -1;
     while(left<=right){
@@ -56,10 +64,14 @@ int main(){
     cout << "enter element that You Want to search: " << endl;
      cin >> key;
 
-     if(binarySearch(arr,size,key)==-1){
+     if(isSorted(arr,size)== 1){
+      int result = binarySearch(arr,size,key);
+     if(result==-1){
         cout << "Element Does NoT Exist: ";
      } else{
-        cout << "Elemnt Exist At Index: " << binarySearch(arr,size,key);
+        cout << "Elemnt Exist At Index: " << result;
+     }}else{
+        cout << "Array is not Sorted." << endl;
      }
 
      return 0;
