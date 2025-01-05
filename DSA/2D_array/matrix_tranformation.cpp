@@ -9,7 +9,7 @@ void rotateMatrix(int arr[][3], int n) {
             swap(arr[i][j], arr[j][i]);
         }
     }
-    // Step 2: Reverse each row
+
     for (int i = 0; i < n; i++) {
         for (int j = 0; j < n / 2; j++) {
             swap(arr[i][j], arr[i][n - 1 - j]);
@@ -17,7 +17,7 @@ void rotateMatrix(int arr[][3], int n) {
     }
 }
 
-// Function to print the matrix
+
 void printMatrix(int arr[][3], int n) {
     for (int i = 0; i < n; i++) {
         for (int j = 0; j < n; j++) {
