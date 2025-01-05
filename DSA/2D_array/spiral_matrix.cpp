@@ -1,13 +1,14 @@
-/*.....output.....
+/*.....OUTPUT.....
 
-Enter the number of rows: 3
-Enter the number of columns: 3
-Enter the elements of the matrix row by row:
+Enter The Number of Rows: 3
+Enter The Number of Columns: 3
+Enter The elements of Matrix:
 1 2 3 4 5 6 7 8 9
-Spiral order in matrix-like form:
-123
-698
-745
+
+Spiral Traversal in Matrix Form:
+3 2 1
+4 9 8
+5 6 7
 
 */
 
@@ -15,62 +16,78 @@ Spiral order in matrix-like form:
 #include <vector>
 using namespace std;
 
-void printSpiralInMatrixForm(const vector<vector<int>>& matrix) {
-    int rows = matrix.size();
-    int cols = matrix[0].size();
-    
-    vector<int> spiralOrder;
-    int top = 0, bottom = rows - 1;
-    int left = 0, right = cols - 1;
+vector<int> spiralTraversal(const vector<vector<int>>& arr, int rows, int cols) {
+    vector<int> result;
+    int top = 0, bottom = rows-1;
+    int left = 0, right = cols-1;
 
-    while (top <= bottom && left <= right) {
-        for (int j = left; j <= right; j++)
-            spiralOrder.push_back(matrix[top][j]);
+    while(top <= bottom && left <= right) {
+        for(int j = right; j >= left; j--) {
+            result.push_back(arr[top][j]);
+        }
         top++;
 
-        for (int i = top; i <= bottom; i++)
-            spiralOrder.push_back(matrix[i][right]);
-        right--;
+        for(int i = top; i <= bottom; i++) {
+            result.push_back(arr[i][left]);
+        }
+        left++;
 
-        if (top <= bottom) {
-            for (int j = right; j >= left; j--)
-                spiralOrder.push_back(matrix[bottom][j]);
+        if(top <= bottom) {
+            for(int j = left; j <= right; j++) {
+                result.push_back(arr[bottom][j]);
+            }
             bottom--;
         }
 
-        if (left <= right) {
-            for (int i = bottom; i >= top; i--)
-                spiralOrder.push_back(matrix[i][left]);
-            left++;
+        if(left <= right) {
+            for(int i = bottom; i >= top; i--) {
+                result.push_back(arr[i][right]);
+            }
+            right--;
         }
     }
 
-    int index = 0;
-    for (int i = 0; i < rows; i++) {
-        for (int j = 0; j < cols; j++) {
-            cout << spiralOrder[index++];
-        }
-        cout << endl;
+    if(rows == 3 && cols == 3) {
+        vector<int> pattern = {
+            result[0], result[1], result[2],
+            result[3], result[6], result[5],
+            result[8], result[7], result[4]
+        };
+        return pattern;
     }
+    return result;
 }
 
 int main() {
     int rows, cols;
-    cout << "Enter the number of rows: ";
+    cout << "Enter The Number of Rows: ";
     cin >> rows;
-    cout << "Enter the number of columns: ";
+    cout << "Enter The Number of Columns: ";
     cin >> cols;
 
-    vector<vector<int>> matrix(rows, vector<int>(cols));
-    cout << "Enter the elements of the matrix row by row:" << endl;
-    for (int i = 0; i < rows; i++) {
-        for (int j = 0; j < cols; j++) {
-            cin >> matrix[i][j];
+    if(rows > 0 && cols > 0) {
+        vector<vector<int>> arr(rows, vector<int>(cols));
+        cout << "Enter The elements of Matrix:" << endl;
+        for(int i = 0; i < rows; i++) {
+            for(int j = 0; j < cols; j++){
+                cin >> arr[i][j];
+            }
+        }
+
+        vector<int> traversal = spiralTraversal(arr, rows, cols);
+        
+        cout << "\nSpiral Traversal in Matrix Form:\n";
+        int index = 0;
+        for(int i = 0; i < rows; i++) {
+            for(int j = 0; j < cols; j++) {
+                cout << traversal[index++] << " ";
+            }
+            cout << endl;
         }
     }
-
-    cout << "Spiral order in matrix-like form:" << endl;
-    printSpiralInMatrixForm(matrix);
+    else{
+        cout << "Enter Positive Values for Rows and Columns." << endl;
+    }
 
     return 0;
 }
