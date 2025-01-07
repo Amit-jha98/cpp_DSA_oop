@@ -18,6 +18,11 @@ Element found at index (1, 2).
 #include <algorithm>
 using namespace std;
 
+
+//.....Functions........
+
+//Allocating 2D array dynamically
+
 int** createMatrix(int rows, int cols) {
     int** arr = new int*[rows];
     for (int i = 0; i < rows; i++) {
@@ -25,6 +30,8 @@ int** createMatrix(int rows, int cols) {
     }
     return arr;
 }
+
+//sorting Matrix
 
 void sortMatrix(int** arr, int rows, int cols) {
     vector<int> elements;
@@ -44,6 +51,8 @@ void sortMatrix(int** arr, int rows, int cols) {
     }
 }
 
+//searching in sorted matrix
+
 bool searchMatrix(int** arr, int rows, int cols, int target, int& foundRow, int& foundCol) {
     int i = 0, j = cols - 1;
     while (i < rows && j >= 0) {
@@ -57,6 +66,8 @@ bool searchMatrix(int** arr, int rows, int cols, int target, int& foundRow, int&
     }
     return false;
 }
+
+//deallocating 2D array
 
 void deleteMatrix(int** arr, int rows) {
     for (int i = 0; i < rows; i++) {
