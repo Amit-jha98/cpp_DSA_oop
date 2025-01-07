@@ -2,7 +2,6 @@
 using namespace std;
 
 int main() {
-    // If-else demonstration
     int num = 10;
     if (num > 0) {
         cout << "Positive number" << endl;
@@ -12,7 +11,6 @@ int main() {
         cout << "Zero" << endl;
     }
 
-    // Switch statement
     char grade = 'B';
     switch (grade) {
         case 'A': cout << "Excellent!" << endl; break;
@@ -21,13 +19,11 @@ int main() {
         default: cout << "Invalid grade" << endl;
     }
 
-    // For loop
     cout << "\nFor loop:" << endl;
     for (int i = 0; i < 5; i++) {
         cout << i << " ";
     }
 
-    // While loop
     cout << "\n\nWhile loop:" << endl;
     int j = 0;
     while (j < 5) {
@@ -35,7 +31,6 @@ int main() {
         j++;
     }
 
-    // Do-while loop
     cout << "\n\nDo-while loop:" << endl;
     int k = 0;
     do {

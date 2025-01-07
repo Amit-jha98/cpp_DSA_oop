@@ -16,14 +16,12 @@ private:
 public:
     LinkedList() : head(nullptr) {}
 
-    // Insert at beginning
     void insertFront(int value) {
         Node* newNode = new Node(value);
         newNode->next = head;
         head = newNode;
     }
 
-    // Insert at end
     void insertEnd(int value) {
         Node* newNode = new Node(value);
         
@@ -39,7 +37,7 @@ public:
         temp->next = newNode;
     }
 
-    // Display list
+
     void display() {
         Node* temp = head;
         while (temp != nullptr) {
@@ -53,14 +51,13 @@ public:
 int main() {
     LinkedList list;
 
-    // Insert some elements
     list.insertFront(3);
     list.insertFront(2);
     list.insertFront(1);
     list.insertEnd(4);
     list.insertEnd(5);
 
-    // Display the list
+
     cout << "Linked List: ";
     list.display();
 
