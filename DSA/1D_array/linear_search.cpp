@@ -34,7 +34,7 @@ using namespace std;
     cout << "enter Size of array: " << endl;
     cin >>size;
     int arr[size];
-    cout << "Enter the elemmnt of array" << endl;
+    cout << "Enter the elemmnt of array" << endl;++++++
     for (i=0; i < size; i++){
         cin >> arr[i];
     }
