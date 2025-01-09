@@ -6,7 +6,7 @@ using namespace std;
 
 //...Based on return Type...
 
-// 1st Void Function
+// Void Function
 void printSomething() {
     cout << "How are you.. (-:" << endl;
 }
