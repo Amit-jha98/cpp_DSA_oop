@@ -13,7 +13,7 @@ void modifyValue_2(int& x) {
 
 // Pass by pointer
 void modifyValue_3(int* x) {
-    *x = *x + 1;  // Original value modified
+    *x = *x + 1;  
 }
 
 int main() {
