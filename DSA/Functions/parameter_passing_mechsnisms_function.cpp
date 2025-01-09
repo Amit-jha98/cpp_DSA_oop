@@ -26,7 +26,7 @@ int main() {
 
     modifyValue_1(a);  
     modifyValue_2(b);  
-    modifyValue_3(&c); // Pass by pointer
+    modifyValue_3(&c); 
 
     cout << "Values after modification: " << endl;
     cout << "a = " << a << " (unchanged)" << endl;
