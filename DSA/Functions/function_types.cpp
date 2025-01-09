@@ -21,7 +21,7 @@ int& getElement(vector<int>& arr, int index) {
     return arr[index];
 }
 
-//...Based On parameter...
+//....Based On parameter....
 
 // No Parameters
 void sayHello() {
