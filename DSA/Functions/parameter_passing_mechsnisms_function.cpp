@@ -24,8 +24,8 @@ int main() {
     cout << "Initial values: " << endl;
     cout << "a = " << a << ", b = " << b << ", c = " << c << endl;
 
-    modifyValue_1(a);  // Pass by value
-    modifyValue_2(b);  // Pass by reference
+    modifyValue_1(a);  
+    modifyValue_2(b);  
     modifyValue_3(&c); // Pass by pointer
 
     cout << "Values after modification: " << endl;
