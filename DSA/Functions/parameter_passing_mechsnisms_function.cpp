@@ -3,12 +3,12 @@ using namespace std;
 
 // Pass by value
 void modifyValue_1(int x) {
-    x = x + 1;  // Original value unchanged
+    x = x + 1;  
 }
 
 // Pass by reference
 void modifyValue_2(int& x) {
-    x = x + 1;  // Original value modified
+    x = x + 1;  
 }
 
 // Pass by pointer
