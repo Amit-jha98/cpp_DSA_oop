@@ -10,23 +10,28 @@ public:
 };
 
 int main() {
+    // Stack Memory Example
     {
-        Resource r;
+        Resource r;  // Automatically destroyed when scope ends
         r.use();
-    }
+    }  // r is destroyed here
     cout << "\n-------------------\n";
 
+    // Heap Memory with Raw Pointer
     Resource* ptr = new Resource();
     ptr->use();
-    delete ptr;
+    delete ptr;  // Manual cleanup required
     cout << "\n-------------------\n";
 
+    // Smart Pointers
+    // 1. Unique Pointer
     {
         unique_ptr<Resource> uniquePtr = make_unique<Resource>();
         uniquePtr->use();
-    }
+    }  // Automatically deleted
     cout << "\n-------------------\n";
 
+    // 2. Shared Pointer
     {
         shared_ptr<Resource> sharedPtr1 = make_shared<Resource>();
         {

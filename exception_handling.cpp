@@ -2,6 +2,7 @@
 #include <stdexcept>
 using namespace std;
 
+// Custom Exception Class
 class DivideByZeroException : public exception {
 public:
     const char* what() const noexcept override {
@@ -29,12 +30,14 @@ public:
 int main() {
     Calculator calc;
     
+    // Basic Exception Handling
     try {
         cout << calc.divide(10, 0) << endl;
     } catch(const DivideByZeroException& e) {
         cout << "Error: " << e.what() << endl;
     }
     
+    // Multiple Exception Types
     int arr[] = {1, 2, 3};
     try {
         calc.processArray(arr, 3, 5);
@@ -44,8 +47,9 @@ int main() {
         cout << "Unknown error occurred" << endl;
     }
     
+    // Resource Management with RAII
     try {
-        int* ptr = new int[1000000000000];
+        int* ptr = new int[1000000000000];  // Intentional bad allocation
         delete[] ptr;
     } catch(const bad_alloc& e) {
         cout << "Memory allocation failed: " << e.what() << endl;

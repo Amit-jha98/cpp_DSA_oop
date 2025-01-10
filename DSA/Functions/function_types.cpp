@@ -46,7 +46,6 @@ double calculateArea(const double radius) {
 }
 
 int main() {
-    // Testing the functions
 
     // Void Function
     printSomething();
