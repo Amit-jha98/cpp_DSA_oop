@@ -55,10 +55,10 @@ int main() {
     cout << "\nArray elements: " << intArray.getElement(0) 
          << ", " << intArray.getElement(1) << endl;
     
-    // Variadic Template Usage
+
     cout << "\nSum of numbers: " << sum(1, 2, 3, 4, 5) << endl;
     
-    // SFINAE Example
+
     cout << "\nIs 4 even? " << (isEven(4) ? "Yes" : "No") << endl;
     
     return 0;
