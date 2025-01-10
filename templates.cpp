@@ -44,7 +44,7 @@ isEven(T number) {
 }
 
 int main() {
-    // Function Template Usage
+
     cout << "Max of 10, 20: " << maximum(10, 20) << endl;
     cout << "Max of 3.14, 2.78: " << maximum(3.14, 2.78) << endl;
     
