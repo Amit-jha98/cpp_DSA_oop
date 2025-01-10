@@ -333,5 +333,5 @@ Contributions are welcome! If you have suggestions, find issues, or want to add 
 
 ## License
 
-This repository is licensed under the MIT License. You are free to use, modify, and distribute the code and content with proper attribution.
+This repository is licensed under the MI License. You are free to use, modify, and distribute the code and content with proper attribution.
 
