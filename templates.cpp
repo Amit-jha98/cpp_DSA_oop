@@ -48,7 +48,7 @@ int main() {
     cout << "Max of 10, 20: " << maximum(10, 20) << endl;
     cout << "Max of 3.14, 2.78: " << maximum(3.14, 2.78) << endl;
     
-    // Class Template Usage
+
     Array<int, 5> intArray;
     intArray.setElement(0, 10);
     intArray.setElement(1, 20);
