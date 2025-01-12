@@ -9,7 +9,7 @@ using namespace std;
 void demonstrateVectors() {
     vector<int> vec = {1, 2, 3, 4, 5};
     
-    // Basic operations
+ 
     vec.push_back(6);
     vec.insert(vec.begin(), 0);
     
