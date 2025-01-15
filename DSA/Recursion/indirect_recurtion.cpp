@@ -11,19 +11,20 @@ Result of 2nd Function is:
 
 #include <iostream>
 using namespace std;
+//Decleration of function ...very very important
 void functionA (int n);
 void functionB (int n);
 
 void functionA(int n) {
     if(n <= 0) return;
     cout << n << " ";
-    functionB(n-1);
+    functionB(n-1); // function A call function B
 }
 
 void functionB(int n) {
     if(n <= 0) return;
     cout << n << " ";
-    functionA(n-1);
+    functionA(n-1); // Function B call function A
 }
 
 int main() {
