@@ -182,7 +182,7 @@ Object-Oriented Programming (OOP) is a paradigm that organizes software design a
 
 ---
 
-# Classes and Objects in C++
+# Classes and Objects
 
 ## **Class**
 A **class** is a user-defined data type that serves as a blueprint for creating objects. It encapsulates:
@@ -479,7 +479,7 @@ Current Balance: 1200
 
 ---
 
-# Inheritance in C++
+# Inheritance
 
 ## What is Inheritance?
 **Inheritance** is one of the key principles of Object-Oriented Programming (OOP). It allows one class (called the **child class** or **derived class**) to inherit the properties and behaviors (attributes and methods) of another class (called the **parent class** or **base class**). This mechanism promotes **code reuse** and establishes a hierarchical relationship between classes.
@@ -797,7 +797,7 @@ int main() {
 
 ---
 
-# Polymorphism in C++
+# Polymorphism
 
 ## What is Polymorphism?
 **Polymorphism** is one of the fundamental principles of Object-Oriented Programming (OOP). The term "polymorphism" means "many forms." It allows one interface (function or operator) to represent different behaviors depending on the context.
@@ -1075,7 +1075,7 @@ int main() {
 
 ---
 
-# Abstraction in C++
+# Abstraction
 
 ## What is Abstraction?
 
