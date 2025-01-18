@@ -1505,5 +1505,3 @@ int main() {
 - [Design Patterns](https://refactoring.guru/design-patterns)
 
 ---
-
-You can copy and save this content as a `.md` file. Let me know if you'd like further refinements!
