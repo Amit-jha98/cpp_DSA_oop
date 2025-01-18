@@ -13,21 +13,21 @@ Object-Oriented Programming (OOP) is a programming paradigm that organizes softw
 
 ## Table of Contents
 - [Core Concepts](#1-core-concepts)
-  - [Classes and Objects](#1-classes-and-objects)
-  - [Encapsulation](#2-encapsulation)
-  - [Inheritance](#3-inheritance)
-  - [Polymorphism](#4-polymorphism)
-  - [Abstraction](#5-abstraction)
+    - [Classes and Objects](#classes-and-objects)
+    - [Encapsulation](#encapsulation)
+    - [Inheritance](#inheritance)
+    - [Polymorphism](#polymorphism)
+    - [Abstraction](#abstraction)
 - [Advanced Concepts](#2-advanced-concepts)
-  - [Design Patterns](#7-design-patterns)
-  - [SOLID Principles](#8-best-practices)
-  - [Memory Management](#9-memory-management)
+    - [Design Patterns](#design-patterns)
+    - [SOLID Principles](#solid-principles)
+    - [Memory Management](#memory-management)
 - [Implementation Features](#3-implementation-features)
-  - [Templates](#61-templates)
-  - [Friend Functions](#62-friend-functions)
+    - [Templates](#templates)
+    - [Friend Functions](#friend-functions)
 - [Best Practices](#4-best-practices)
 - [Testing & Debugging](#5-testing--debugging)
-- [Practice Examples](#10-practice-examples)
+- [Practice Examples](#practice-examples)
 - [Additional Resources](#additional-resources)
 
 ## 1. Core Concepts
@@ -67,8 +67,8 @@ OOP
 │       └── Function Overriding
 │
 └── Abstraction
-    ├── Abstract Classes
-    └── Interfaces
+        ├── Abstract Classes
+        └── Interfaces
 ```
 
 ## 2. Advanced Concepts
@@ -96,9 +96,9 @@ Advanced OOP
 │   └── Dependency Inversion
 │
 └── Memory Management
-    ├── Stack vs Heap
-    ├── Smart Pointers
-    └── RAII
+        ├── Stack vs Heap
+        ├── Smart Pointers
+        └── RAII
 ```
 
 ## 3. Implementation Features
@@ -125,8 +125,8 @@ Implementation
 │   └── Friend Methods
 │
 └── Templates
-    ├── Function Templates
-    └── Class Templates
+        ├── Function Templates
+        └── Class Templates
 ```
 
 ## 4. Best Practices
@@ -146,8 +146,8 @@ Best Practices
 │   └── Error States
 │
 └── Documentation
-    ├── Comments
-    └── API Documentation
+        ├── Comments
+        └── API Documentation
 ```
 
 ## 5. Testing & Debugging
@@ -161,36 +161,9 @@ Testing
 │   └── Object Interactions
 │
 └── Debugging Techniques
-    ├── Object State
-    └── Method Flow
+        ├── Object State
+        └── Method Flow
 ```
-Let me reorganize the content, remove duplicates, and enrich it with more theory and examples. I'll give you the complete, clean, and detailed guide in `.md` format. Please hold on while I process it.
-
-Below is the reorganized and enhanced Object-Oriented Programming (OOP) guide in `.md` format. I have removed duplicates, added more detailed explanations, and included additional code examples for better understanding.
-
----
-
-# Complete Object-Oriented Programming Guide in C++
-
-## Table of Contents
-- [Introduction to OOP](#introduction-to-oop)
-- [Core Concepts](#core-concepts)
-  - [Classes and Objects](#classes-and-objects)
-  - [Encapsulation](#encapsulation)
-  - [Inheritance](#inheritance)
-  - [Polymorphism](#polymorphism)
-  - [Abstraction](#abstraction)
-- [Advanced OOP Concepts](#advanced-oop-concepts)
-  - [Friend Functions and Classes](#friend-functions-and-classes)
-  - [Operator Overloading](#operator-overloading)
-  - [Templates](#templates)
-- [Design Patterns](#design-patterns)
-- [Best Practices](#best-practices)
-- [Memory Management](#memory-management)
-- [Code Examples](#code-examples)
-- [Additional Resources](#additional-resources)
-
----
 
 ## Introduction to OOP
 
