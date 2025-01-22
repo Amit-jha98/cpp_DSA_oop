@@ -7,7 +7,7 @@ void main() {
 }
 
 
-/*....OUTPUT...
+/*....OUTPUT..
 
 error: ‘::main’ must return ‘int’
  4 | void main() {
