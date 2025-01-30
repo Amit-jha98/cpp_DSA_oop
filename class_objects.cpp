@@ -19,7 +19,7 @@ public:
         cout << "GPA: " << gpa << endl;
     }
 
-    // Getters and setters
+    // Getters and setter
     void setName(string n) { name = n; }
     string getName() { return name; }
 };
