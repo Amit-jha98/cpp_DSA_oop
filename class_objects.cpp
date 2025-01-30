@@ -12,7 +12,7 @@ public:
     // Constructor
     Student(string n, int a, double g) : name(n), age(a), gpa(g) {}
 
-    // Member function
+    // Member functions
     void displayInfo() {
         cout << "Name: " << name << endl;
         cout << "Age: " << age << endl;
