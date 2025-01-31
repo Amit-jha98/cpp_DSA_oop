@@ -25,7 +25,7 @@ public:
 };
 
 int main() {
-    // Creating object
+    // Creating objects
     Student student1("Amit Jha", 20, 3.8);
     Student student2("Sumit Smith", 19, 3.9);
 
