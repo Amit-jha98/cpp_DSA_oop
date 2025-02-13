@@ -4,9 +4,9 @@ using namespace std;
 class Array{
 public: 
     int i,j;
+    int size;
     int low;
     int high;
-    int size;
     int mid;
     float target;
     float *arr;    
