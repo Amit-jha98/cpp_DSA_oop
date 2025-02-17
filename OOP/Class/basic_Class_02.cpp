@@ -22,10 +22,6 @@ public:
         }
         std::cout << "Enter Element That You Want to find" << std::endl;
         std::cin >> target;
-        // arr = new float[size];
-        // for(i=0;i<size;i++){
-        //     arr[i] = i+1;
-        // }
         while(low<=high){
             mid = low + (high - low)/2;
             if(arr[mid] == target) {
