@@ -101,7 +101,7 @@ public:
 ```cpp
 class University {
 private:
-    static int totalStudents;  // Shared among all objects
+    static int totalStudents;  // Shared among all 
     string name;
 
 public:
