@@ -28,10 +28,12 @@ int main(){
     int n;
     printf("Enter the size of stack\n");
     scanf("%d",&n);
+
     if(n<1){
         printf("Invalid size\n");
         return 0;
     }
+    
     int stack[n];
     int top=n;
     printf("stack is: \n");
