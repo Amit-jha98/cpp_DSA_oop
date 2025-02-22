@@ -1,4 +1,6 @@
-/*...OUTPUT...
+/*
+(Q.4):- To push Element from a stack.
+...OUTPUT...
 Enter the size of stack
 5
 stack is:
@@ -31,7 +33,7 @@ int main(){
     int n;
     printf("Enter the size of stack\n");
     scanf("%d",&n);
-    
+
     if(n<1){
         printf("Invalid size\n");
         return 0;

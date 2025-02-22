@@ -1,4 +1,7 @@
-/*...OUTPUT...
+/*
+(Q.5):- To pop Element from a stack.
+
+...OUTPUT...
 Enter the size of stack
 5
 stack is:
@@ -33,7 +36,7 @@ int main(){
         printf("Invalid size\n");
         return 0;
     }
-    
+
     int stack[n];
     int top=n;
     printf("stack is: \n");

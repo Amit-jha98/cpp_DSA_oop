@@ -1,4 +1,8 @@
-/*.....OUTPUT....
+/*
+(Q.3):- To Delete an Element from an array.
+
+.....OUTPUT....
+
 Enter The size of array: 
 5
 Elements of array are: 2 4 6 8 10
@@ -14,7 +18,7 @@ Array after deleteion is:
 #include<stdio.h>
 
 void delete(int arr[], int *n, int index){
-    //check for valid index value 
+    //it will check for valid index value 
     if(index<=-1 || index>=*n+1){
         printf("Invalid Index");
         return;
@@ -51,6 +55,7 @@ int main(){
     scanf("%d",&index);
 
     //here we will pass adress of size of matrix 
+    
     delete(arr,&n,index);
     return 0;
 }

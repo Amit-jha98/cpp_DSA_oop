@@ -1,4 +1,8 @@
-/*...OUTPUT....
+/*
+(Q.2):- To Insert an Element in an array.
+
+...OUTPUT....
+
 Enter The size of array: 
 5
 Elements of array are: 2 4 6 8 10

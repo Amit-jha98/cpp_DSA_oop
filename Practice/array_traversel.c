@@ -1,4 +1,6 @@
-/*.....OUTPUT....
+/*
+(Q.1):- To Traverse to Element in an array.
+.....OUTPUT....
 Enter the number of elements: 10
 Total Odd Number are:
 1 3 5 7 9
