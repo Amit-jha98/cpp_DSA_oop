@@ -2956,28 +2956,145 @@ void floydWarshall() {
 
 ## Module 13: Sorting
 
-### Algorithms
+Sorting is the process of arranging elements in a particular order, usually in ascending or descending order. It is a fundamental operation in computer science used for optimizing search processes, organizing data, and improving efficiency in various algorithms. There are multiple sorting algorithms, each with different time complexities, space requirements, and stability characteristics.
 
-1. **Bubble Sort**
-   - Time: O(n²)
-   - Space: O(1)
-   ```cpp
-   void bubbleSort(vector<int>& arr);
-   ```
+### Sorting Algorithm Properties
 
-2. **Merge Sort**
-   - Time: O(n log n)
-   - Space: O(n)
-   ```cpp
-   void mergeSort(vector<int>& arr);
-   ```
+1. **Time Complexity**: Measures the performance of an algorithm based on input size (n).
+2. **Space Complexity**: The amount of additional memory required by the algorithm.
+3. **Stability**: A sorting algorithm is stable if it maintains the relative order of records with equal keys.
+4. **Comparison-Based vs Non-Comparison-Based**: Some algorithms sort by comparing elements, while others use techniques like counting or bucketing.
 
-3. **Quick Sort**
-   - Time: O(n log n) average
-   - Space: O(log n)
-   ```cpp
-   void quickSort(vector<int>& arr);
-   ```
+---
+
+### Sorting Algorithms
+
+#### 1. **Bubble Sort**
+- **Time Complexity**: O(n²)
+- **Space Complexity**: O(1)
+- **Stable**: Yes
+- **Description**: A simple comparison-based algorithm that repeatedly steps through the list, compares adjacent elements, and swaps them if necessary. The process repeats until the list is sorted.
+
+```cpp
+void bubbleSort(vector<int>& arr) {
+    int n = arr.size();
+    for (int i = 0; i < n - 1; i++) {
+        for (int j = 0; j < n - i - 1; j++) {
+            if (arr[j] > arr[j + 1]) {
+                swap(arr[j], arr[j + 1]);
+            }
+        }
+    }
+}
+```
+
+#### 2. **Selection Sort**
+- **Time Complexity**: O(n²)
+- **Space Complexity**: O(1)
+- **Stable**: No
+- **Description**: Finds the minimum element from the unsorted part and swaps it with the first element of the unsorted part. Repeats for all elements.
+
+```cpp
+void selectionSort(vector<int>& arr) {
+    int n = arr.size();
+    for (int i = 0; i < n - 1; i++) {
+        int minIdx = i;
+        for (int j = i + 1; j < n; j++) {
+            if (arr[j] < arr[minIdx]) {
+                minIdx = j;
+            }
+        }
+        swap(arr[i], arr[minIdx]);
+    }
+}
+```
+
+#### 3. **Insertion Sort**
+- **Time Complexity**: O(n²)
+- **Space Complexity**: O(1)
+- **Stable**: Yes
+- **Description**: Iterates through the list, taking one element at a time and inserting it into its correct position in the sorted part.
+
+```cpp
+void insertionSort(vector<int>& arr) {
+    int n = arr.size();
+    for (int i = 1; i < n; i++) {
+        int key = arr[i];
+        int j = i - 1;
+        while (j >= 0 && arr[j] > key) {
+            arr[j + 1] = arr[j];
+            j--;
+        }
+        arr[j + 1] = key;
+    }
+}
+```
+
+#### 4. **Merge Sort**
+- **Time Complexity**: O(n log n)
+- **Space Complexity**: O(n)
+- **Stable**: Yes
+- **Description**: A divide-and-conquer algorithm that splits the array into two halves, sorts each half recursively, and merges them.
+
+```cpp
+void merge(vector<int>& arr, int left, int mid, int right) {
+    int n1 = mid - left + 1;
+    int n2 = right - mid;
+    vector<int> L(n1), R(n2);
+    for (int i = 0; i < n1; i++) L[i] = arr[left + i];
+    for (int i = 0; i < n2; i++) R[i] = arr[mid + 1 + i];
+    int i = 0, j = 0, k = left;
+    while (i < n1 && j < n2) {
+        if (L[i] <= R[j]) arr[k++] = L[i++];
+        else arr[k++] = R[j++];
+    }
+    while (i < n1) arr[k++] = L[i++];
+    while (j < n2) arr[k++] = R[j++];
+}
+
+void mergeSort(vector<int>& arr, int left, int right) {
+    if (left < right) {
+        int mid = left + (right - left) / 2;
+        mergeSort(arr, left, mid);
+        mergeSort(arr, mid + 1, right);
+        merge(arr, left, mid, right);
+    }
+}
+```
+
+#### 5. **Quick Sort**
+- **Time Complexity**: O(n log n) (average case), O(n²) (worst case)
+- **Space Complexity**: O(log n)
+- **Stable**: No
+- **Description**: Selects a pivot element, partitions the array around the pivot, and sorts recursively.
+
+```cpp
+int partition(vector<int>& arr, int low, int high) {
+    int pivot = arr[high];
+    int i = low - 1;
+    for (int j = low; j < high; j++) {
+        if (arr[j] < pivot) {
+            i++;
+            swap(arr[i], arr[j]);
+        }
+    }
+    swap(arr[i + 1], arr[high]);
+    return i + 1;
+}
+
+void quickSort(vector<int>& arr, int low, int high) {
+    if (low < high) {
+        int pi = partition(arr, low, high);
+        quickSort(arr, low, pi - 1);
+        quickSort(arr, pi + 1, high);
+    }
+}
+```
+
+---
+
+
+
 
 ### Comparison Table
 
@@ -2995,5 +3112,8 @@ void floydWarshall() {
 2. File organization
 3. Priority management
 4. Statistical analysis
+
+### Conclusion
+Different sorting algorithms are suited for different scenarios. For small datasets, simple algorithms like **Insertion Sort** or **Bubble Sort** might be sufficient. For large datasets, **Merge Sort** and **Quick Sort** are preferred due to their better time complexity. Choosing the right sorting algorithm depends on factors like stability, memory constraints, and whether the data is nearly sorted or not.
 
 ---
