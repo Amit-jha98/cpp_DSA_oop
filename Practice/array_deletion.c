@@ -8,7 +8,7 @@ Enter The size of array:
 Elements of array are: 2 4 6 8 10
 Enter index where you want to add elements:
 5
-Array after deleteion is:
+Array after deletion is:
 2 4 6 8
 
 */
@@ -30,7 +30,7 @@ void delete(int arr[], int *n, int index){
     (*n)--;
 
 
-    printf("Array after deleteion is: \n");
+    printf("Array after deletion is: \n");
     for(int i=1; i<=*n; i++){
         printf("%d ",arr[i]);
     }
