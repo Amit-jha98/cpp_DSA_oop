@@ -1,38 +1,47 @@
 /*
 (Q.1):- To Traverse to Element in an array.
-.....OUTPUT....
-Enter the number of elements: 10
-Total Odd Number are:
-1 3 5 7 9
-And their sum is 25
+...OUTPUT....
+
+ Enter the size of the array:
+5
+Enter the element of the array:
+1 2 3 4 5
+array in forward and revers traversal are respectively:
+1 2 3 4 5
+5 4 3 2 1
+
 */
 
-#include<stdio.h>
+#include <stdio.h>
 
-void traversel(int arr[],int n){
-    int sum=0;
-    printf("Total Odd Number are: \n");
-    for(int i=0; i<=n;i++){
-        arr[i]=i;
-        if(i%2!=0){
-            printf("%d ",arr[i]);
-            sum = sum +arr[i];
-        } 
+void traversal(int arr[], int size) {
+    int i;
+    // Loop For Forward Traversal
+    for (i = 0; i < size; i++) {
+        printf("%d ", arr[i]);
     }
-    printf("\nAnd their sum is %d",sum);
+    printf("\n");
+    
+    // Loop For Backward Traversal
+    for (i = size-1; i >= 0; i--) {
+        printf("%d ", arr[i]);
+    }
 }
 
-int main(){
-    int n;
-    printf("Enter the number of elements: ");
-    scanf("%d", &n);
-    int arr
-    [n];
-    if(n>=1){
-   traversel(arr,n);
+int main() {
+    int i, size;
+    printf("Enter the size of the array:\n");
+    scanf("%d", &size);
+    
+    int arr[size];  // Variable Length Array (VLA)
+    
+    printf("Enter the element of the array:\n");
+    for (i = 0; i < size; i++) {
+        scanf("%d", &arr[i]);
     }
- else{
-        printf("Please Enter a valid number");
-    }
+    
+    printf("array in forward and reverse traversal are respectively:\n");
+    traversal(arr, size);
+    
     return 0;
 }

@@ -1,5 +1,5 @@
 /*
-(Q.1):- Binary search an Element in an array.
+(Q.7):- Binary search an Element in an array.
 .....OUTPUT....
 Enter Size of array
 6

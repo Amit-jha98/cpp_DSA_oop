@@ -1,5 +1,5 @@
 /*
-(Q.1):- Linear search an Element in an array.
+(Q.6):- Linear search an Element in an array.
 .....OUTPUT....
 Enter Size of array
 7
