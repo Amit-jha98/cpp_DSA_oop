@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Travelling Allowance Bill Reimbursement Form</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            font-size: 12pt;
+            margin: 0;
+        }
+        .form-container {
+            width: 210mm;
+            margin: 0 auto;
+            padding: 10mm;
+            box-sizing: border-box;
+        }
+        .header {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        .header h1 {
+            font-size: 18pt;
+            font-weight: bold;
+            margin: 0;
+        }
+        .header p {
+            font-size: 12pt;
+            margin: 5px 0;
+        }
+        .header h2 {
+            font-size: 14pt;
+            font-weight: bold;
+            margin: 10px 0;
+        }
+        .personal-bank {
+            display: flex;
+            justify-content: space-between;
+            margin-bottom: 20px;
+        }
+        .personal, .bank-certifications {
+            width: 48%;
+        }
+        .personal p, .bank-certifications p {
+            margin: 8px 0;
+        }
+        .blank-line {
+            display: inline-block;
+            border-bottom: 1px solid #000;
+        }
+        .blank-short {
+            width: 100px;
+        }
+        .blank-medium {
+            width: 150px;
+        }
+        .blank-long {
+            width: 300px;
+        }
+        .certifications p {
+            margin: 8px 0;
+        }
+        .journey-table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-bottom: 20px;
+        }
+        .journey-table th, .journey-table td {
+            border: 1px solid #000;
+            padding: 5px;
+            font-size: 10pt;
+            text-align: center;
+        }
+        .journey-table th {
+            font-weight: bold;
+        }
+        .journey-table td {
+            height: 25px;
+        }
+        .haltage, .total, .payee-receipts, .payment-details {
+            margin-bottom: 20px;
+        }
+        .payee-receipts p, .payment-details p {
+            margin: 8px 0;
+        }
+        .revenue-stamp {
+            display: inline-block;
+            width: 60px;
+            height: 20px;
+            border: 1px solid #000;
+            text-align: center;
+            line-height: 20px;
+            font-size: 10pt;
+            margin-right: 5px;
+        }
+        .footer {
+            display: flex;
+            justify-content: space-between;
+            font-size: 12pt;
+        }
+        .bold {
+            font-weight: bold;
+        }
+        @media print {
+            @page {
+                size: A4;
+                margin: 0;
+            }
+            .form-container {
+                padding: 10mm;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="form-container">
+        <!-- Header -->
+        <div class="header">
+            <h1>GOVERNMENT ENGINEERING COLLEGE, MADHUBANI</h1>
+            <p>SAGARPUR, PANDAUL, DIST. MADHUBANI, BIHAR, PIN-847234</p>
+            <h2>TRAVELLING ALLOWANCE BILL REIMBURSEMENT FORM</h2>
+        </div>
+
+        <!-- Personal and Bank Details -->
+        <div class="personal-bank">
+            <div class="personal">
+                <p>Name: <span class="blank-line blank-medium"> </span></p>
+                <p>Designation: <span class="blank-line blank-medium"> </span></p>
+                <p>Department: <span class="blank-line blank-medium"> </span></p>
+                <p>Pay Level: <span class="blank-line blank-short"> </span></p>
+                <p>Address (in full): <span class="blank-line blank-long"> </span></p>
+            </div>
+            <div class="bank-certifications">
+                <p>Account No.: <span class="blank-line blank-medium"> </span></p>
+                <p>Bank Name: <span class="blank-line blank-medium"> </span></p>
+                <p>IFSC Code: <span class="blank-line blank-medium"> </span></p>
+                <p>Branch: <span class="blank-line blank-medium"> </span></p>
+                <div class="certifications">
+                    <p>Certified that I have travelled in First AC/2<sup>nd</sup> AC/3<sup>rd</sup> AC/Sleeper/General class and paid the fares.</p>
+                    <p>Certified that no haltage has/have charged for night spent in train or on railway platform.</p>
+                    <p>Certified that the journey by road has been performed by hired conveyance. (Voucher attached)</p>
+                    <p>Certified that I have not drawn it from any other source.</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Journey Table -->
+        <table class="journey-table">
+            <thead>
+                <tr>
+                    <th>Date</th>
+                    <th>Departure Time</th>
+                    <th>From</th>
+                    <th>Date</th>
+                    <th>Arrival Time</th>
+                    <th>To</th>
+                    <th>Air/Rail/Mode of Journey</th>
+                    <th>K.M. Road Class</th>
+                    <th>Actual Exp. Amount (₹)</th>
+                    <th>Days</th>
+                    <th>Haltage Actual Exp. Amount (₹)</th>
+                    <th>Total (₹)</th>
+                    <th>Remarks</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+                <tr><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+                <tr><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+                <tr><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+            </tbody>
+        </table>
+
+        <!-- Haltage Calculation -->
+        <div class="haltage">
+            <p>HALTAGE: <span class="blank-line blank-medium"> </span></p>
+        </div>
+
+        <!-- Total Section -->
+        <div class="total">
+            <p>Total ₹ <span class="blank-line blank-short"> </span> / Rupees (in words): <span class="blank-line blank-long"> </span></p>
+        </div>
+
+        <!-- Payee's Receipts -->
+        <div class="payee-receipts">
+            <p><span class="bold">PAYEE'S RECEIPTS</span></p>
+            <p>Total ₹ <span class="blank-line blank-short"> </span> / Rupees (in words): <span class="blank-line blank-long"> </span></p>
+            <p>Signature: <span class="blank-line blank-medium"> </span></p>
+        </div>
+
+        <!-- Payment Details -->
+        <div class="payment-details">
+            <p>Pay ₹ <span class="blank-line blank-short"> </span> / Rupees (in words): <span class="blank-line blank-long"> </span> only-</p>
+            <p>Account No.: <span class="blank-line blank-medium"> </span></p>
+            <p>IFSC Code: <span class="blank-line blank-medium"> </span></p>
+            <p>Bank Name: <span class="blank-line blank-medium"> </span></p>
+            <p>Branch: <span class="blank-line blank-medium"> </span></p>
+            <p><span class="bold">RECEIVED PAYMENT</span></p>
+            <p><span class="revenue-stamp">Revenue Stamp</span> If exceeds ₹5000.00</p>
+        </div>
+
+        <!-- Footer -->
+        <div class="footer">
+            <p>DO</p>
+            <p>FO</p>
+        </div>
+    </div>
+</body>
+</html>
