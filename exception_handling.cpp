@@ -2,7 +2,7 @@
 #include <stdexcept>
 using namespace std;
 
-// Custom Exception Class
+
 class DivideByZeroException : public exception {
 public:
     const char* what() const noexcept override {
