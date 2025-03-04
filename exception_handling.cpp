@@ -30,7 +30,7 @@ public:
 int main() {
     Calculator calc;
     
-    // Basic Exception Handling
+
     try {
         cout << calc.divide(10, 0) << endl;
     } catch(const DivideByZeroException& e) {
