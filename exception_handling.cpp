@@ -49,7 +49,7 @@ int main() {
     
     // Resource Management with RAII
     try {
-        int* ptr = new int[1000000000000];
+        int* ptr = new int[1000000000000];  // Intentional bad allocation
         delete[] ptr;
     } catch(const bad_alloc& e) {
         cout << "Memory allocation failed: " << e.what() << endl;
