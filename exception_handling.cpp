@@ -30,13 +30,14 @@ public:
 int main() {
     Calculator calc;
     
-
+    // Basic Exception Handling
     try {
         cout << calc.divide(10, 0) << endl;
     } catch(const DivideByZeroException& e) {
         cout << "Error: " << e.what() << endl;
     }
-
+    
+    // Multiple Exception Types
     int arr[] = {1, 2, 3};
     try {
         calc.processArray(arr, 3, 5);
