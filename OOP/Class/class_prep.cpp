@@ -31,12 +31,12 @@ public:
 
 int main(){
     //variable declaration
-    int l,b;
+    // int length,b;
     cout << "Enter length and width of Rectangle: ";
-    cin >> l >> b;
+    cin >> length >> width;
 
     //object creation
-    Rectangle r1(l,b);
+    Rectangle r1(length,width);
     r1.RectangleArea();
     r1.RectanglePerimeter();
     return 0;
