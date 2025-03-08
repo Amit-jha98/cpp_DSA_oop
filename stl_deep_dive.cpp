@@ -41,7 +41,6 @@ void demonstrateMap() {
 void demonstrateSet() {
     set<int> uniqueNums = {3, 1, 4, 1, 5, 9, 2, 6, 5};
     
-    // Sets automatically maintain unique, sorted elements
     for(int num : uniqueNums) {
         cout << num << " ";
     }
