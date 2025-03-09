@@ -25,7 +25,7 @@ bool isValid = true;   // Stores true/false values
 // int - A box that can only hold whole apples
 // float - A measuring cup that can hold partial quantities
 // char - A single-letter mailbox
-// bool - A light switch (on/off)
+// bool - A light switch (on/off)(true/false)
 ```
 
 ### Control Flow
