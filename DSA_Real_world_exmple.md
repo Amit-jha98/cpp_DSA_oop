@@ -18,7 +18,7 @@ Variables are containers for storing data. Think of them as labeled boxes where 
 int age = 25;          // Stores whole numbers
 float price = 99.99;   // Stores decimal numbers
 char grade = 'A';      // Stores single characters
-bool isValid = true;   // Stores true/false values
+bool isValid = true;   
 
 // Real-world analogy:
 // Think of variables like different types of containers:
