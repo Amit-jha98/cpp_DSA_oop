@@ -51,7 +51,7 @@ if (temperature > 30) {
 // else if (it's sunny)
 //     wear sunscreen
 // else
-//     proceed normally
+//     proceed normally..
 ```
 
 ## Data Structures
