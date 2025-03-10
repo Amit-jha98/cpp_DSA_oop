@@ -45,13 +45,13 @@ if (temperature > 30) {
     cout << "It's cold!";
 }
 
-// Real-world analogy:
-// If (it's raining)
-//     take umbrella
-// else if (it's sunny)
-//     wear sunscreen
-// else
-//     proceed normally..
+Real-world analogy:
+If (it's raining)
+    take umbrella
+else if (it's sunny)
+    wear sunscreen
+else
+    proceed normally..
 ```
 
 ## Data Structures
