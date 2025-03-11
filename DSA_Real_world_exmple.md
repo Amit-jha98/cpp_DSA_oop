@@ -76,8 +76,8 @@ for(int hour = 0; hour < 24; hour++) {
 }
 double average = sum / 24;
 
-Real-world analogy:
-Think of a pill organizer with 7 compartments for each day
+// Real-world analogy:
+// Think of a pill organizer with 7 compartments for each day
 ```
 
 ### Linked Lists
