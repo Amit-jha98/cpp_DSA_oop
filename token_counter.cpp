@@ -36,6 +36,8 @@ int main() {
     cout << "char: " << c << endl;
     cout << "wchar_t: " << w << endl;
 
+    cout << "\nBoolean type:" << endl;
+    cout << "bool: " << isTrue << endl;
 
     return 0;
 }
