@@ -624,7 +624,7 @@ int main() {
 
 ```
 
-### Q9 – Short Note
+### Q9 –Short Note
 
 ---
 
@@ -722,6 +722,7 @@ int main() {
     By ensuring that all objects are cleaned up during stack unwinding, C++ helps prevent resource leaks and maintains program stability when exceptions are thrown. It’s important that destructors themselves do not throw exceptions, as that can lead to termination of the program.
 
 ---
+
 
 
 ``
