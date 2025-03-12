@@ -552,64 +552,177 @@ int main() {
 
 ---
 
-### Q8(b) – Differentiate between error and exception, and explain multiple catch handlers with an example.
+### Q8(b) – Differentiate between Error and Exception, and Explain Multiple Catch Handlers with an Example
 
-**Answer:**  
-- **Error:**  
-  Refers to severe issues (e.g., hardware failure) that are typically unrecoverable and not meant to be handled by the program.
-  
-- **Exception:**  
-  Represents conditions (e.g., invalid input, file not found) that can be caught and handled gracefully within a program.
+**Key Points:**
 
-- **Multiple Catch Handlers:**  
-  Allow a `try` block to catch different types of exceptions, enabling specific handling based on the exception type.
+- **Error:**
+  - **Definition:**  
+    - Refers to severe, unrecoverable issues (e.g., hardware failures, out-of-memory conditions).  
+    - In C++, errors also include compile-time problems like syntax, semantic, and linker errors, which are detected before runtime.
+  - **Handling:**  
+    - Not meant to be caught by a program’s exception handling mechanisms.
 
-**Example:**
+- **Exception:**
+  - **Definition:**  
+    - Represents abnormal conditions that occur during program execution (e.g., invalid input, file not found).  
+    - These are recoverable situations that the program can handle gracefully.
+  - **Handling:**  
+    - Thrown using the `throw` keyword and caught using `try-catch` blocks.
+
+- **Multiple Catch Handlers:**
+  - **Purpose:**  
+    - Allow a single `try` block to handle different types of exceptions with different catch blocks.
+  - **Mechanism:**  
+    - Each catch block specifies a particular type of exception.
+    - The catch blocks are evaluated in order; the first matching handler processes the exception.
+    - A catch-all handler (`catch(...)`) can be used to catch any exception not matched by earlier handlers.
+
+**Example Code:**
+
 ```cpp
 #include <iostream>
+#include <stdexcept>  // For std::runtime_error
 using namespace std;
 
 int main() {
     try {
-        // Simulate an exception
-        throw 404;
-    } catch (int errorCode) {
+        // Uncomment one of the following lines to simulate different exceptions:
+
+        // Simulate an integer exception:
+        // throw 404;
+
+        // Simulate a runtime error:
+        throw runtime_error("A runtime error occurred");
+
+    } catch (const int errorCode) {
         cout << "Caught an integer exception with error code: " << errorCode << endl;
+    } catch (const runtime_error& e) {
+        cout << "Caught runtime_error: " << e.what() << endl;
     } catch (...) {
         cout << "Caught an unknown exception." << endl;
     }
     return 0;
 }
 ```
-In this example, the first catch block handles an integer exception, and the second is a catch-all handler.
+
+**Explanation of the Code:**
+
+- **`try` Block:**  
+  - Contains the code that may throw an exception.
+  - In this example, it simulates throwing an exception (either an integer or a `runtime_error`).
+
+- **Multiple `catch` Blocks:**  
+  - **First Catch Block:**  
+    - Catches exceptions of type `int`.  
+    - Prints the error code if an integer is thrown.
+  - **Second Catch Block:**  
+    - Catches exceptions of type `std::runtime_error`.  
+    - Uses the `what()` method to display an error message.
+  - **Catch-All Block:**  
+    - `catch(...)` catches any exception not handled by the previous blocks.
+
+```
+
+### Q9 – Short Note
 
 ---
 
-## Q9 – Short Notes on Four Topics
+### (a) Copy Constructor
 
-*Instructions: Choose any two topics to write short notes (each topic is 5 marks). Here are detailed notes for all four topics:*
+- **Definition:**  
+  A copy constructor is a special constructor used to create a new object as a copy of an existing object. Its typical signature is:  
+  ```cpp
+  ClassName(const ClassName& other);
+  ```
 
-#### (a) Copy Constructor
-- A copy constructor initializes a new object as a copy of an existing object.
-- It is automatically invoked when an object is passed by value, returned from a function, or explicitly copied.
-- Proper implementation is necessary for deep copying when dynamic memory allocation is involved.
+- **When It Is Invoked:**  
+  - **Passing by Value:** When an object is passed to a function by value, a copy constructor is used to create a copy of that object.
+  - **Returning from Functions:** When an object is returned by value, a temporary copy may be constructed.
+  - **Explicit Copying:** When you explicitly create a copy of an object.
 
-#### (b) Pure Virtual Function
-- A pure virtual function is declared by assigning `= 0` in its declaration.
-- It forces derived classes to provide an implementation, making the base class abstract.
-- An abstract class (with at least one pure virtual function) cannot be instantiated directly.
-
-#### (c) Object Pointer
-- An object pointer holds the memory address of an object.
-- It is commonly used to allocate objects dynamically and for implementing polymorphism (e.g., using base class pointers to refer to derived class objects).
-- This mechanism supports dynamic binding of virtual functions.
-
-#### (d) Stack Unwinding
-- Stack unwinding is the process during exception handling where all local objects are destroyed in the reverse order of their construction.
-- It ensures that resources are properly released (e.g., memory, file handles) even when an exception occurs.
-- This mechanism helps prevent resource leaks and maintains program stability.
+- **Importance of Proper Implementation:**  
+  - **Shallow vs. Deep Copy:**  
+    The default copy constructor performs a shallow copy (member-wise copy). This is fine for classes that do not manage resources. However, if your class allocates dynamic memory or holds other resources (like file handles), a shallow copy can lead to both objects pointing to the same resource. This may cause issues such as double deletion or resource leaks.  
+  - **Rule of Three:**  
+    If a class requires a custom copy constructor, it often also needs a custom copy assignment operator and destructor. This set of three is known as the "Rule of Three" and helps ensure that resources are managed correctly.
 
 ---
+
+### (b) Pure Virtual Function
+
+- **Definition:**  
+  A pure virtual function is a virtual function declared in a base class that has no definition in that class. It is defined by assigning `= 0` in the declaration.  
+  ```cpp
+  class Base {
+  public:
+      virtual void display() = 0; // Pure virtual function
+  };
+  ```
+
+- **Purpose:**  
+  - **Forcing Derived Classes to Implement:**  
+    Any class that derives from a base class with a pure virtual function must provide its own implementation of that function, or it too becomes abstract.
+  - **Creating Abstract Classes:**  
+    A class with at least one pure virtual function becomes abstract, meaning it cannot be instantiated. This is useful for defining interfaces or contracts for derived classes.
+  - **Polymorphism:**  
+    Pure virtual functions enable polymorphism. You can use pointers or references to the base class to refer to objects of derived classes that implement the pure virtual function, ensuring that the correct overridden function is called at runtime.
+
+---
+
+### (c) Object Pointer
+
+- **Definition:**  
+  An object pointer is a pointer variable that stores the memory address of an object. It is typically declared as:  
+  ```cpp
+  MyClass* ptr;
+  ```
+
+- **Usage and Importance:**  
+  - **Dynamic Memory Allocation:**  
+    Object pointers are often used with the `new` operator to allocate objects on the heap. For example:  
+    ```cpp
+    MyClass* ptr = new MyClass();
+    ```
+  - **Polymorphism:**  
+    Base class pointers can point to objects of derived classes. This allows dynamic binding where virtual functions are resolved at runtime.  
+    ```cpp
+    Base* basePtr = new Derived();
+    basePtr->display(); // Calls Derived::display() if display() is virtual
+    ```
+  - **Resource Management:**  
+    When using dynamic allocation, object pointers require careful handling (e.g., using `delete` to deallocate memory) to avoid memory leaks. Modern C++ favors smart pointers (like `std::unique_ptr` or `std::shared_ptr`) to manage object lifetimes automatically.
+
+---
+
+### (d) Stack Unwinding
+
+- **Definition:**  
+  Stack unwinding is the process that occurs during exception handling when an exception is thrown. It involves the destruction of all local (automatic) objects in the reverse order of their construction as the program exits the current scope.
+
+- **Purpose and Mechanism:**  
+  - **Resource Cleanup:**  
+    As the stack unwinds, the destructors for local objects are automatically called. This ensures that resources (such as memory, file handles, locks, etc.) are properly released, even if an exception occurs.
+  - **RAII (Resource Acquisition Is Initialization):**  
+    The RAII idiom relies on stack unwinding to guarantee that resource cleanup happens automatically when an object goes out of scope. For example:
+    ```cpp
+    class Resource {
+    public:
+        Resource() { cout << "Resource acquired" << endl; }
+        ~Resource() { cout << "Resource released" << endl; }
+    };
+
+    void function() {
+        Resource res;       // Resource is acquired
+        throw runtime_error("Error occurred");
+        // When the exception is thrown, res's destructor is called, releasing the resource.
+    }
+    ```
+  - **Exception Safety:**  
+    By ensuring that all objects are cleaned up during stack unwinding, C++ helps prevent resource leaks and maintains program stability when exceptions are thrown. It’s important that destructors themselves do not throw exceptions, as that can lead to termination of the program.
+
+---
+
 
 ``
 
