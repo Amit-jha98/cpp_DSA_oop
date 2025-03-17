@@ -47,9 +47,9 @@ if (temperature > 30) {
 
 // Real-world analogy:
 // If (it's raining)
-//     take umbrella
+//     take umbrella.
 // else if (it's sunny)
-//     wear sunscreen
+//     wear sunscreen.
 // else
 //     proceed normally..
 ```
