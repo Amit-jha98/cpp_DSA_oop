@@ -561,8 +561,8 @@ using namespace std;
 
 int main() {
     int* ptr = new int;
-    *ptr = 15;
-    cout << *ptr << endl;
+    *ptr = 10;
+    cout << *ptr << endl;  // Outputs: 10
     delete ptr;
     return 0;
 }
