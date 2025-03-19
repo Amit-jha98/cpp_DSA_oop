@@ -530,14 +530,14 @@ Namespaces group related code under a unique name to avoid naming conflicts.
 using namespace std;
 
 namespace MyNamespace {
-    int value = 10;
+    int value = 1000;
     void display() {
         cout << "Value: " << value << endl;
     }
 }
 
 int main() {
-    MyNamespace::display();  // Outputs: Value: 10
+    MyNamespace::display();  // Outputs: Value: 1000
     return 0;
 }
 ```
