@@ -561,8 +561,8 @@ using namespace std;
 
 int main() {
     int* ptr = new int;
-    *ptr = 1000;
-    cout << *ptr << endl;  // Outputs: 1000
+    *ptr = 100;
+    cout << *ptr << endl;  // Outputs: 100
     delete ptr;
     return 0;
 }
