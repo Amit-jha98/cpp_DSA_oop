@@ -6,6 +6,6 @@ struct sample{
     struct sample* next;
 };
 
-struct addnew(){
+struct addnew(struct *node, int n){
     
 }
