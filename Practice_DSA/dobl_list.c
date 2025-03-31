@@ -13,13 +13,10 @@ struct DDL *createNode(int value){
     head->data = value; 
     head->next = NULL;
     return head;
-
 }
 
 struct DDL *addFromStart(struct DDL * head, int value){
-    struct DDL *temp; 
-    temp = malloc(sizeof(struct DDL));
-    temp = createNode(value);
+    struct DDL *temp = createNode(value);
     temp->next = head;
     head->prev = temp;
     head = temp;
@@ -28,7 +25,7 @@ struct DDL *addFromStart(struct DDL * head, int value){
 
 struct DDL *addFromEnd(struct DDL * head, int value){
     struct DDL *temp = head;
-    while(temp->next!=NULL){
+    while(temp->next != NULL){
         temp = temp->next;
     }
     temp->next = createNode(value);
@@ -37,13 +34,6 @@ struct DDL *addFromEnd(struct DDL * head, int value){
 }
 
 struct DDL *addAtPos(struct DDL *head, int value, int position) {
-    if (position < 1) {
-        printf("Invalid position!\n");
-        return head;
-    }
-
-    if (position == 1)
-        return addFromStart(head, value);
 
     struct DDL *temp = head;
     int count = 1;
@@ -73,44 +63,45 @@ struct DDL *addAtPos(struct DDL *head, int value, int position) {
 
 void display(struct DDL *head){
     struct DDL *temp = head;
-    while(temp!=NULL){
-        printf("%d ",temp->data);
+    while(temp != NULL){
+        printf("%d ", temp->data);
         temp = temp->next;
     }
     printf("\n");
 }
 
 int main(){
-    int value,size,pos;
+    int value, size, pos;
     struct DDL *head = NULL;
-    printf("Enter the Number of Element you want to add in to linked list: \n");
-    scanf("%d",&size);
-    printf("Enter the position where you want to add the element: \n 1=Start \n 2=End \n 3=Any Position \n");
-    scanf("%d",&pos);
-    if(pos==1 || pos==2 || pos==3){
-    printf("Add elements: \n");
-    for(int i=0;i<size;i++){
-        scanf("%d",&value);
-        if(head==NULL){
-            head = createNode(value);
-    }else{
-        if(pos==1){
-            head = addFromStart(head,value);
-        }else if(pos==2){
-            head = addFromEnd(head,value);
-        }else if(pos==3){
-            printf("Enter the position: \n");
-            int position;
-            scanf("%d",&position);
-            if(position>0 && position<=size){
-                // printf("Enter the value: \n");
-                // scanf("%d",&value);
-        head = addAtPos(head,value,position);
-    }else{
-        printf("Invalid Position");
-        return 0;
-    }
-    }}}}else{
+    printf("Enter the Number of Element you want to add into linked list: \n");
+    scanf("%d", &size);
+    printf("Enter the position where you want to add the element: \n 1 = Start \n 2 = End \n 3 = Any Position \n");
+    scanf("%d", &pos);
+    if(pos == 1 || pos == 2 || pos == 3){
+        printf("Add elements: \n");
+        for(int i = 0; i < size; i++){
+            scanf("%d", &value);
+            if(head == NULL){
+                head = createNode(value);
+            } else {
+                if(pos == 1){
+                    head = addFromStart(head, value);
+                } else if(pos == 2){
+                    head = addFromEnd(head, value);
+                } else if(pos == 3){
+                    printf("Enter the position: \n");
+                    int position;
+                    scanf("%d", &position);
+                    if(position > 0 && position <= size){
+                        head = addAtPos(head, value, position);
+                    } else {
+                        printf("Invalid Position");
+                        return 0;
+                    }
+                }
+            }
+        }
+    } else {
         printf("Invalid Position");
         return 0;
     }
