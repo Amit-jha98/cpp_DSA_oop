@@ -38,7 +38,7 @@ struct DDL *addAtPos(struct DDL *head, int value, int position) {
     struct DDL *temp = head;
     int count = 1;
 
-    // Traverse to the node before the desired position
+ 
     while (temp->next != NULL && count < position - 1) {
         temp = temp->next;
         count++;
@@ -46,7 +46,6 @@ struct DDL *addAtPos(struct DDL *head, int value, int position) {
 
     struct DDL *newNode = createNode(value);
     
-    // If inserting at the end
     if (temp->next == NULL) {
         temp->next = newNode;
         newNode->prev = temp;
