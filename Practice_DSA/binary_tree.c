@@ -1,14 +1,12 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-// Define the structure of a binary tree node
 struct bTree {
     int data;
     struct bTree *left;
     struct bTree *right;
 };
 
-// Function to create a new node
 struct bTree *createNode(int value) {
     struct bTree *newNode = malloc(sizeof(struct bTree));
     newNode->data = value;
