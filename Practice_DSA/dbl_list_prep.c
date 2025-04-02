@@ -62,15 +62,15 @@ void printList(struct Doubly_list *head){
 }
 
 int main(){
-    int value,size,choise,pos;
+    int value,size,choice,pos;
     struct Doubly_list *head = NULL;
     printf("Enter Number of Elements You want to add: \n");
     scanf("%d",&size);
 
     printf("Enter type of insertion: \n1=From start \n2=From End \n3=At given Position \n");
-    scanf("%d",&choise);
-    if(choise == 1 || choise == 2 || choise == 3){
-        if(choise == 3){
+    scanf("%d",&choice);
+    if(choice == 1 || choice == 2 || choice == 3){
+        if(choice == 3){
             printf("Enter the position where You Want to add Value: \n");
             scanf("%d",&pos);
         }
@@ -81,16 +81,16 @@ int main(){
         if(head == NULL){
             head = createNode(value);
         }else{
-            if(choise==1){
+            if(choice==1){
            head = addFromStart(head,value);
-        }else if(choise == 2){
+        }else if(choice == 2){
             head = addFromLast(head,value);
-        }else if(choise == 3){
+        }else if(choice == 3){
             // printf("Enter the position where You Want to add Value: \n");
             // scanf("%d",&pos);
         head = addAtPos(head,value,pos);
     }}}}else{
-        printf("Enter Valid Choise \n");
+        printf("Enter Valid choice \n");
         return 0;
     }
 
