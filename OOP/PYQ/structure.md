@@ -93,3 +93,26 @@
 - **Analog:** One‑page cheat sheet: circuit symbols, key formulae, waveforms  
 - **DS&A:** One‑page cheat sheet: core algorithms & code snippets  
 - **Tasks:** Light review of highest‑yield topics; rest and build confidence.
+
+---
+
+### **Subject code**
+
+---
+
+- **Analog Electronic Circuits**  
+  Subject Code: **100302**
+
+- **Data Structures & Algorithms**  
+  Subject Code: **100304**
+
+- **Mathematics – III (Differential Calculus)**  
+  Subject Code: **100311**
+
+- **Object Oriented Programming Using C++**  
+  Subject Code: **100313**
+
+- **Technical Writing**  
+  Subject Code: **100314**
+
+  ---
