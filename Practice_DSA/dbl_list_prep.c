@@ -86,8 +86,7 @@ int main(){
         }else if(choice == 2){
             head = addFromLast(head,value);
         }else if(choice == 3){
-            // printf("Enter the position where You Want to add Value:  \n");
-            // scanf("%d",&pos);
+
         head = addAtPos(head,value,pos);
     }}}}else{
         printf("Enter Valid choice \n");
