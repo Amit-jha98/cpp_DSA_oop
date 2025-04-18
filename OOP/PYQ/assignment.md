@@ -2324,19 +2324,3 @@ Destructor called for id: 1, cleaning up resource
 - **Why Use It?**: Destructors are critical for resource management, like ensuring a `Database` class closes connections when objects are no longer needed.
 
 ---
-
-### **Summary of Additions**
-- **Expanded Theory**: Each section includes a detailed definition, purpose, and context.
-- **Additional Points**:
-  - Use cases, pitfalls, and real-world examples for practical understanding.
-  - Technical details like initializer lists, exception safety, virtual destructors, and performance considerations.
-  - Clarification of compiler behavior (e.g., default constructors/destructors).
-- **Code Enhancements**:
-  - Validation (e.g., negative ID, invalid size).
-  - Deep copying in copy constructor.
-  - Scope demonstration in destructor.
-  - Consistent use of initializer lists for efficiency.
-- **Output Analysis**: Explains how output reflects constructor/destructor behavior.
-- **Why Use It?**: Each section connects the concept to practical applications.
-
----
