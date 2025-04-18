@@ -6,6 +6,7 @@
 #include <string>
 #include <memory>
 #include <cmath>
+#include <SFML/Audio.hpp> 
 
 // Enum for enemy types
 enum class EnemyType {
@@ -115,6 +116,14 @@ int main() {
     const unsigned int windowHeight = 600;
     sf::RenderWindow window(sf::VideoMode(windowWidth, windowHeight), "Space Shooter");
     window.setFramerateLimit(60);
+
+        // Setup background music
+        sf::Music backgroundMusic;
+        if(!m.openFromFile("bg.ogg")) std::cerr<<"load failed\n"; else {
+            backgroundMusic.setLoop(true);  // Make the music loop continuously
+            backgroundMusic.setVolume(70);  // Set volume to 50% (adjust as needed)
+            backgroundMusic.play();         // Start playing the music
+        }
 
     // Random number generation
     std::random_device rd;
@@ -597,8 +606,8 @@ int main() {
                                         break;
                                 }
                                 
-                                // Chance to spawn power-up
-                                if (powerUpChanceDist(gen) < 20) { // 20% chance
+                                
+                                if (powerUpChanceDist(gen) < 20) { 
                                     PowerUp powerUp;
                                     sf::ConvexShape* powerUpShape = new sf::ConvexShape();
                                     powerUpShape->setPointCount(4);
@@ -613,20 +622,20 @@ int main() {
                                     powerUp.velocity = sf::Vector2f(0, powerUpSpeed);
                                     powerUp.active = true;
                                     
-                                    // Determine power-up type
+                                  
                                     int powerUpTypeRoll = powerUpTypeDist(gen);
                                     switch (powerUpTypeRoll) {
-                                        case 0: // Shield
+                                        case 0: 
                                             powerUp.type = PowerUpType::SHIELD;
                                             powerUpShape->setFillColor(sf::Color(50, 100, 255, 200));
                                             powerUpShape->setOutlineColor(sf::Color(100, 150, 255));
                                             break;
-                                        case 1: // Rapid Fire
+                                        case 1: 
                                             powerUp.type = PowerUpType::RAPID_FIRE;
                                             powerUpShape->setFillColor(sf::Color(255, 50, 50, 200));
                                             powerUpShape->setOutlineColor(sf::Color(255, 100, 100));
                                             break;
-                                        case 2: // Triple Shot
+                                        case 2: 
                                             powerUp.type = PowerUpType::TRIPLE_SHOT;
                                             powerUpShape->setFillColor(sf::Color(255, 255, 50, 200));
                                             powerUpShape->setOutlineColor(sf::Color(255, 255, 100));
@@ -643,7 +652,7 @@ int main() {
                 }
             }
 
-            // Update explosions
+           
             for (auto it = explosions.begin(); it != explosions.end();) {
                 if (!it->update(dt)) {
                     it = explosions.erase(it);
@@ -652,7 +661,7 @@ int main() {
                 }
             }
 
-            // Clean up inactive objects
+           
             auto bulletIt = bullets.begin();
             while (bulletIt != bullets.end()) {
                 if (!bulletIt->active) {
@@ -693,21 +702,21 @@ int main() {
                 }
             }
             
-            // Level progression based on score
+            
             int newLevel = 1 + (score / 100);
             if (newLevel > level) {
                 level = newLevel;
                 enemySpawnRate = basicEnemySpawnRate * (0.9f - (level - 1) * 0.05f);
-                if (enemySpawnRate < 0.3f) enemySpawnRate = 0.3f; // Cap the minimum spawn rate
+                if (enemySpawnRate < 0.3f) enemySpawnRate = 0.3f; 
             }
         }
 
-        // Update text
+       
         scoreText.setString("Score: " + std::to_string(score));
         levelText.setString("Level: " + std::to_string(level));
         healthText.setString("Health: " + std::to_string(playerHealth));
         
-        // Create power-up status text
+       
         std::string powerUpStatus;
         if (shieldActive) {
             powerUpStatus += "Shield: " + std::to_string(static_cast<int>(shieldDuration - shieldTimer)) + "s ";
@@ -720,16 +729,16 @@ int main() {
         }
         powerUpText.setString(powerUpStatus);
 
-        // Draw everything
-        window.clear(sf::Color(5, 5, 20)); // Dark blue background
+       
+        window.clear(sf::Color(5, 5, 20)); 
         
-        // Draw stars
+        
         for (const auto& star : stars) {
             window.draw(star.shape);
         }
         
         if (!gameOver) {
-            // Draw shield if active
+         
             if (shieldActive) {
                 window.draw(shieldShape);
             }
@@ -755,12 +764,12 @@ int main() {
             window.draw(gameOverText);
         }
         
-        // Draw explosions
+    
         for (const auto& explosion : explosions) {
             window.draw(explosion.shape);
         }
         
-        // Draw UI text
+        
         window.draw(scoreText);
         window.draw(levelText);
         window.draw(healthText);
@@ -769,7 +778,7 @@ int main() {
         window.display();
     }
 
-    // Cleanup
+   
     for (auto& bullet : bullets) {
         delete bullet.shape;
     }
