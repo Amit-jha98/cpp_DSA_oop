@@ -119,9 +119,11 @@ int main() {
 
         // Setup background music
         sf::Music backgroundMusic;
-        if(!m.openFromFile("bg.ogg")) std::cerr<<"load failed\n"; else {
-            backgroundMusic.setLoop(true);  // Make the music loop continuously
-            backgroundMusic.setVolume(70);  // Set volume to 50% (adjust as needed)
+        if (!backgroundMusic.openFromFile("bg.ogg")) {
+            std::cout << "Warning: Could not load background music" << std::endl;
+        } else {
+            backgroundMusic.setLoop(true);   // Make the music loop continuously
+            backgroundMusic.setVolume(100);  // Set volume to 50% (adjust as needed)
             backgroundMusic.play();         // Start playing the music
         }
 
