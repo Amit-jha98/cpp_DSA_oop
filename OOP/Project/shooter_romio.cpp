@@ -539,14 +539,14 @@ int main() {
                         }
                     }
                     
-                    // Remove enemies that go off screen
+                   
                     if (enemy.shape->getPosition().y > windowHeight + 30) {
                         enemy.active = false;
                     }
                 }
             }
             
-            // Update power-ups
+
             for (auto& powerUp : powerUps) {
                 if (powerUp.active) {
                     powerUp.shape->move(powerUp.velocity * dt);
