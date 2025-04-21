@@ -1683,14 +1683,13 @@ int main() {
             // Draw the status panel with move history
             statusPanel.draw(window);
             
-            // Draw check indicator if in check
+
             if (board.getGameState() == GameState::CHECK) {
                 window.draw(checkText);
             }
         }
         else if (currentScreen == GameScreen::GAME_OVER) {
-            // Draw game over screen
-            // Still draw the final board state
+
             for (int row = 0; row < 8; ++row) {
                 for (int col = 0; col < 8; ++col) {
                     sf::RectangleShape square(sf::Vector2f(squareSize, squareSize));
