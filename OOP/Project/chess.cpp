@@ -1719,12 +1719,12 @@ int main() {
                 }
             }
             
-            // Draw semi-transparent overlay
+
             sf::RectangleShape overlay(sf::Vector2f(windowSize, windowSize + infoHeight));
             overlay.setFillColor(sf::Color(0, 0, 0, 180));
             window.draw(overlay);
             
-            // Draw game over message and restart button
+
             window.draw(gameOverText);
             restartButton.draw(window);
         }
