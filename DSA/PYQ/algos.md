@@ -1,7 +1,39 @@
 #### Algorithm For Sem Exam
-
 ---
-=============================
+
+# Table of Contents
+
+- [Data Structures and Algorithms](#data-structures-and-algorithms)
+    - [Core Data Structures](#core-data-structures)
+        - [1. Stack Operations](#1-stack-operations)
+            - [1.1 Array Implementation](#1-array-implementation)
+            - [1.2 Linked List Implementation](#2-stack-via-singly-linked-list)
+            - [1.3 Stack Applications](#3-application-parenthesis-matching)
+        - [2. Queue Operations](#2-queue)
+            - [2.1 Array Implementation](#11-array-implementation-fixed-size)
+            - [2.2 Linked List Implementation](#12-singly-linked-list-implementation)
+            - [2.3 Circular Queue](#2-circular-queue-array)
+            - [2.4 Advanced Queue Types](#3-deque-double-ended-queue)
+        - [3. Linked List](#3-linked-list)
+            - [3.1 Basic Operations](#1-core-definitions--traversal)
+            - [3.2 Advanced Operations](#5-reverse-a-linked-list)
+    - [Algorithms](#algorithms)
+        - [1. Sorting Algorithms](#1-bubble-sort)
+        - [2. Searching Algorithms](#1-linear-search)
+        - [3. Hashing Algorithms](#1-hash-table-setup)
+    - [Advanced Data Structures](#advanced-data-structures)
+        - [1. Trees](#1-binary-tree-basics)
+            - [1.1 Binary Trees](#11-tree-traversals)
+            - [1.2 Binary Search Trees](#2-binary-search-tree-bst)
+            - [1.3 AVL Trees](#3-avl-tree-self-balancing-bst)
+            - [1.4 Binary Heap](#4-binary-heap-min-or-max-heap)
+            - [1.5 Trie](#5-trie-prefix-tree)
+        - [2. Graphs](#1-graph-representations)
+            - [2.1 Representations](#1-graph-representations)
+            - [2.2 Traversal](#2-traversal)
+            - [2.3 Algorithms](#3-cycle-detection)
+---
+
 ---
 
 | **Category**            | **Subcategory**               | **Key Topics**                                                                                                                                          |
@@ -22,11 +54,9 @@
 
 
 ---
-=============================
 
 #### 1. .....stack.....
 
-=============================
 ---
 
 ### 1. Stack Operations (Array Implementation)
