@@ -1280,3 +1280,340 @@ Z_b & Z_a + Z_b
 $$
 
 This matrix succinctly captures how series impedances couple port voltages and currents in a two-port description.
+
+---
+---
+
+## Q 1 (a–j): Short Questions with Detailed Answers
+
+**(a) Collector Current Calculation**
+**Question:** For a base current $I_B = 10\,\mu\text{A}$ and $\beta_{dc} = 100$, what is $I_C$?
+**Answer:** $I_C = \beta\,I_B = 100 \times 10\,\mu\text{A} = 1\,\text{mA}.$
+**Explanation:** In forward‑active mode, the collector current is approximately $\beta$ times the base current.
+
+---
+
+**(b) Closed‑Loop Gain Variation**
+**Question:** An amplifier has open‑loop gain $A = -1000$ and feedback factor $\beta = 0.1$. If $A$ changes by 20%, what is the percent change in closed‑loop gain $A_F$?
+**Answer:** Approximately **0.2%**.
+**Explanation:**
+
+$$
+A_F = \frac{A}{1 + A\beta},\quad A\beta = 100.
+$$
+
+A 20% change in $A$ produces
+
+$$
+\frac{\Delta A_F}{A_F}\approx\frac{0.20}{1 + 100}\approx0.002\;(0.2\%).
+$$
+
+Negative feedback divides gain variations by $1+A\beta$.
+
+---
+
+**(c) Valence Electrons of a Trivalent Impurity**
+**Question:** A trivalent impurity atom has how many valence electrons?
+**Answer:** **3**.
+**Explanation:** “Trivalent” denotes three outer‑shell electrons available for bonding (e.g.\ Al in Si).
+
+---
+
+**(d) Primary Use of Zener Diodes**
+**Question:** Zener diodes are used primarily as …
+**Answer:** **Voltage regulators**.
+**Explanation:** In reverse breakdown they clamp voltage nearly constant.
+
+---
+
+**(e) PIV of Half‑Wave Rectifier**
+**Question:** Peak inverse voltage (PIV) rating of the diode in a half‑wave rectifier is …
+**Answer:** $V_m$.
+**Explanation:** The non‑conducting diode must withstand the full negative peak $V_m$.
+
+---
+
+**(f) Reverse‑Saturation Current Temperature Dependence**
+**Question:** For every 10 °C rise, the reverse‑saturation current of a pn junction increases by …
+**Answer:** **2×**.
+**Explanation:** Silicon leakage roughly doubles for each 10 °C increase.
+
+---
+
+**(g) BJT Active Region**
+**Question:** With BE forward‑biased and BC reverse‑biased, the BJT is in the … region.
+**Answer:** **Active region**.
+**Explanation:** Forward BE injects carriers; reverse BC collects them for amplification.
+
+---
+
+**(h) Phase Shift per RC Section**
+**Question:** In an RC phase‑shift oscillator, each RC stage shifts phase by …
+**Answer:** **60°**.
+**Explanation:** Three identical RC networks each contribute 60° for a total 180°.
+
+---
+
+**(i) Exceeding PIV Rating**
+**Question:** If PIV rating is exceeded, …
+**Answer:** **The diode is destroyed**.
+**Explanation:** Excess reverse voltage causes avalanche breakdown and damage.
+
+---
+
+**(j) J‑FET Drain Current at $V_{GS}=0$**
+**Question:** For a J‑FET with $I_{DSS}=9\,\text{mA}$, $V_P=-3.5\,\text{V}$, what is $I_D$ at $V_{GS}=0$?
+**Answer:** **9 mA**.
+**Explanation:** At zero gate bias the J‑FET conducts its maximum drain current $I_{DSS}$.
+
+---
+
+## Q 2: Feedback and Op‑Amp Parameters
+
+### (a) Definitions
+
+1. **Common‑Mode Rejection Ratio (CMRR):**
+
+   $$
+     \mathrm{CMRR} = \frac{A_D}{A_{CM}},\quad
+     \text{CMRR}_{\rm dB} = 20\log_{10}\!\bigl(A_D/A_{CM}\bigr).
+   $$
+
+   Measures how well an amplifier rejects signals common to both inputs.
+
+2. **Gain–Bandwidth Product (GBW):**
+
+   $$
+     \mathrm{GBW} = A_{\rm OL}(0)\times f_p,\quad
+     f_{CL}\approx \frac{\mathrm{GBW}}{A_{CL}}.
+   $$
+
+   Constant for a single‑pole op‑amp; trade‑off between gain and bandwidth.
+
+3. **Slew Rate (SR):**
+
+   $$
+     \mathrm{SR} = \max\!\Bigl|\frac{dV_{\rm out}}{dt}\Bigr|.
+   $$
+
+   Maximum output voltage change rate (V/µs); must satisfy $SR \ge 2\pi f V_p$ for undistorted sine waves.
+
+---
+
+### (b) Barkhausen Criterion
+
+An electronic loop oscillates at $\omega_0$ if:
+
+1. **Magnitude:** $|A_{\rm OL}(j\omega_0)\beta| = 1.$
+2. **Phase:** $\angle A_{\rm OL}(j\omega_0)\beta = 0^\circ$ (mod 360°).
+
+---
+
+## Q 3: Bias Stability Factors
+
+### (a) Fixed‑Bias Circuit Stability Factor
+
+* **Circuit:** Base resistor $R_B$ to $V_{CC}$, emitter grounded, include leakage $I_{CBO}$.
+* **Collector current:**
+
+  $$
+    I_C = \beta\frac{V_{CC}-V_{BE}}{R_B} + (1+\beta)I_{CBO}.
+  $$
+* **Stability Factor:**
+
+  $$
+    S = \frac{\partial I_C}{\partial I_{CBO}} = 1+\beta.
+  $$
+
+### (b) Voltage‑Divider Bias Q‑Point & Stability
+
+* **Given:** $R_1=39\,\mathrm{k}\Omega,\,R_2=82\,\mathrm{k}\Omega,\,R_C=3.3\,\mathrm{k}\Omega,\,R_E=1\,\mathrm{k}\Omega,\,V_{CC}=18\,\mathrm{V},\,\beta=120.$
+* **Thevenin at base:**
+
+  $$
+    V_{th}=18\frac{82}{39+82}\approx12.19\,\mathrm{V},\quad
+    R_{th} \approx 26.4\,\mathrm{k}\Omega.
+  $$
+* **Base current:**
+
+  $$
+    I_B=\frac{V_{th}-V_{BE}}{R_{th}+(\beta+1)R_E}
+       =\frac{12.19-0.7}{26.4k+121k}\approx78\,\mu\mathrm{A}.
+  $$
+* **Collector current:** $I_C=\beta I_B\approx9.36\,\mathrm{mA}.$
+* **Voltages:** $V_E=I_ER_E\approx9.44\,\mathrm{V},\;V_C=18-I_CR_C\approx-12.9\,\mathrm{V}.$
+  → Transistor **saturates**.
+* **Stability Factor:**
+
+  $$
+    S = 1 + \frac{\beta\,R_E}{R_{th}}
+      \approx 1 + \frac{120\times1k}{26.4k}\approx5.55.
+  $$
+
+---
+
+## Q 4: Feedback Amplifiers
+
+### Theory of Feedback
+
+* **Negative feedback:** Subtractive; stabilizes gain, widens bandwidth, reduces distortion, raises input impedance.
+* **Positive feedback:** Additive; can create hysteresis or oscillations.
+
+Closed‑loop gain (negative feedback):
+
+$$
+A_{CL} = \frac{A}{1 + A\beta}.
+$$
+
+### (a) Block Diagram & Derivation
+
+```
+Vin →(+)[Σ]─→│ A │─→ Vout
+      ←─────[β]─────
+```
+
+$$
+V_e = V_{\rm in} - \beta V_{\rm out},\quad
+V_{\rm out} = A\,V_e
+\;\Longrightarrow\;
+A_{CL}=\frac{A}{1 + A\beta}.
+$$
+
+### (b) Examples
+
+1. **Negative Feedback – Non‑Inverting Op‑Amp**
+
+   * Gain $1 + R_1/R_2$.
+   * Purpose: precise, stable gain; low distortion; high input impedance.
+
+2. **Positive Feedback – Schmitt Trigger**
+
+   * Hysteresis thresholds set by feedback network.
+   * Purpose: noise‑immune digital switching; bistability; oscillator core.
+
+---
+
+## Q 5: Rectifiers & Breakdown
+
+### (a) Full‑Wave Bridge Rectifier
+
+* **Circuit:** Four diodes in bridge; both half‑cycles produce positive output.
+* **Waveform:** Ripple frequency = 2× input frequency.
+* **Ripple Factor (no filter):**
+
+  $$
+    r = \frac{I_{\rm rms(ripple)}}{I_{\rm DC}}
+      = \frac{\pi}{2\sqrt2} - 1\approx0.482.
+  $$
+
+### (b) Zener vs. Avalanche Breakdown
+
+| Feature            | Zener (≤5 V)                 | Avalanche (>5 V)        |
+| ------------------ | ---------------------------- | ----------------------- |
+| Mechanism          | Quantum tunneling            | Impact ionization       |
+| I–V Characteristic | Sharp knee                   | Gradual knee            |
+| Temp. Coefficient  | Negative                     | Positive                |
+| Typical Use        | Voltage reference/regulation | High-voltage protection |
+
+---
+
+## Q 6: Instrumentation Amp & MOSFET
+
+### (a) Instrumentation Amplifier
+
+* **Topology:** Three op‑amps (two buffers + differential amplifier).
+* **Gain:** $1 + \tfrac{2R_1}{R_G}$ applied to $(V_2 - V_1)$.
+* **Features:** Very high CMRR, high input impedance, single‑resistor gain setting.
+
+### (b) N‑Channel MOSFET
+
+* **Given:** $\mu C_{\rm ox}W/L=0.2\,\mathrm{mA/V^2},\,V_{GS}=V_T=0.7\,\mathrm{V},\,V_{DS}=0.2\,\mathrm{V}.$
+* **Region:** $V_{GS}-V_T=0$ → **Cutoff** (no channel).
+* **Drain Current:** $I_D\approx0\,\mathrm{mA}.$
+
+---
+
+## Q 7: JFET vs. BJT & Faithful Amplification
+
+### (a) Device Comparison
+
+| Feature         | JFET (Voltage‑Controlled) | BJT (Current‑Controlled) |
+| --------------- | ------------------------- | ------------------------ |
+| Input Impedance | Very high (MΩ–GΩ)         | Moderate (kΩ)            |
+| Noise           | Low                       | Higher                   |
+| Gain            | Moderate                  | High (β)                 |
+| Thermal Drift   | Lower                     | Higher                   |
+| Switching Speed | Moderate                  | Fast                     |
+
+### (b) Faithful Amplification
+
+**Definition:** Output is an undistorted, scaled replica of input.
+**Requirements:** Linearity, constant gain, adequate bandwidth, sufficient slew rate, no clipping.
+
+---
+
+## Q 8: 741 Op‑Amp & Clamping Circuit
+
+### (a) 741 Op‑Amp
+
+* **Stages:** PNP differential input → active‑load mirrors → NPN gain stage (Miller‑comp) → Class AB output.
+* **Pin‑Out:**
+  1: Offset null, 2: Inverting (–), 3: Non‑inverting (+), 4: VEE(–), 5: NC, 6: Output, 7: VCC(+), 8: Offset null.
+* **Specs:** Open‑loop gain \~200 000, GBW ≈1 MHz, slew ≈0.5 V/µs, input bias ≈80 nA.
+
+### (b) Clamping with D₁ (Zener) & D₂ (Diode)
+
+* **Positive clamp:** D₁ Zener breaks at \~4.78 V → clamps at \~5.48 V.
+* **Negative clamp:** D₂ forward conducts at \~0.7 V → clamps at –0.7 V.
+* **Operation:** Protects/limits output between –0.7 V and +5.48 V.
+
+---
+
+## Q 9: Transformer & Two‑Port
+
+### (a) Ideal Transformer Characteristics
+
+1. Perfect coupling ($k=1$), no leakage.
+2. Zero winding resistance, no copper losses.
+3. Infinite core permeability, no magnetizing current.
+4. No core (hysteresis/eddy) losses.
+5. Infinite bandwidth, no parasitic elements.
+
+$$
+\frac{V_1}{V_2}=\frac{N_1}{N_2},\quad
+\frac{I_1}{I_2}=\frac{N_2}{N_1},\quad
+Z_{\rm in}=\bigl(N_1/N_2\bigr)^2Z_L.
+$$
+
+---
+
+### (b) Electrical Quantity Definitions
+
+1. **RMS Value:** $\displaystyle I_{\rm rms}=\sqrt{\frac1T\int_0^T i^2(t)\,dt}.$
+2. **Form Factor:** $\displaystyle\frac{I_{\rm rms}}{I_{\rm avg}},\;I_{\rm avg}=\frac1T\int_0^T|i(t)|\,dt.$
+3. **Crest Factor:** $\displaystyle\frac{I_{\rm peak}}{I_{\rm rms}}.$
+4. **Complex Power:** $S=P+jQ=V_{\rm rms}I_{\rm rms}^*.$
+5. **Half‑Power Frequency:** $|H(f_{-3dB})|=|H_{\max}|/\sqrt2.$
+
+---
+
+### (c) Two‑Port Z‑Parameters for Series Impedances
+
+For series $Z_a$–$Z_b$ between ports:
+
+$$
+\begin{pmatrix}V_1\\V_2\end{pmatrix}
+=
+\begin{pmatrix}
+Z_a + Z_b & Z_b\\
+Z_b & Z_a + Z_b
+\end{pmatrix}
+\begin{pmatrix}I_1\\I_2\end{pmatrix}.
+$$
+
+* $Z_{11}=Z_{22}=Z_a+Z_b$,
+* $Z_{12}=Z_{21}=Z_b$.
+
+---
+
+
