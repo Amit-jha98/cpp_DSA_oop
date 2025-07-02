@@ -1,4 +1,6 @@
 
+Direct Link: https://chatgpt.com/share/686522af-ca4c-8001-b546-f2dd71ca8ccb .....
+
 ### Q 1(a)
 
 **Question:**
