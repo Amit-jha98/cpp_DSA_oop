@@ -1101,3 +1101,83 @@ Anode (P) →|← Cathode (N)
 - **Slew Rate:** SR = Imax/Ccomp
 
 ---
+---
+
+## 📗 Module 1: Diode Circuits
+
+| **Formula Name**               | **Formula Expression**               | **Description**                               |
+| :----------------------------- | :----------------------------------- | :-------------------------------------------- |
+| Diode I-V Characteristic       | $I = I_s \left(e^{V/V_T} - 1\right)$ | Current-voltage relationship of a diode       |
+| Half-Wave Rectifier DC Output  | $V_{dc} = \frac{V_m}{\pi}$           | DC output voltage for half-wave rectification |
+| Half-Wave Rectifier RMS Output | $V_{rms} = \frac{V_m}{2}$            | RMS output voltage for half-wave              |
+| Full-Wave Rectifier DC Output  | $V_{dc} = \frac{2V_m}{\pi}$          | DC output voltage for full-wave rectification |
+| Full-Wave Rectifier RMS Output | $V_{rms} = \frac{V_m}{\sqrt{2}}$     | RMS output voltage for full-wave              |
+| Peak Inverse Voltage (PIV) HWR | $PIV = V_m$                          | Max reverse voltage diode must withstand      |
+| Peak Inverse Voltage (PIV) FWR | $PIV = 2V_m$                         | Max reverse voltage for full-wave             |
+
+---
+
+## 📘 Module 2: BJT Circuits
+
+| **Formula Name**            | **Formula Expression**             | **Description**                          |
+| :-------------------------- | :--------------------------------- | :--------------------------------------- |
+| Collector Current           | $I_C = \beta I_B$                  | BJT collector current                    |
+| Emitter Current             | $I_E = I_B + I_C$                  | Emitter current relation                 |
+| BJT DC Load Line            | $V_{CE} = V_{CC} - I_C R_C$        | DC operating point relation              |
+| Voltage Gain (CE Amplifier) | $A_v = -\frac{g_m R_C}{1+g_m R_E}$ | Voltage gain for CE amplifier            |
+| Transconductance            | $g_m = \frac{I_C}{V_T}$            | Ratio of output current to input voltage |
+| Input Resistance (rπ)       | $r_{\pi} = \frac{\beta V_T}{I_C}$  | Small signal input resistance            |
+| Output Resistance           | $r_o = \frac{V_A + V_{CE}}{I_C}$   | Output resistance due to Early effect    |
+
+---
+
+## 📙 Module 3: MOSFET Circuits
+
+| **Formula Name**            | **Formula Expression**                                             | **Description**                          |
+| :-------------------------- | :----------------------------------------------------------------- | :--------------------------------------- |
+| MOSFET Cutoff Region        | $I_D = 0$                                                          | No current when $V_{GS} < V_{th}$        |
+| MOSFET Linear Region        | $I_D = k\left[(V_{GS} - V_{th})V_{DS} - \frac{V_{DS}^2}{2}\right]$ | For $V_{DS} < V_{GS} - V_{th}$           |
+| MOSFET Saturation Region    | $I_D = \frac{k}{2}(V_{GS} - V_{th})^2$                             | For $V_{DS} \geq V_{GS} - V_{th}$        |
+| Transconductance            | $g_m = \frac{2I_D}{V_{GS} - V_{th}}$                               | Ratio of output current to gate voltage  |
+| Input Resistance            | Very High                                                          | Due to insulated gate                    |
+| Voltage Gain (CS Amplifier) | $A_v = -g_m R_D$                                                   | Voltage gain for common-source amplifier |
+
+---
+
+## 📕 Module 4: Differential, Multi-Stage & Op-Amps
+
+| **Formula Name**       | **Formula Expression**     | **Description**                           |
+| :--------------------- | :------------------------- | :---------------------------------------- |
+| Differential Gain      | $A_d = \frac{g_m R_C}{2}$  | Gain for differential amplifier           |
+| CMRR                   | $CMRR = \frac{A_d}{A_c}$   | Common mode rejection ratio               |
+| Slew Rate              | $SR = \frac{dV_{out}}{dt}$ | Maximum rate of change of output          |
+| Gain Bandwidth Product | $GBP = A_{OL} \times f_H$  | Product of gain and high frequency cutoff |
+
+---
+
+## 📒 Module 5: Linear Applications of Op-Amps
+
+| **Formula Name**               | **Formula Expression**                               | **Description**                     |
+| :----------------------------- | :--------------------------------------------------- | :---------------------------------- |
+| Inverting Amplifier Gain       | $A_v = -\frac{R_f}{R_{in}}$                          | Gain for inverting op-amp           |
+| Non-Inverting Amplifier Gain   | $A_v = 1 + \frac{R_f}{R_{in}}$                       | Gain for non-inverting op-amp       |
+| Integrator Output              | $V_{out} = -\frac{1}{RC} \int V_{in} dt$             | Integrates input signal             |
+| Differentiator Output          | $V_{out} = -RC \frac{dV_{in}}{dt}$                   | Differentiates input signal         |
+| Instrumentation Amplifier Gain | $A_v = \left(1+\frac{2R}{R_G}\right)\frac{R_3}{R_2}$ | High gain differential amplifier    |
+| Wein Bridge Oscillator Freq.   | $f = \frac{1}{2\pi RC}$                              | Frequency of Wein bridge oscillator |
+
+---
+
+## 📓 Module 6: Non-Linear Applications of Op-Amps
+
+| **Formula Name**              | **Formula Expression**                                       | **Description**                                |
+| :---------------------------- | :----------------------------------------------------------- | :--------------------------------------------- |
+| Hysteresis Comparator         | Depends on upper/lower threshold voltages                    | Comparator with hysteresis                     |
+| Zero Crossing Detector Output | Switches when $V_{in} = 0$                                   | Changes output at zero input                   |
+| Square Wave Generator Freq.   | $f = \frac{1}{2RC \ln \left(\frac{1+\beta}{1-\beta}\right)}$ | Frequency depends on resistor-capacitor values |
+| Triangular Wave Generator     | Integrates square wave to produce triangle                   | Produces triangular output from integrator     |
+| Precision Rectifier Output    | Follows input for positive half cycles                       | Accurate rectification at low voltages         |
+| Monostable Multivibrator Time | $T = 0.693 RC$                                               | Output pulse width in monostable operation     |
+
+---
+
