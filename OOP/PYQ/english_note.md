@@ -709,3 +709,110 @@ To assess how well your report works:
 
 ---
 
+
+---
+
+# 📝 Technical Writing – **One-Page Revision Sheet**
+
+### 🎯 **Course Objectives**
+
+* Understand technical document structures.
+* Write clearly, concisely, and accurately.
+* Use appropriate technical language and grammar.
+* Collaborate and communicate in scientific/technical contexts.
+
+---
+
+## 📘 Module 1: **Fundamentals of Technical Writing**
+
+* ✅ **Need**: Clear, concise communication is critical in tech fields.
+* ✅ **Attributes**: Accuracy, clarity, brevity, consistency, objectivity.
+* ✅ **Types**: Manuals, SOPs, reports, proposals, white papers.
+* ✅ **Readers**:
+
+  * *Technical*: Engineers, scientists
+  * *Managerial*: Decision-makers
+  * *General*: Non-technical audience
+* ✅ **Express vs Impress**: Focus on **informing**, not showing off.
+* ✅ **Grammar Focus**:
+
+  * Parts of speech (nouns, verbs, adjectives)
+  * Tense consistency (past for experiments, present for facts)
+  * Correct punctuation (lists, clarity, flow)
+
+---
+
+## 📘 Module 2: **Performing Technical Studies & Writing Strategy**
+
+* ✅ **Types of Studies**: Feasibility, experimental, simulation, field.
+* ✅ **Methodology**:
+
+  1. Propose project
+  2. Research background
+  3. Design test plan
+  4. Perform experiments
+  5. Report results
+* ✅ **Writing Strategy**:
+
+  * Analyze **audience**, **scope**, **purpose**
+  * Use correct **document hierarchy**
+* ✅ **Criteria for Good Writing**:
+
+  * Strong content, structured presentation, clear language.
+* ✅ **Style**:
+
+  * Active voice, parallel structure, minimal jargon.
+* ✅ **Illustrations**: Graphs, charts, tables — always labeled and explained.
+
+---
+
+## 📘 Module 3: **Formal & Informal Reports**
+
+### 🔷 **Formal Reports**
+
+* Structure:
+
+  1. **Front Matter** (Title, Abstract, TOC)
+  2. **Introduction** (Purpose, Scope, Background)
+  3. **Body** (Methods, Data, Results, Discussion)
+  4. **Closure** (Conclusion, Recommendations, References)
+* Formal tone, third-person, detailed visuals
+
+### 🔹 **Informal Reports**
+
+* Shorter, internal use (memos, emails)
+* Direct tone; sections: Intro – Body – Conclusion
+* Used in:
+
+  * Investigation Reports
+  * Service Reports
+  * Action Letters
+  * Proposals
+
+---
+
+## 📘 Module 4: **Review, Editing & Oral Presentations**
+
+* ✅ **Review Types**:
+
+  * *Technical*: Accuracy
+  * *Content*: Completeness
+  * *Language*: Grammar, clarity
+  * *Format*: Consistency
+* ✅ **Editing Tips**: Read multiple times, aloud, peer review, checklist
+* ✅ **Oral Presentations**:
+
+  * Types: Technical, persuasive, informative
+  * Preparation: Know audience, time yourself, simplify slides
+  * Use of Visual Aids: Diagrams, graphs, videos (1 idea/slide)
+* ✅ **Barriers**: Jargon, inconsistency, ambiguity
+* ✅ **Skill Maintenance**: Practice writing, get feedback, read technical docs
+* ✅ **Measuring Effectiveness**: Clarity, engagement, reader feedback
+
+---
+
+📌 **Pro Tip**: Always write to express, not impress. Clarity > Complexity.
+📚 **Exam Use**: Recall structure + examples + purpose for each document type.
+
+---
+
