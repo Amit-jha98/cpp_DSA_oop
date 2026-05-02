@@ -1,50 +1,39 @@
-# extract syllabus fro
+# 📚 SEMESTER EXAM STUDY GUIDE
 
+## Complete Syllabus & Detailed Study Notes
 
-### Assistant
-The user wants the syllabus extracted from the provided images.
-
-**Analysis of Images:**
-*   **Image 1 & 5 (Identical):** These show a syllabus for "Theory of Computation" or similar, covering Modules 1-5 about Automata, Formal Languages, and Turing Machines.
-*   **Image 2:** This shows a syllabus for "Communication Skills" or "Soft Skills", covering Modules 1-4 about communication, interpersonal skills, employability, and business writing. It also lists reference books and course outcomes.
-*   **Image 3:** This shows a syllabus for "Database Management Systems" (DBMS), covering Modules 1-6 about architecture, SQL, normalization, transactions, security, and advanced topics.
-*   **Image 4:** This shows a syllabus for "Artificial Intelligence", covering Modules 1-4 about search algorithms, knowledge representation, learning, and advanced AI topics like NLP and Computer Vision. It lists textbooks and references.
-*   **Image 6 & 7 (Identical):** These show a syllabus for "Software Engineering". Image 6 shows the first part (Modules 1-3), and Image 7 continues with Modules 4-7 about project management, coding/testing, maintenance, and reliability.
-
-**Plan:**
-I will extract each distinct syllabus into its own section to keep them organized. I will use Markdown headers for the course titles and bullet points or bold text for the modules to make it readable.
-
-1.  **Course 1: Theory of Computation (from Image 1/5)**
-2.  **Course 2: Communication Skills / Soft Skills (from Image 2)**
-3.  **Course 3: Database Management Systems (from Image 3)**
-4.  **Course 4: Artificial Intelligence (from Image 4)**
-5.  **Course 5: Software Engineering (from Image 6/7)**
-
-I will transcribe the text exactly as it appears, preserving the structure of modules and hours.
-
-&lt;/think&gt;
-
-
-Based on the images provided, there are five distinct syllabi listed under "BEU ADDA". Here is the extracted content organized by course title:
-
-### **1. Theory of Computation**
-
-*   **Module 1 (Lecture 10 hrs):** Introduction: Alphabet, languages and grammars, productions and derivation, Chomsky hierarchy of languages. Regular languages and finite automata: Regular expressions and languages, deterministic finite automata (DFA) and equivalence with regular expressions, nondeterministic finite automata (NFA) and equivalence with DFA, regular grammars and equivalence with finite automata, properties of regular languages, pumping lemma for regular languages, minimization of finite automata.
-*   **Module 2 (Lecture 10 hrs):** Context-free languages and pushdown automata: Context-free grammars (CFG) and Context-free languages (CFL), Chomsky and Greibach normal forms, nondeterministic pushdown automata (PDA) and equivalence with CFG, parse trees, ambiguity in CFG, pumping lemma for context-free languages, deterministic pushdown automata, closure properties of CFLs.
-*   **Module 3 (Lecture 2 hrs):** Context-sensitive languages: Context-sensitive grammars (CSG) and Context-sensitive languages, linear bounded automata and equivalence with CSG.
-*   **Module 4 (Lecture 10 hrs):** Turing machines: The basic model for Turing machines (TM), Turing recognizable (Recursively enumerable) and Turing-decidable (recursive) languages and their closure properties, variants of Turing machines, nondeterministic TMs and equivalence with deterministic TMs, unrestricted grammars and equivalence with Turing machines, TMs as enumerators.
-*   **Module 5 (Lecture 8 hrs):** Undecidability: Church-Turing thesis, universal Turing machine, the universal and diagonalization languages, reduction between languages and Rice’s theorem, undecidable problems about languages.
+Comprehensive study materials for all five subjects with detailed notes, keywords, and exam questions.
 
 ---
 
-### **2. Communication Skills / Soft Skills**
+## TABLE OF CONTENTS
 
-*   **Objective:** To enable learners to speak fluently and flawlessly in all kinds of communicative Contexts with speakers of all nationalities.
-*   **Module 1 (Lecture 10 hrs):** Communication skills: Public speaking, Group discussion, Gestures and body language & professional presentation skills.
-*   **Module 2 (Lecture 10 hrs):** Interpersonal skills: Group dynamics, Negotiation skills, Leadership, Emotional intelligence.
-*   **Module 3 (Lecture 10 hrs):** Employability and Corporate Skills: Time management and effective planning, Stress management, People skills, Team work, development of leadership qualities, Decision making and Negotiation skills, Positive attitude, Self-motivation, Professional ethics, Business etiquettes, balancing board room.
-*   **Module 4 (Lecture 10 hrs):** Business writing skills, Resume Writing. Interview Skills, Technical Presentation, Guest Lecture, Professional Ethics, Project Management, Entrepreneurship.
-*   **Suggested reference books:**
+1. **Theory of Computation** - Automata, Grammars, Turing Machines
+2. **Professional Skills** - Communication, Leadership, Business Writing
+3. **Database Management Systems** - ER Model, SQL, Transactions, Security
+4. **Artificial Intelligence** - Search, Knowledge, Learning, Advanced Topics
+5. **Software Engineering** - SDLC, Design, Testing, Maintenance
+
+---
+
+### 1. Theory of Computation
+
+- **Module 1 (Lecture 10 hrs):** Introduction: Alphabet, languages and grammars, productions and derivation, Chomsky hierarchy of languages. Regular languages and finite automata: Regular expressions and languages, deterministic finite automata (DFA) and equivalence with regular expressions, nondeterministic finite automata (NFA) and equivalence with DFA, regular grammars and equivalence with finite automata, properties of regular languages, pumping lemma for regular languages, minimization of finite automata.
+- **Module 2 (Lecture 10 hrs):** Context-free languages and pushdown automata: Context-free grammars (CFG) and Context-free languages (CFL), Chomsky and Greibach normal forms, nondeterministic pushdown automata (PDA) and equivalence with CFG, parse trees, ambiguity in CFG, pumping lemma for context-free languages, deterministic pushdown automata, closure properties of CFLs.
+- **Module 3 (Lecture 2 hrs):** Context-sensitive languages: Context-sensitive grammars (CSG) and Context-sensitive languages, linear bounded automata and equivalence with CSG.
+- **Module 4 (Lecture 10 hrs):** Turing machines: The basic model for Turing machines (TM), Turing recognizable (Recursively enumerable) and Turing-decidable (recursive) languages and their closure properties, variants of Turing machines, nondeterministic TMs and equivalence with deterministic TMs, unrestricted grammars and equivalence with Turing machines, TMs as enumerators.
+- **Module 5 (Lecture 8 hrs):** Undecidability: Church-Turing thesis, universal Turing machine, the universal and diagonalization languages, reduction between languages and Rice’s theorem, undecidable problems about languages.
+
+---
+
+### 2. Communication Skills / Soft Skills
+
+- **Objective:** To enable learners to speak fluently and flawlessly in all kinds of communicative Contexts with speakers of all nationalities.
+- **Module 1 (Lecture 10 hrs):** Communication skills: Public speaking, Group discussion, Gestures and body language & professional presentation skills.
+- **Module 2 (Lecture 10 hrs):** Interpersonal skills: Group dynamics, Negotiation skills, Leadership, Emotional intelligence.
+- **Module 3 (Lecture 10 hrs):** Employability and Corporate Skills: Time management and effective planning, Stress management, People skills, Team work, development of leadership qualities, Decision making and Negotiation skills, Positive attitude, Self-motivation, Professional ethics, Business etiquettes, balancing board room.
+- **Module 4 (Lecture 10 hrs):** Business writing skills, Resume Writing. Interview Skills, Technical Presentation, Guest Lecture, Professional Ethics, Project Management, Entrepreneurship.
+- **Suggested reference books:**
     1. "Personality Development and Soft Skills", Barun Mitra, Oxford University Press.
     2. "Managing Soft Skills for Personality Development", B.N. Ghosh, McGraw Hill.
     3. "Communication Skills and Soft Skills: An Integrated Approach", E. Suresh Kumar, Pearson.
@@ -52,340 +41,398 @@ Based on the images provided, there are five distinct syllabi listed under "BEU 
 
 ---
 
-### **3. Database Management Systems**
+### 3. Database Management Systems
 
-*   **Module 1 (Lecture 6 hrs):** Database system architecture: Data Abstraction, Data Independence, Data Definition Language (DDL), Data Manipulation Language (DML). Data models: Entity-relationship model, network model, relational and object oriented data models, integrity constraints, data manipulation operations.
-*   **Module 2 (Lecture 10 hrs):** Relational query languages: Relational algebra, Tuple and domain relational calculus, SQL3, DDL and DML constructs, Open source and Commercial DBMS - MYSQL, ORACLE, DB2, SQL server. Relational database design: Domain and data dependency, Armstrong’s axioms, Normal forms, Dependency preservation, Lossless design. Query processing and optimization: Evaluation of relational algebra expressions, Query equivalence, Join strategies, Query optimization algorithms.
-*   **Module 3 (Lecture 4 hrs):** Storage strategies: Indices, B-trees, hashing.
-*   **Module 4 (Lecture 8 hrs):** Transaction processing: Concurrency control, ACID property, Serializability of scheduling, Locking and timestamp based schedulers, Multi-version and optimistic Concurrency Control schemes, Database recovery.
-*   **Module 5 (Lecture 6 hrs):** Database Security: Authentication, Authorization and access control, DAC, MAC and RBAC models, Intrusion detection, SQL injection.
-*   **Module 6 (Lecture 6 hrs):** Advanced topics: Object oriented and object relational databases, Logical databases, Web databases, Distributed databases, Data warehousing and data mining.
-
----
-
-### **4. Artificial Intelligence**
-
-*   **Module 1 (Lecture 10 hrs):** Introduction: Overview, Turing test, Intelligent agents. Problem Solving: Solving Problems by Searching: Uninformed search - Depth First Search, Breadth First Search, DFID, Heuristic search - Generate and Test, Best First Search, Beam Search, Hill Climbing, A*, Problem reduction search – AND/OR Graphs, AO*, Constraint satisfaction, Means-ends analysis, Stochastic search methods - Simulated Annealing, Particle Swarm Optimization, Game Playing - Minimax algorithm, Alpha-beta pruning.
-*   **Module 2 (Lecture 10 hrs):** Knowledge and Reasoning: Building a knowledge base - Propositional logic, first order logic, Inference in first order logic, Resolution – refutation proofs, Theorem Proving in First Order Logic; Planning, partial order planning, Uncertain Knowledge and Reasoning, Probabilities, Bayesian Networks.
-*   **Module 3 (Lecture 10 hrs):** Learning: Overview of different forms of learning: unsupervised, supervised, semi-supervised, K-means clustering algorithm, Decision Trees, Neural Networks, Deep Learning.
-*   **Module 4 (Lecture 10 hrs):** Advanced topics: Introduction to Computer Vision, Natural Language Processing, Expert Systems, Robotics, Genetic Algorithm.
+- **Module 1 (Lecture 6 hrs):** Database system architecture: Data Abstraction, Data Independence, Data Definition Language (DDL), Data Manipulation Language (DML). Data models: Entity-relationship model, network model, relational and object oriented data models, integrity constraints, data manipulation operations.
+- **Module 2 (Lecture 10 hrs):** Relational query languages: Relational algebra, Tuple and domain relational calculus, SQL3, DDL and DML constructs, Open source and Commercial DBMS - MYSQL, ORACLE, DB2, SQL server. Relational database design: Domain and data dependency, Armstrong’s axioms, Normal forms, Dependency preservation, Lossless design. Query processing and optimization: Evaluation of relational algebra expressions, Query equivalence, Join strategies, Query optimization algorithms.
+- **Module 3 (Lecture 4 hrs):** Storage strategies: Indices, B-trees, hashing.
+- **Module 4 (Lecture 8 hrs):** Transaction processing: Concurrency control, ACID property, Serializability of scheduling, Locking and timestamp based schedulers, Multi-version and optimistic Concurrency Control schemes, Database recovery.
+- **Module 5 (Lecture 6 hrs):** Database Security: Authentication, Authorization and access control, DAC, MAC and RBAC models, Intrusion detection, SQL injection.
+- **Module 6 (Lecture 6 hrs):** Advanced topics: Object oriented and object relational databases, Logical databases, Web databases, Distributed databases, Data warehousing and data mining.
 
 ---
 
-### **5. Software Engineering**
+### 4. Artificial Intelligence
 
-*   **Module 1 (Lectures: 8 hrs):** Introduction: What is Software Engineering and its history, software crisis, Evolution of a Programming System Product, Characteristics of Software, Brooks’ No Silver Bullet, and Software Myths, Software Development Life Cycles: Software Development Process, The Code-and-Fix model, The Waterfall model, The Evolutionary Model, The Incremental Implementation, Prototyping, The Spiral Model, Software Reuse, Critical Comparisons of SDLC models, An Introduction to Non-Traditional Software Development Process: Rational Unified Process, Rapid Application Development, Agile Development Process.
-*   **Module 2 (Lectures: 8 hrs):** Requirements: Importance of Requirement Analysis, User Needs, Software Features and Software Requirements, Classes of User Requirements: Enduring and Volatile, Sub phases of Requirement Analysis, Functional and Nonfunctional requirements, Barriers to Eliciting User requirements, The software requirements document and SRS standards, Requirements Engineering, Case Study of SRS for a Real Time System. Tools for Requirements Gathering: Document Flow Chart, Decision Table, Decision Tree, Introduction to nontraditional Requirements.
-*   **Module 3 (Lectures: 6 hrs):** Software Design: Goals of good software design, Design strategies and methodologies, Data oriented software design, Coupling, Cohesion, Modular structure, Packaging, Structured Analysis: DFD, Data Dictionary, Structured Design: Structure chart, Object oriented design, Top-down and bottom-up approach, UML, UML Diagrams, Design patterns.
-*   **Module 4 (Lectures: 6 hrs):** Software Project Management: Overview of Project Manager Responsibilities & project planning, Software Measurement and Metrics: Line of Code (LOC), Function Point (FP) based measures, Various Size Oriented Measures: Halstead's software science, Project Size estimation Metrics Project Estimation, Techniques, COCOMO, Staffing Level Estimation, Scheduling, Organization & Team Structures Staffing, Risk Management.
-*   **Module 5 (Lectures: 5 hrs):** Software Coding & Testing: Development: Selecting a language, Coding guidelines, Writing code, Code documentation. Testing process, Design of test cases, Functional Testing: Boundary value analysis, Equivalence class testing, Decision table testing, Cause effect graphing, Structural testing, Cyclomatic Complexity Measures: Control flow graphs, Path testing, Data flow and mutation testing, Unit testing, Integration and system testing, Debugging, Alpha & beta testing, testing tools & standards.
-*   **Module 6 (Lectures: 4 hrs):** Software Maintenance: Management of maintenance, Maintenance process, Maintenance models, Regression testing, Reverse engineering, Software reengineering, Configuration management, documentation.
-*   **Module 7 (Lectures: 3 hrs):** Software Reliability & Quality Management: Introduction to reliability and metrics to reliability measure, Overview of S/W Quality management System ISO 9000, SEI CMM.
+- **Module 1 (Lecture 10 hrs):** Introduction: Overview, Turing test, Intelligent agents. Problem Solving: Solving Problems by Searching: Uninformed search - Depth First Search, Breadth First Search, DFID, Heuristic search - Generate and Test, Best First Search, Beam Search, Hill Climbing, A*, Problem reduction search – AND/OR Graphs, AO*, Constraint satisfaction, Means-ends analysis, Stochastic search methods - Simulated Annealing, Particle Swarm Optimization, Game Playing - Minimax algorithm, Alpha-beta pruning.
+- **Module 2 (Lecture 10 hrs):** Knowledge and Reasoning: Building a knowledge base - Propositional logic, first order logic, Inference in first order logic, Resolution – refutation proofs, Theorem Proving in First Order Logic; Planning, partial order planning, Uncertain Knowledge and Reasoning, Probabilities, Bayesian Networks.
+- **Module 3 (Lecture 10 hrs):** Learning: Overview of different forms of learning: unsupervised, supervised, semi-supervised, K-means clustering algorithm, Decision Trees, Neural Networks, Deep Learning.
+- **Module 4 (Lecture 10 hrs):** Advanced topics: Introduction to Computer Vision, Natural Language Processing, Expert Systems, Robotics, Genetic Algorithm.
 
-### User
-now from above syllabus i want to prepare for my semester exam so topic by give note and keywords in full detail throughout 
+---
 
-### Assistant
-The user wants a detailed study guide based on the extracted syllabi. I need to break down each module into "Notes" (explanations) and "Keywords" (key terms/concepts).
+### 5. Software Engineering
 
-**Plan:**
-1.  **Theory of Computation:** Cover Modules 1-5. Focus on Chomsky hierarchy, Automata (DFA/NFA), CFG/PDA, Turing Machines, and Undecidability.
-2.  **Communication Skills:** Cover Modules 1-4. Focus on public speaking, body language, negotiation, leadership, and business writing.
-3.  **Database Management Systems:** Cover Modules 1-6. Focus on ER models, SQL, Normalization (1NF-5NF), ACID properties, B-trees, and Security.
-4.  **Artificial Intelligence:** Cover Modules 1-4. Focus on Search algorithms (A*, Minimax), Knowledge representation (Logic/Propositional), Machine Learning types, and Advanced topics like NLP/CV.
-5.  **Software Engineering:** Cover Modules 1-7. Focus on SDLC models (Waterfall, Agile, Spiral), Requirements engineering, Design patterns, Project management metrics (COCOMO), Testing (Unit, Integration, Black/White box), and Maintenance.
+- **Module 1 (Lectures: 8 hrs):** Introduction: What is Software Engineering and its history, software crisis, Evolution of a Programming System Product, Characteristics of Software, Brooks’ No Silver Bullet, and Software Myths, Software Development Life Cycles: Software Development Process, The Code-and-Fix model, The Waterfall model, The Evolutionary Model, The Incremental Implementation, Prototyping, The Spiral Model, Software Reuse, Critical Comparisons of SDLC models, An Introduction to Non-Traditional Software Development Process: Rational Unified Process, Rapid Application Development, Agile Development Process.
+- **Module 2 (Lectures: 8 hrs):** Requirements: Importance of Requirement Analysis, User Needs, Software Features and Software Requirements, Classes of User Requirements: Enduring and Volatile, Sub phases of Requirement Analysis, Functional and Nonfunctional requirements, Barriers to Eliciting User requirements, The software requirements document and SRS standards, Requirements Engineering, Case Study of SRS for a Real Time System. Tools for Requirements Gathering: Document Flow Chart, Decision Table, Decision Tree, Introduction to nontraditional Requirements.
+- **Module 3 (Lectures: 6 hrs):** Software Design: Goals of good software design, Design strategies and methodologies, Data oriented software design, Coupling, Cohesion, Modular structure, Packaging, Structured Analysis: DFD, Data Dictionary, Structured Design: Structure chart, Object oriented design, Top-down and bottom-up approach, UML, UML Diagrams, Design patterns.
+- **Module 4 (Lectures: 6 hrs):** Software Project Management: Overview of Project Manager Responsibilities & project planning, Software Measurement and Metrics: Line of Code (LOC), Function Point (FP) based measures, Various Size Oriented Measures: Halstead's software science, Project Size estimation Metrics Project Estimation, Techniques, COCOMO, Staffing Level Estimation, Scheduling, Organization & Team Structures Staffing, Risk Management.
+- **Module 5 (Lectures: 5 hrs):** Software Coding & Testing: Development: Selecting a language, Coding guidelines, Writing code, Code documentation. Testing process, Design of test cases, Functional Testing: Boundary value analysis, Equivalence class testing, Decision table testing, Cause effect graphing, Structural testing, Cyclomatic Complexity Measures: Control flow graphs, Path testing, Data flow and mutation testing, Unit testing, Integration and system testing, Debugging, Alpha & beta testing, testing tools & standards.
+- **Module 6 (Lectures: 4 hrs):** Software Maintenance: Management of maintenance, Maintenance process, Maintenance models, Regression testing, Reverse engineering, Software reengineering, Configuration management, documentation.
+- **Module 7 (Lectures: 3 hrs):** Software Reliability & Quality Management: Introduction to reliability and metrics to reliability measure, Overview of S/W Quality management System ISO 9000, SEI CMM.
 
-**Structure for each topic:**
-*   **Topic Title**
-*   **Detailed Notes:** Explanations of concepts.
-*   **Keywords:** List of important terms to remember.
-
-I will go through the syllabus images one by one and generate the content.
-
-*Self-Correction during drafting:* The user asked for "topic by give note and keywords in full detail throughout". This implies a comprehensive breakdown. I should ensure I don't just list headers but actually explain *what* they are (e.g., explaining what a DFA is, not just listing it).
-
-**Drafting Content - Theory of Computation:**
-*   Module 1: Regular languages, Finite Automata. Need to explain the difference between DFA and NFA clearly. Mention Pumping Lemma.
-*   Module 2: Context-Free Languages (CFL) and Pushdown Automata (PDA). Explain CFGs vs Regular grammars. Mention Greibach Normal Form.
-*   Module 3: Context-Sensitive Grammars (CSG). Linear bounded automata.
-*   Module 4: Turing Machines. Universal TM, Decidable vs Recognizable.
-*   Module 5: Undecidability. Rice's Theorem, Halting Problem.
-
-**Drafting Content - Communication Skills:**
-*   Module 1: Public speaking, gestures.
-*   Module 2: Negotiation, emotional intelligence.
-*   Module 3: Time management, stress management.
-*   Module 4: Resume writing, interview skills.
-
-**Drafting Content - DBMS:**
-*   Module 1: ER diagrams, Relational model.
-*   Module 2: SQL, Normalization (1NF to 5NF), Armstrong's axioms.
-*   Module 3: B-trees, Hashing.
-*   Module 4: ACID properties, Concurrency control (Locking).
-*   Module 5: Security (DAC, MAC, RBAC), SQL Injection.
-*   Module 6: Distributed DBs, Data Warehousing.
-
-**Drafting Content - AI:**
-*   Module 1: Search algorithms (BFS, DFS, A*, Minimax).
-*   Module 2: Logic (Propositional, First Order), Bayesian Networks.
-*   Module 3: ML types (Supervised, Unsupervised), Neural Networks.
-*   Module 4: NLP, Computer Vision, Genetic Algorithms.
-
-**Drafting Content - Software Engineering:**
-*   Module 1: SDLC models (Waterfall, Agile, Spiral).
-*   Module 2: Requirements gathering, SRS document.
-*   Module 3: Design patterns, Coupling/Cohesion, UML.
-*   Module 4: Project management, COCOMO model.
-*   Module 5: Testing types (Unit, Integration, Black/White box).
-*   Module 6: Maintenance types (Corrective, Adaptive, etc.).
-*   Module 7: Reliability metrics, ISO 9000.
-
-I will structure the response clearly with headings for each subject and subheadings for each module to make it easy to read. I'll provide "Notes" as paragraphs explaining concepts and "Keywords" as bullet points or bolded terms.
-
-&lt;/think&gt;
+---
 
 
 Here is a detailed study guide based on the syllabus extracted from your images. This covers all five subjects: **Theory of Computation, Communication Skills, Database Management Systems (DBMS), Artificial Intelligence (AI), and Software Engineering.**
 
 ---
 
-### **1. Theory of Computation**
+### 1. Theory of Computation
 
-#### **Module 1: Regular Languages & Finite Automata**
-*   **Notes:**
-    *   **Chomsky Hierarchy:** This is the classification of languages into four types based on their complexity: Type 3 (Regular), Type 2 (Context-Free), Type 1 (Context-Sensitive), and Type 0 (Recursively Enumerable). Regular languages are at the bottom.
-    *   **Finite Automata:** These are abstract machines used to recognize regular languages. There are two types: Deterministic Finite Automata (DFA) where each state has exactly one transition for each input symbol, and Nondeterministic Finite Automata (NFA) where a state can have multiple transitions or epsilon moves.
-    *   **Equivalence:** A key theorem states that every NFA is equivalent to a DFA. You can convert an NFA to a DFA using the subset construction method.
-    *   **Pumping Lemma:** This is a tool used to prove that a language is *not* regular. It states that for any infinite regular language, there exists a "pump" length $p$ such that any string $s$ with length $\ge p$ can be split into $xyz$ where $|xy| \le p$, $|y| &gt; 0$, and $xy^iz$ is in the language for all $i \ge 0$.
-    *   **Minimization:** You can minimize a DFA to get the smallest possible DFA that accepts the same language by merging equivalent states.
+## SUBJECT 1: THEORY OF COMPUTATION
 
-*   **Keywords:** Chomsky Hierarchy, Regular Expressions, DFA (Deterministic Finite Automata), NFA (Nondeterministic Finite Automata), Pumping Lemma, Minimization of Automata, State Diagrams.
+### Module 1: Regular Languages & Finite Automata
 
-#### **Module 2: Context-Free Languages & Pushdown Automata**
-*   **Normal Forms:**
-    *   **Chomsky Normal Form (CNF):** All production rules are either $A \to BC$ or $A \to a$.
-    *   **Greibach Normal Form (GNF):** All production rules start with a terminal symbol followed by non-terminals.
-*   **Parse Trees:** A parse tree is a graphical representation of the derivation of a string from a Context-Free Grammar (CFG). It helps visualize how a sentence is constructed.
-*   **Ambiguity:** A CFG is ambiguous if there exists at least one string that has more than one distinct leftmost or rightmost derivation. Ambiguous grammars can lead to multiple parse trees for the same input.
-*   **Pumping Lemma for CFLs:** Similar to regular languages but applies to context-free languages, proving they are not all regular.
+**Hours:** 10 | **Status:** Core Topic
 
-*   **Keywords:** Context-Free Grammar (CFG), Pushdown Automata (PDA), Parse Tree, Ambiguity in CFG, Greibach Normal Form, Closure Properties of CFLs.
 
-#### **Module 3: Context-Sensitive Languages**
-*   **Notes:**
-    *   **Context-Sensitive Grammars (CSG):** These are more powerful than CFGs. The production rules here are of the form $\alpha A \beta \to \alpha X \beta$, meaning a non-terminal $A$ can be replaced by $X$ only in the context of strings $\alpha$ and $\beta$.
-    *   **Linear Bounded Automata (LBA):** An LBA is a restricted Turing machine where the tape head cannot move beyond the portion of the tape containing the input. LBAs accept exactly the class of Context-Sensitive Languages.
+#### Core Concepts
 
-*   **Keywords:** CSG, Linear Bounded Automata, Equivalence with CSG.
+**1. Chomsky Hierarchy**
+- Type 3: Regular Languages → Finite Automata
+- Type 2: Context-Free Languages → Pushdown Automata
+- Type 1: Context-Sensitive Languages → Linear Bounded Automata
+- Type 0: Recursively Enumerable → Turing Machines
 
-#### **Module 4: Turing Machines**
-*   **Notes:**
-    *   **Basic Model:** A Turing Machine (TM) consists of a tape head, a finite control, and an infinite tape divided into cells. It is the most powerful computational model.
-    *   **Turing-Recognizable vs. Decidable:**
-        *   **Decidable (Recursive):** The machine always halts with "accept" or "reject".
-        *   **Recognizable (Recursively Enumerable): The machine may loop forever on a "no" input but will halt and accept if the string is in the language.
-    *   **Unrestricted Grammars:** These are equivalent to Turing Machines. Any grammar that isn't context-sensitive can be recognized by a TM.
+**2. Finite Automata**
+- **DFA (Deterministic):** One transition per input symbol per state
+- **NFA (Nondeterministic):** Multiple transitions and epsilon moves allowed
+- **Equivalence:** Every NFA equivalent to some DFA (subset construction)
 
-*   **Keywords:** Universal Turing Machine, Halting Problem, Recursive vs Recursively Enumerable, Unrestricted Grammar.
+**3. Pumping Lemma (Regular)**
+- Proves language is NOT regular
+- For pumping length p: Any string w (|w| ≥ p) can be written xyz with |xy| ≤ p, |y| > 0
+- For all i ≥ 0: xy^iz is in language L
 
-#### **Module 5: Undecidability**
-*   **Notes:**
-    *   **Church-Turing Thesis:** All reasonable models of computation are equivalent in power to a Turing Machine.
-    *   **Rice’s Theorem:** Any non-trivial property of the language recognized by a TM is undecidable. (e.g., "Does this machine accept any string?" or "Is this language empty?").
-    *   **Reduction:** A technique used to prove that problem B is harder than problem A by showing that if you can solve B, you can solve A.
+**4. Minimization**
+- Merge equivalent states to find minimal DFA
+- Techniques: Partition refinement, Hopcroft's algorithm
 
-*   **Keywords:** Undecidability, Rice’s Theorem, Reduction, Diagonalization Language, Universal Language.
+
+#### Keywords
+Chomsky Hierarchy | Regular Expressions | DFA | NFA | Finite Automata | Pumping Lemma | Minimization | Equivalence | Subset Construction | State Diagrams
 
 ---
 
-### **2. Communication Skills**
+### Module 2: Context-Free Languages & Pushdown Automata
 
-#### **Module 1: Communication & Presentation**
-*   **Notes:**
-    *   **Public Speaking:** Involves structuring a speech (Introduction, Body, Conclusion), using vocal variety (pitch, pace, volume), and maintaining eye contact.
-    *   **Body Language:** Non-verbal cues like posture, hand gestures, and facial expressions that reinforce the spoken message. "Power posing" can increase confidence.
-    *   **Group Discussion (GD):** A process where a group discusses a topic without a fixed agenda to see who leads, who listens, and how ideas are synthesized.
+**Hours:** 10 | **Status:** Core Topic
 
-*   **Keywords:** Verbal Communication, Non-Verbal Cues, Active Listening, Presentation Skills, Eye Contact.
 
-#### **Module 2: Interpersonal & Negotiation**
-*   **Notes:**
-    *   **Negotiation Skills:** The art of reaching an agreement when each party has different interests. Techniques include "Win-Win" negotiation and separating people from the problem.
-    *   **Emotional Intelligence (EQ):** The ability to understand and manage your own emotions and those of others. It involves self-awareness, self-regulation, motivation, empathy, and social skills.
+#### Core Concepts
 
-*   **Keywords:** Negotiation Strategies, Empathy, Self-Regulation, Group Dynamics, Leadership Styles.
+**1. Context-Free Grammars**
+- Production rules: A → α (non-terminal to any string)
+- Generate context-free languages (CFLs)
+- More expressive than regular grammars
 
-#### **Module 3: Employability & Corporate Skills**
-*   **Notes:**
-    *   **Time Management:** Techniques like the Eisenhower Matrix (Urgent vs Important) and Pomodoro technique to boost productivity.
-    *   **Stress Management:** Identifying stressors and using relaxation techniques (deep breathing, meditation).
-    *   **Team Work:** Understanding roles within a team (Belbin’s Team Roles) and resolving conflict constructively.
+**2. Normal Forms**
+- **CNF:** A → BC or A → a (simplified form)
+- **GNF:** A → aα (terminal-first productions)
 
-*   **Keywords:** Time Management, Stress Management, Team Dynamics, Positive Attitude, Self-Motivation.
+**3. Pushdown Automata (PDA)**
+- Finite state control + stack
+- Accepts CFLs
+- Nondeterministic and deterministic variants
 
-#### **Module 4: Business Writing & Interview**
-*   **Notes:**
-    *   **Resume Writing:** Must be concise, achievement-oriented (using action verbs), and tailored to the job description. Avoid generic lists of duties.
-    *   **Interview Skills:** Researching the company, preparing for behavioral questions (STAR method - Situation, Task, Action, Result), and asking insightful questions at the end.
+**4. Parse Trees**
+- Derivation visualization
+- Shows grammar structure
 
-*   **Keywords:** Resume/CV, Cover Letter, STAR Method, Professional Ethics, Business Etiquette.
+**5. Ambiguity**
+- Multiple derivations for one string
+- Critical for compiler design
 
----
+**6. Closure Properties**
+- Closed: Union, Concatenation, Kleene Star
+- Not closed: Intersection, Complement
 
-### **3. Database Management Systems (DBMS)**
 
-#### **Module 1: Architecture & Data Models**
-*   **Notes:**
-    *   **Data Abstraction:** Hiding complex details from users. There are three levels: Internal (physical storage), Conceptual (logical structure), and External (user view).
-    *   **Data Independence:** Logical independence means changing the conceptual schema doesn't affect external views. Physical independence means changing physical storage doesn't affect the logical schema.
-    *   **ER Model:** Uses Entities, Attributes, and Relationships to design a database before implementation.
-
-*   **Keywords:** Data Abstraction, Three-Schema Architecture, Entity-Relationship (ER) Diagram, Relational Model, Normalization.
-
-#### **Module 2: SQL & Normalization**
-*   **Notes:**
-    *   **SQL3:** The standard for SQL. Includes DDL (CREATE, ALTER), DML (SELECT, INSERT, UPDATE, DELETE).
-    *   **Normalization:** A process to minimize redundancy and dependency.
-        *   **1NF:** Atomic values (no repeating groups).
-        *   **2NF:** No partial dependency (all non-key attributes depend on the whole primary key).
-        *   **3NF:** No transitive dependency (non-key attributes don't depend on other non-key attributes).
-    *   **Armstrong’s Axioms:** Reflexivity, Augmentation, and Transitivity are used to derive functional dependencies.
-
-*   **Keywords:** SQL, DDL/DML, Functional Dependencies, 1NF/2NF/3NF/BCNF, Lossless Join, Dependency Preservation.
-
-#### **Module 3: Storage & Indexing**
-*   **Notes:**
-    *   **B-Trees:** A self-balancing tree data structure that maintains sorted data and allows searches, sequential access, insertions, and deletions in logarithmic time. Used heavily in databases for indexing.
-    *   **Hashing:** Using a hash function to map keys directly to memory locations for O(1) access.
-
-*   **Keywords:** B-Tree, Hashing, Indexing, Clustered vs Non-clustered Indexes.
-
-#### **Module 4: Transaction Processing**
-*   **Notes:**
-    *   **ACID Properties:**
-        *   **Atomicity:** All or nothing (transaction either fully happens or doesn't).
-        *   **Consistency:** Database moves from one valid state to another.
-        *   **Isolation:** Concurrent transactions do not interfere with each other.
-        *   **Durability:** Once committed, data is saved permanently even if the system crashes.
-    *   **Concurrency Control:** Techniques like Locking (2PL - Two-Phase Locking) and Timestamp Ordering to handle simultaneous access.
-
-*   **Keywords:** ACID Properties, Serializability, 2PL (Two-Phase Locking), Deadlock, Database Recovery (Undo/Redo logs).
-
-#### **Module 5: Security**
-*   **Notes:**
-    *   **Access Control Models:**
-        *   **DAC (Discretionary):** Owner decides who can access data.
-        *   **MAC (Mandatory): Based on security levels (e.g., Top Secret, Secret).
-        *   **RBAC (Role-Based):** Access is based on roles within an organization.
-    *   **SQL Injection:** A code injection technique where malicious SQL is inserted into input fields to manipulate the database.
-
-*   **Keywords:** Authentication vs Authorization, DAC/MAC/RBAC, SQL Injection, Intrusion Detection System (IDS).
-
-#### **Module 6: Advanced Topics**
-*   **Notes:**
-    *   **Data Warehousing:** A central repository of integrated data from multiple sources for analysis and reporting. Uses OLAP (Online Analytical Processing) rather than OLTP (Online Transaction Processing).
-    *   **Distributed Databases:** Data is stored across multiple physical locations but appears as a single database to the user.
-
-*   **Keywords:** Data Warehouse, ETL (Extract-Transform-Load), Distributed Database, Object-Oriented DBMS.
+#### Keywords
+CFG | Pushdown Automata | PDA | Parse Tree | Ambiguity | CNF | GNF | Closure Properties | Derivation
 
 ---
 
-### **4. Artificial Intelligence**
+### Module 3: Context-Sensitive Languages
 
-#### **Module 1: Search Algorithms**
-*   **Notes:**
-    *   **Uninformed Search:** No extra knowledge about the problem other than the definition of the state space. Includes BFS (Breadth-First), DFS (Depth-First), and IDDFS (Iterative Deepening).
-    *   **Heuristic Search:** Uses a heuristic function $h(n)$ to estimate cost to goal.
-        *   **A* Algorithm:** Combines actual cost $g(n)$ and estimated cost $h(n)$. It is optimal if the heuristic is admissible ($h(n) \le$ true cost).
-    *   **Minimax & Alpha-Beta Pruning:** Used for game playing (zero-sum games like Chess/Chess). Minimax assumes optimal play from both sides. Alpha-beta pruning cuts off branches that cannot possibly influence the final decision, saving computation time.
+**Hours:** 2 | **Status:** Optional/Advanced
 
-*   **Keywords:** BFS/DFS, Heuristic Function, A* Algorithm, Minimax, Alpha-Beta Pruning, Constraint Satisfaction Problem (CSP), Hill Climbing, Simulated Annealing.
 
-#### **Module 2: Knowledge & Reasoning**
-*   **Notes:**
-    *   **Propositional Logic:** Uses simple statements that are either True or False. Connectives include AND, OR, NOT, IMPLIES.
-    *   **First-Order Logic (FOL):** More powerful; uses quantifiers ($\forall$ for all, $\exists$ for some) and predicates about objects.
-    *   **Resolution:** A proof procedure used to prove a statement is true by assuming it's false and deriving a contradiction.
+#### Core Concepts
 
-*   **Keywords:** Propositional Logic, First-Order Logic (FOL), Resolution, Refutation Proof, Bayesian Networks, Uncertain Knowledge.
+**1. Context-Sensitive Grammars (CSG)**
+- Rules: α A β → α X β
+- More expressive than CFLs
+- Less expressive than unrestricted grammars
 
-#### **Module 3: Machine Learning**
-*   **Notes:**
-    *   **Supervised Learning:** Training on labeled data (e.g., classification, regression). Algorithms include Decision Trees and Neural Networks.
-    *   **Unsupervised Learning:** Finding patterns in unlabeled data (e.g., K-Means Clustering).
-    *   **Deep Learning:** Uses deep neural networks with many layers to model complex patterns.
+**2. Linear Bounded Automata (LBA)**
+- Restricted Turing Machine
+- Tape bounded by O(n) where n = input length
+- Accepts exactly CSLs
 
-*   **Keywords:** Supervised/Unsupervised/Semi-supervised Learning, Decision Trees, Neural Networks, Deep Learning, Overfitting/Underfitting.
+**3. Hierarchy Relationships**
+- CSLs ⊂ Recursively Enumerable
+- CSLs ⊅ CFLs (proper superset)
 
-#### **Module 4: Advanced Topics**
-*   **Notes:**
-    *   **NLP (Natural Language Processing):** Teaching computers to understand human language. Includes tokenization, parsing, and sentiment analysis.
-    *   **Computer Vision:** Interpreting visual data from cameras/images using CNNs (Convolutional Neural Networks).
-    *   **Genetic Algorithms:** Optimization techniques inspired by natural selection (Selection, Crossover, Mutation).
 
-*   **Keywords:** NLP, Computer Vision, Expert Systems, Genetic Algorithm, Evolutionary Computation.
+#### Keywords
+Context-Sensitive Grammar | CSG | Linear Bounded Automata | LBA | Bounded Tape | Hierarchy
 
 ---
 
-### **5. Software Engineering**
+### Module 4: Turing Machines
 
-#### **Module 1: SDLC Models**
-*   **Notes:**
-    *   **Waterfall Model:** Linear and sequential. Each phase must be completed before the next begins. Good for stable requirements but rigid.
-    *   **Agile Development:** Iterative, incremental approach emphasizing customer collaboration and responding to change. Scrum is a popular Agile framework.
-    *   **Spiral Model:** Combines iterative development with systematic aspects of the waterfall model. Each loop involves risk analysis.
+**Hours:** 10 | **Status:** Core Topic
 
-*   **Keywords:** SDLC (Software Development Life Cycle), Waterfall, Agile, Scrum, Spiral Model, Prototyping, Incremental Development.
 
-#### **Module 2: Requirements Engineering**
-*   **Notes:**
-    *   **Functional vs Non-Functional:** Functional describes what the system does (features). Non-functional describes how well it does it (performance, security, usability).
-    *   **SRS (Software Requirements Specification): The document that details all requirements. It must be unambiguous and complete.
+#### Core Concepts
 
-*   **Keywords:** SRS Document, Functional/Non-Functional Requirements, Stakeholder Analysis, Use Cases, Feasibility Study.
+**1. Turing Machine (TM)**
+- Most powerful computational model
+- 7-tuple: (Q, Σ, Γ, δ, q0, qacc, qrej)
+- Infinite tape, read/write head, finite state control
 
-#### **Module 3: Software Design**
-*   **Notes:**
-    *   **Coupling & Cohesion:** Good design has Low Coupling (modules are independent) and High Cohesion (each module does one thing well).
-    *   **UML (Unified Modeling Language):** Standardized modeling language. Includes Class Diagrams, Use Case Diagrams, Sequence Diagrams.
-    *   **Design Patterns:** Reusable solutions to common problems (e.g., Singleton, Factory, Observer patterns).
+**2. Decidable vs Recognizable**
+- **Decidable (Recursive):** TM halts with accept/reject
+- **Recognizable (Recursively Enumerable):** TM accepts if in language; may loop on non-acceptance
+- All decidable are recognizable; not vice versa
 
-*   **Keywords:** Coupling, Cohesion, UML, Design Patterns, Object-Oriented Design, MVC Architecture.
+**3. Closure Properties**
+- Decidable: Closed under union, complement, intersection
+- Recognizable: Closed under union, concatenation, Kleene star
 
-#### **Module 4: Project Management**
-*   **Notes:**
-    *   **COCOMO Model:** Constructive Cost Model used for estimating software size and effort based on lines of code (LOC).
-    *   **Metrics:** LOC (Lines of Code), Function Points (FP) to measure size. Cyclomatic Complexity measures the number of independent paths in a program.
+**4. Variants (Equivalent Power)**
+- Multitape TMs
+- 2-way infinite tape
+- Nondeterministic TMs (NTMs)
+- All equivalent to single-tape DTM
 
-*   **Keywords:** COCOMO, LOC (Line of Code), Function Point Analysis, Risk Management, Gantt Charts, Critical Path Method (CPM).
+**5. Enumerators**
+- TM that prints language strings
+- L is RE iff some enumerator prints L
 
-#### **Module 5: Testing**
-*   **Notes:**
-    *   **Black Box Testing:** Testing without knowing internal code structure. Includes Equivalence Class Partitioning and Boundary Value Analysis.
-    *   **White Box Testing:** Testing internal structures/paths. Includes Statement Coverage, Branch Coverage, and Path Testing (Control Flow Graphs).
-    *   **Unit vs Integration vs System Testing:** Unit tests individual components; Integration tests how they work together; System tests the whole product against requirements.
 
-*   **Keywords:** Black Box/White Box Testing, Equivalence Class Partitioning, Boundary Value Analysis, Cyclomatic Complexity, Regression Testing, Alpha/Beta Testing.
+#### Keywords
+Turing Machine | Decidable | Recognizable | Recursive | Recursively Enumerable | Multitape | Nondeterministic | Enumerator | Halting
 
-#### **Module 6: Maintenance**
-*   **Notes:**
-    *   **Types of Maintenance:**
-        *   **Corrective:** Fixing bugs found after release.
-        *   **Adaptive:** Modifying the software to work in a new environment (e.g., new OS).
-        *   **Perfective:** Improving performance or maintainability.
-        *   **Preventive:** Preventing future problems.
 
-*   **Keywords:** Corrective/Adaptive/Prefective Maintenance, Reverse Engineering, Re-engineering, Configuration Management, Version Control.
+### Module 5: Undecidability**
+- **Notes:**
+    - **Church-Turing Thesis:** All reasonable models of computation are equivalent in power to a Turing Machine.
+    - **Rice’s Theorem:** Any non-trivial property of the language recognized by a TM is undecidable. (e.g., "Does this machine accept any string?" or "Is this language empty?").
+    - **Reduction:** A technique used to prove that problem B is harder than problem A by showing that if you can solve B, you can solve A.
 
-#### **Module 7: Reliability & Quality**
-*   **Notes:**
-    *   **ISO 9000:** International standard for quality management systems. Focuses on consistent processes and customer satisfaction.
-    *   **SEI CMM (Capability Maturity Model):** A framework describing the evolution of an organization's software development process from ad-hoc to optimized.
+- **Keywords:** Undecidability, Rice’s Theorem, Reduction, Diagonalization Language, Universal Language.
 
-*   **Keywords:** ISO 9000, SEI CMM, Reliability Metrics (MTBF - Mean Time Between Failures), Quality Assurance vs Quality Control.
+---
 
-### User
-now for 1 subject give full detailed study material along with questions and solutions following the syslabus
+### 2. Communication Skills
+
+
+### Module 1: Communication & Presentation**
+- **Notes:**
+    - **Public Speaking:** Involves structuring a speech (Introduction, Body, Conclusion), using vocal variety (pitch, pace, volume), and maintaining eye contact.
+    - **Body Language:** Non-verbal cues like posture, hand gestures, and facial expressions that reinforce the spoken message. "Power posing" can increase confidence.
+    - **Group Discussion (GD):** A process where a group discusses a topic without a fixed agenda to see who leads, who listens, and how ideas are synthesized.
+
+- **Keywords:** Verbal Communication, Non-Verbal Cues, Active Listening, Presentation Skills, Eye Contact.
+
+
+### Module 2: Interpersonal & Negotiation**
+- **Notes:**
+    - **Negotiation Skills:** The art of reaching an agreement when each party has different interests. Techniques include "Win-Win" negotiation and separating people from the problem.
+    - **Emotional Intelligence (EQ):** The ability to understand and manage your own emotions and those of others. It involves self-awareness, self-regulation, motivation, empathy, and social skills.
+
+- **Keywords:** Negotiation Strategies, Empathy, Self-Regulation, Group Dynamics, Leadership Styles.
+
+
+### Module 3: Employability & Corporate Skills**
+- **Notes:**
+    - **Time Management:** Techniques like the Eisenhower Matrix (Urgent vs Important) and Pomodoro technique to boost productivity.
+    - **Stress Management:** Identifying stressors and using relaxation techniques (deep breathing, meditation).
+    - **Team Work:** Understanding roles within a team (Belbin’s Team Roles) and resolving conflict constructively.
+
+- **Keywords:** Time Management, Stress Management, Team Dynamics, Positive Attitude, Self-Motivation.
+
+
+### Module 4: Business Writing & Interview**
+- **Notes:**
+    - **Resume Writing:** Must be concise, achievement-oriented (using action verbs), and tailored to the job description. Avoid generic lists of duties.
+    - **Interview Skills:** Researching the company, preparing for behavioral questions (STAR method - Situation, Task, Action, Result), and asking insightful questions at the end.
+
+- **Keywords:** Resume/CV, Cover Letter, STAR Method, Professional Ethics, Business Etiquette.
+
+---
+
+### 3. Database Management Systems (DBMS)
+
+
+### Module 1: Architecture & Data Models**
+- **Notes:**
+    - **Data Abstraction:** Hiding complex details from users. There are three levels: Internal (physical storage), Conceptual (logical structure), and External (user view).
+    - **Data Independence:** Logical independence means changing the conceptual schema doesn't affect external views. Physical independence means changing physical storage doesn't affect the logical schema.
+    - **ER Model:** Uses Entities, Attributes, and Relationships to design a database before implementation.
+
+- **Keywords:** Data Abstraction, Three-Schema Architecture, Entity-Relationship (ER) Diagram, Relational Model, Normalization.
+
+
+### Module 2: SQL & Normalization**
+- **Notes:**
+    - **SQL3:** The standard for SQL. Includes DDL (CREATE, ALTER), DML (SELECT, INSERT, UPDATE, DELETE).
+    - **Normalization:** A process to minimize redundancy and dependency.
+        - **1NF:** Atomic values (no repeating groups).
+        - **2NF:** No partial dependency (all non-key attributes depend on the whole primary key).
+        - **3NF:** No transitive dependency (non-key attributes don't depend on other non-key attributes).
+    - **Armstrong’s Axioms:** Reflexivity, Augmentation, and Transitivity are used to derive functional dependencies.
+
+- **Keywords:** SQL, DDL/DML, Functional Dependencies, 1NF/2NF/3NF/BCNF, Lossless Join, Dependency Preservation.
+
+
+### Module 3: Storage & Indexing**
+- **Notes:**
+    - **B-Trees:** A self-balancing tree data structure that maintains sorted data and allows searches, sequential access, insertions, and deletions in logarithmic time. Used heavily in databases for indexing.
+    - **Hashing:** Using a hash function to map keys directly to memory locations for O(1) access.
+
+- **Keywords:** B-Tree, Hashing, Indexing, Clustered vs Non-clustered Indexes.
+
+
+### Module 4: Transaction Processing**
+- **Notes:**
+    - **ACID Properties:**
+        - **Atomicity:** All or nothing (transaction either fully happens or doesn't).
+        - **Consistency:** Database moves from one valid state to another.
+        - **Isolation:** Concurrent transactions do not interfere with each other.
+        - **Durability:** Once committed, data is saved permanently even if the system crashes.
+    - **Concurrency Control:** Techniques like Locking (2PL - Two-Phase Locking) and Timestamp Ordering to handle simultaneous access.
+
+- **Keywords:** ACID Properties, Serializability, 2PL (Two-Phase Locking), Deadlock, Database Recovery (Undo/Redo logs).
+
+
+### Module 5: Security**
+- **Notes:**
+    - **Access Control Models:**
+        - **DAC (Discretionary):** Owner decides who can access data.
+        - **MAC (Mandatory): Based on security levels (e.g., Top Secret, Secret).
+        - **RBAC (Role-Based):** Access is based on roles within an organization.
+    - **SQL Injection:** A code injection technique where malicious SQL is inserted into input fields to manipulate the database.
+
+- **Keywords:** Authentication vs Authorization, DAC/MAC/RBAC, SQL Injection, Intrusion Detection System (IDS).
+
+
+### Module 6: Advanced Topics**
+- **Notes:**
+    - **Data Warehousing:** A central repository of integrated data from multiple sources for analysis and reporting. Uses OLAP (Online Analytical Processing) rather than OLTP (Online Transaction Processing).
+    - **Distributed Databases:** Data is stored across multiple physical locations but appears as a single database to the user.
+
+- **Keywords:** Data Warehouse, ETL (Extract-Transform-Load), Distributed Database, Object-Oriented DBMS.
+
+---
+
+### 4. Artificial Intelligence
+
+
+### Module 1: Search Algorithms**
+- **Notes:**
+    - **Uninformed Search:** No extra knowledge about the problem other than the definition of the state space. Includes BFS (Breadth-First), DFS (Depth-First), and IDDFS (Iterative Deepening).
+    - **Heuristic Search:** Uses a heuristic function $h(n)$ to estimate cost to goal.
+        - **A* Algorithm:** Combines actual cost $g(n)$ and estimated cost $h(n)$. It is optimal if the heuristic is admissible ($h(n) \le$ true cost).
+    - **Minimax & Alpha-Beta Pruning:** Used for game playing (zero-sum games like Chess/Chess). Minimax assumes optimal play from both sides. Alpha-beta pruning cuts off branches that cannot possibly influence the final decision, saving computation time.
+
+- **Keywords:** BFS/DFS, Heuristic Function, A* Algorithm, Minimax, Alpha-Beta Pruning, Constraint Satisfaction Problem (CSP), Hill Climbing, Simulated Annealing.
+
+
+### Module 2: Knowledge & Reasoning**
+- **Notes:**
+    - **Propositional Logic:** Uses simple statements that are either True or False. Connectives include AND, OR, NOT, IMPLIES.
+    - **First-Order Logic (FOL):** More powerful; uses quantifiers ($\forall$ for all, $\exists$ for some) and predicates about objects.
+    - **Resolution:** A proof procedure used to prove a statement is true by assuming it's false and deriving a contradiction.
+
+- **Keywords:** Propositional Logic, First-Order Logic (FOL), Resolution, Refutation Proof, Bayesian Networks, Uncertain Knowledge.
+
+
+### Module 3: Machine Learning**
+- **Notes:**
+    - **Supervised Learning:** Training on labeled data (e.g., classification, regression). Algorithms include Decision Trees and Neural Networks.
+    - **Unsupervised Learning:** Finding patterns in unlabeled data (e.g., K-Means Clustering).
+    - **Deep Learning:** Uses deep neural networks with many layers to model complex patterns.
+
+- **Keywords:** Supervised/Unsupervised/Semi-supervised Learning, Decision Trees, Neural Networks, Deep Learning, Overfitting/Underfitting.
+
+
+### Module 4: Advanced Topics**
+- **Notes:**
+    - **NLP (Natural Language Processing):** Teaching computers to understand human language. Includes tokenization, parsing, and sentiment analysis.
+    - **Computer Vision:** Interpreting visual data from cameras/images using CNNs (Convolutional Neural Networks).
+    - **Genetic Algorithms:** Optimization techniques inspired by natural selection (Selection, Crossover, Mutation).
+
+- **Keywords:** NLP, Computer Vision, Expert Systems, Genetic Algorithm, Evolutionary Computation.
+
+---
+
+### 5. Software Engineering
+
+
+### Module 1: SDLC Models**
+- **Notes:**
+    - **Waterfall Model:** Linear and sequential. Each phase must be completed before the next begins. Good for stable requirements but rigid.
+    - **Agile Development:** Iterative, incremental approach emphasizing customer collaboration and responding to change. Scrum is a popular Agile framework.
+    - **Spiral Model:** Combines iterative development with systematic aspects of the waterfall model. Each loop involves risk analysis.
+
+- **Keywords:** SDLC (Software Development Life Cycle), Waterfall, Agile, Scrum, Spiral Model, Prototyping, Incremental Development.
+
+
+### Module 2: Requirements Engineering**
+- **Notes:**
+    - **Functional vs Non-Functional:** Functional describes what the system does (features). Non-functional describes how well it does it (performance, security, usability).
+    - **SRS (Software Requirements Specification): The document that details all requirements. It must be unambiguous and complete.
+
+- **Keywords:** SRS Document, Functional/Non-Functional Requirements, Stakeholder Analysis, Use Cases, Feasibility Study.
+
+
+### Module 3: Software Design**
+- **Notes:**
+    - **Coupling & Cohesion:** Good design has Low Coupling (modules are independent) and High Cohesion (each module does one thing well).
+    - **UML (Unified Modeling Language):** Standardized modeling language. Includes Class Diagrams, Use Case Diagrams, Sequence Diagrams.
+    - **Design Patterns:** Reusable solutions to common problems (e.g., Singleton, Factory, Observer patterns).
+
+- **Keywords:** Coupling, Cohesion, UML, Design Patterns, Object-Oriented Design, MVC Architecture.
+
+
+### Module 4: Project Management**
+- **Notes:**
+    - **COCOMO Model:** Constructive Cost Model used for estimating software size and effort based on lines of code (LOC).
+    - **Metrics:** LOC (Lines of Code), Function Points (FP) to measure size. Cyclomatic Complexity measures the number of independent paths in a program.
+
+- **Keywords:** COCOMO, LOC (Line of Code), Function Point Analysis, Risk Management, Gantt Charts, Critical Path Method (CPM).
+
+
+### Module 5: Testing**
+- **Notes:**
+    - **Black Box Testing:** Testing without knowing internal code structure. Includes Equivalence Class Partitioning and Boundary Value Analysis.
+    - **White Box Testing:** Testing internal structures/paths. Includes Statement Coverage, Branch Coverage, and Path Testing (Control Flow Graphs).
+    - **Unit vs Integration vs System Testing:** Unit tests individual components; Integration tests how they work together; System tests the whole product against requirements.
+
+- **Keywords:** Black Box/White Box Testing, Equivalence Class Partitioning, Boundary Value Analysis, Cyclomatic Complexity, Regression Testing, Alpha/Beta Testing.
+
+
+### Module 6: Maintenance**
+- **Notes:**
+    - **Types of Maintenance:**
+        - **Corrective:** Fixing bugs found after release.
+        - **Adaptive:** Modifying the software to work in a new environment (e.g., new OS).
+        - **Perfective:** Improving performance or maintainability.
+        - **Preventive:** Preventing future problems.
+
+- **Keywords:** Corrective/Adaptive/Prefective Maintenance, Reverse Engineering, Re-engineering, Configuration Management, Version Control.
+
+
+### Module 7: Reliability & Quality**
+- **Notes:**
+    - **ISO 9000:** International standard for quality management systems. Focuses on consistent processes and customer satisfaction.
+    - **SEI CMM (Capability Maturity Model):** A framework describing the evolution of an organization's software development process from ad-hoc to optimized.
+
+- **Keywords:** ISO 9000, SEI CMM, Reliability Metrics (MTBF - Mean Time Between Failures), Quality Assurance vs Quality Control.
 
 ### Assistant
 Here's a thinking process:
@@ -449,7 +496,7 @@ Here's a thinking process:
 
 10. **Final Output Generation:** (Proceeds to generate the response based on this structure)✅
 
-&lt;/think&gt;
+</think>
 
 
 I will provide a comprehensive, exam-focused study guide for **Theory of Computation** (Modules 1–5). Each module includes detailed conceptual notes, step-by-step examples, and solved questions aligned with your syllabus.
@@ -485,7 +532,7 @@ I will provide a comprehensive, exam-focused study guide for **Theory of Computa
 **5. Pumping Lemma for Regular Languages**
 - **Statement:** If $L$ is infinite and regular, there exists a pumping length $p \ge 1$ such that $\forall w \in L$ with $|w| \ge p$, $w = xyz$ where:
   - $|xy| \le p$
-  - $|y| &gt; 0$
+  - $|y| > 0$
   - $\forall i \ge 0, xy^iz \in L$
 - **Usage:** Prove a language is NOT regular by showing it fails the lemma.
 
@@ -509,7 +556,7 @@ I will provide a comprehensive, exam-focused study guide for **Theory of Computa
 *Solution:*
 - Assume $L$ is regular. Let $p$ be the pumping length.
 - Choose $w = 0^p 1^p$. Clearly $|w| \ge p$ and $w \in L$.
-- By lemma, $w = xyz$ with $|xy| \le p$, $|y| &gt; 0$. Since first $p$ symbols are `0`, $x=0^a$, $y=0^b$ ($b&gt;0$), $z=1^p$.
+- By lemma, $w = xyz$ with $|xy| \le p$, $|y| > 0$. Since first $p$ symbols are `0`, $x=0^a$, $y=0^b$ ($b>0$), $z=1^p$.
 - Pump down: $i=0 \Rightarrow xy^0z = 0^{p-b}1^p$. Number of 0s ≠ number of 1s → not in L. Contradiction. Hence, L is not regular.
 
 ---
@@ -528,7 +575,7 @@ I will provide a comprehensive, exam-focused study guide for **Theory of Computa
 
 **3. Parse Trees & Ambiguity**
 - A parse tree shows derivation structure. Leftmost/rightmost derivations correspond to different evaluation orders.
-- **Ambiguous Grammar:** If a string has &gt;1 distinct leftmost (or rightmost) derivation, the grammar is ambiguous. Example: $S \to S+S \mid a$ generates `a+a` in two ways.
+- **Ambiguous Grammar:** If a string has >1 distinct leftmost (or rightmost) derivation, the grammar is ambiguous. Example: $S \to S+S \mid a$ generates `a+a` in two ways.
 
 **4. Pumping Lemma for CFLs**
 - Similar to regular case but applies to context-free languages. Used to prove non-CFL status.
@@ -555,7 +602,7 @@ $S \to aSb \mid \epsilon$, $A \to bA \mid c$.
 **Q2. Prove that $L = \{a^n b^n c^n \mid n \ge 1\}$ is not context-free.**
 *Solution:*
 - Assume CFL. Let pumping length be $p$. Choose $w = a^p b^p c^p$.
-- Split $w=uvwxy$ with $|vwx| \le p$, $|vx|&gt;0$.
+- Split $w=uvwxy$ with $|vwx| \le p$, $|vx|>0$.
 - Since $|vwx| \le p$, it can span at most two types of symbols.
 - Pumping ($i=2$) increases count in one or two symbol groups but not all three → breaks equal count condition. Contradiction. Hence, not CFL.
 
@@ -565,7 +612,7 @@ $S \to aSb \mid \epsilon$, $A \to bA \mid c$.
 
 ### 📖 Detailed Notes
 **1. Context-Sensitive Grammars (CSG)**
-- Rules are of form $\alpha A \beta \to \alpha X \beta$ where $A,X$ are non-terminals, $\alpha,\beta$ are strings of terminals/non-terminals, and $|X| &gt; |A|$ (length-increasing).
+- Rules are of form $\alpha A \beta \to \alpha X \beta$ where $A,X$ are non-terminals, $\alpha,\beta$ are strings of terminals/non-terminals, and $|X| > |A|$ (length-increasing).
 - Generates exactly the class of CSLs.
 
 **2. Linear Bounded Automata (LBA)**
@@ -681,32 +728,6 @@ $S \to aSb \mid \epsilon$, $A \to bA \mid c$.
 4. **Draw state diagrams** for automata problems.
 5. **Time management:** Each module is 10 hrs → expect 2-3 long questions + 4-5 short questions per paper.
 
-Would you like this same detailed format for another subject (e.g., DBMS, AI, or Software Engineering)?
-
-### User
-yes now for next 1 subject (dbms)
-
-### Assistant
-Here's a thinking process:
-
-1.  **Analyze User Request:**
-   - The user wants a full detailed study guide for the next subject from the syllabus.
-   - Based on the previous conversation, the next subject is **Database Management Systems (DBMS)**.
-   - I need to follow the same structure as before: Detailed notes per module, important questions with solutions, aligned with the provided syllabus.
-
-2.  **Review DBMS Syllabus (from images):**
-   - *Module 1 (6 hrs):* Database system architecture: Data Abstraction, Data Independence, DDL, DML. Data models: ER model, network model, relational & object-oriented data models, integrity constraints, data manipulation operations.
-   - *Module 2 (10 hrs):* Relational query languages: Relational algebra, tuple/domain relational calculus, SQL3, DDL/DML constructs. Open source/commercial DBMS (MySQL, Oracle, DB2, SQL Server). Relational database design: Domain/data dependency, Armstrong's axioms, normal forms, dependency preservation, lossless design. Query processing & optimization: Evaluation of relational algebra expressions, query equivalence, join strategies, query optimization algorithms.
-   - *Module 3 (4 hrs):* Storage strategies: Indices, B-trees, hashing.
-   - *Module 4 (8 hrs):* Transaction processing: Concurrency control, ACID property, serializability of scheduling, locking & timestamp-based schedulers, multi-version & optimistic concurrency control schemes, database recovery.
-   - *Module 5 (6 hrs) & Module 6 (6 hrs):* Database Security: Authentication, authorization, access control, DAC/MAC/RBAC models, intrusion detection, SQL injection. Advanced topics: Object-oriented & object-relational databases, logical databases, web databases, distributed databases, data warehousing & data mining.
-
-3.  **Structure the Output:**
-   - Follow the exact format used for Theory of Computation.
-   - Each module will have: 📖 Detailed Notes, 📝 Important Questions & Solutions.
-   - Ensure all syllabus points are covered.
-   - Provide clear, exam-focused explanations with step-by-step solutions.
-
 4.  **Draft Content - Module by Module:**
 
    *Module 1: Architecture & Data Models*
@@ -757,7 +778,7 @@ Here's a thinking process:
    All formatted consistently. Ready. 
    Output matches the response.✅
 
-&lt;/think&gt;
+</think>
 
 
 Here is a comprehensive, exam-focused study guide for **Database Management Systems (DBMS)**. Each module includes detailed conceptual notes, step-by-step examples, and solved questions aligned with your syllabus.
@@ -787,7 +808,7 @@ Here is a comprehensive, exam-focused study guide for **Database Management Syst
 **4. Integrity Constraints & Operations**
 - **Entity Integrity:** Primary key cannot be NULL or duplicate.
 - **Referential Integrity: Foreign key must match a primary key in referenced table or be NULL.
-- **Domain/Value Constraints:** Data types, CHECK conditions (e.g., `age &gt; 0`).
+- **Domain/Value Constraints:** Data types, CHECK conditions (e.g., `age > 0`).
 - **CRUD Operations:** Create, Read, Update, Delete map to DML commands.
 
 ### 📝 Important Questions & Solutions
@@ -843,13 +864,13 @@ Here is a comprehensive, exam-focused study guide for **Database Management Syst
 - **Step 2 (2NF):** PK is `A`. `B` depends on `A`, `C` depends on `B` → transitive dependency exists but no partial dependency since only one candidate key (`A`). Already in 2NF.
 - **Step 3 (3NF): Remove transitive dependency: Create `R1(A,B)` and `R2(B,C)`. Both have PKs (`A` and `B`) and preserve FDs. Lossless join guaranteed by common attribute `B`.
 
-**Q2. Convert this RA expression to SQL:** `π_name(σ_age&gt;25(Student ⋈ Enrolled))`
+**Q2. Convert this RA expression to SQL:** `π_name(σ_age>25(Student ⋈ Enrolled))`
 *Solution:*
 ```sql
 SELECT DISTINCT S.name
 FROM Student S
 JOIN Enrolled E ON S.roll = E.roll
-WHERE S.age &gt; 25;
+WHERE S.age > 25;
 ```
 
 ---
@@ -885,7 +906,7 @@ WHERE S.age &gt; 25;
 | **Probe Sequence** | $h(k)+i$ | $(h_1(k) + i \cdot h_2(k)) \mod m$ |
 | **Primary Clustering** | High (consecutive slots fill up) | Low (scatters entries) |
 | **Secondary Clustering** | None | Present but less severe |
-| **Performance** | Fast if load factor &lt; 0.5 | Better distribution, handles high load better |
+| **Performance** | Fast if load factor < 0.5 | Better distribution, handles high load better |
 
 ---
 
@@ -992,35 +1013,6 @@ Result: Database returns to consistent state exactly as if crash occurred mid-tr
 4. **SQL & RA conversion** is highly likely: practice translating `σ`, `π`, `⋈` to `SELECT JOIN WHERE`.
 5. **Security models**: know when each (DAC/MAC/RBAC) is best suited and their trade-offs.
 6. **Time management**: Each module = 4-8 hrs → expect 1 long descriptive Q + 2-3 short conceptual/numerical Qs per paper.
-
-Would you like this same deep-dive format for **Artificial Intelligence** or **Software Engineering** next?
-
-### User
-yes now for ai 
-
-### Assistant
-Here's a thinking process:
-
-1.  **Analyze User Request:**
-   - User wants the next subject from the syllabus, which is **Artificial Intelligence**.
-   - Format should match previous responses: detailed notes per module, keywords, important questions with solutions, and exam tips.
-   - Must align with the extracted AI syllabus (Modules 1-4).
-
-2.  **Review AI Syllabus Extracted:**
-   - *Module 1 (Lecture 10 hrs):* Introduction: Overview, Turing test, Intelligent agents. Problem Solving: Searching (Uninformed: DFS, BFS, DFID; Heuristic: Generate & Test, Best First, Beam, Hill Climbing, A*, Problem reduction/AND/OR graphs, AO*; CSP, Means-ends analysis; Stochastic: Simulated Annealing, PSO; Game Playing: Minimax, Alpha-beta pruning)
-   - *Module 2 (Lecture 10 hrs):* Knowledge & Reasoning: Building KB - Propositional logic, FOL, Inference in FOL, Resolution/refutation proofs, Theorem proving; Planning, partial order planning, Uncertain knowledge/reasoning, Probabilities, Bayesian Networks.
-   - *Module 3 (Lecture 10 hrs):* Learning: Overview of learning forms (unsupervised, supervised, semi-supervised), K-means clustering, Decision Trees, Neural Networks, Deep Learning.
-   - *Module 4 (Lecture 10 hrs):* Advanced topics: Computer Vision, NLP, Expert Systems, Robotics, Genetic Algorithm.
-
-3.  **Structure the Response:**
-   - Follow the same format as DBMS/ToC guides.
-   - Each module gets: 📖 Detailed Notes, Keywords, Important Questions & Solutions.
-   - Add exam tips at the end.
-   - Ensure depth matches "full detailed study material".
-
-4.  **Draft Content - Module by Module:**
-
-   *Module 1: Introduction & Search*
    - Notes: Turing test (imitation game), Intelligent agents (PEAS framework, rationality), Uninformed search (BFS/DFS/IDFS trade-offs), Heuristic search (A*, AO*), CSP (backtracking, constraint propagation), Stochastic (SA, PSO), Game playing (Minimax, alpha-beta pruning).
    - Q1: Compare BFS vs DFS vs A* with examples.
    - Q2: Explain Alpha-Beta Pruning with a game tree example.
@@ -1064,7 +1056,7 @@ Here's a thinking process:
    - Math/Logic formatting where appropriate.
    - Ready.✅
 
-&lt;/think&gt;
+</think>
 
 
 Here is a comprehensive, exam-focused study guide for **Artificial Intelligence**. Each module includes detailed conceptual notes, step-by-step examples, and solved questions aligned with your syllabus.
@@ -1110,7 +1102,7 @@ Here is a comprehensive, exam-focused study guide for **Artificial Intelligence*
 **Q2. Explain Alpha-Beta Pruning on a 3-ply game tree.**
 *Solution:*
 - Root (MAX) → Child 1 (MIN) → Grandchild A(3), B(5). MIN picks min(3,5)=3. `α=3` at root.
-- Child 2 (MIN) → Grandchild C(2). `β=2`. Since `2 &lt; α(3)`, remaining grandchildren of Child 2 are pruned (won't improve MAX's choice).
+- Child 2 (MIN) → Grandchild C(2). `β=2`. Since `2 < α(3)`, remaining grandchildren of Child 2 are pruned (won't improve MAX's choice).
 - Result: Only ~6 nodes evaluated instead of all leaves. Saves computation without changing final decision.
 
 ---
@@ -1249,34 +1241,6 @@ Here is a comprehensive, exam-focused study guide for **Artificial Intelligence*
 5. **Advanced topics:** CNN architecture benefits, NLP embedding evolution, expert system components, GA operators.
 6. **Time management:** Each module = 10 hrs → expect 2 long descriptive Qs + 3 short conceptual/algorithmic Qs per paper.
 
-Would you like this same deep-dive format for **Software Engineering** next?
-
-### User
-yes
-
-### Assistant
-Here's a thinking process:
-
-1.  **Analyze User Request:** The user wants the same detailed study guide format for the remaining subject: **Software Engineering**. I need to extract the syllabus from the provided images (specifically, the last few images which contain Software Engineering content) and structure it into modules with detailed notes, keywords, and solved questions.
-
-2.  **Extract Syllabus Content (Mental Review of Images):**
-    *   *Image 5 & 6:* Contains Software Engineering syllabus.
-    *   *Module 1 (8 hrs):* Introduction to SE, history, software crisis, evolution, characteristics, Brooks' No Silver Bullet, Software Myths, SDLC models (Code-and-Fix, Waterfall, Evolutionary, Incremental, Prototyping, Spiral), Reuse, Non-Traditional processes (RUP, RAD, Agile).
-    *   *Module 2 (8 hrs):* Requirements Engineering: Importance, User Needs, Features vs Requirements, Classes of User Requirements (Enduring/Volatile), Sub-phases, Functional/Nonfunctional, Barriers to elicitation, SRS standards, Case Study, Tools (DFC, Decision Table/Tree), Nontraditional requirements.
-    *   *Module 3 (6 hrs):* Software Design: Goals, strategies/methodologies, data-oriented design, Coupling/Cohesion, Modular structure, Packaging, Structured Analysis (DFD, Data Dictionary), Structured Design (Structure chart), Object-Oriented Design, Top-down/bottom-up, UML/Diagrams, Design patterns.
-    *   *Module 4 (6 hrs):* Project Management: Responsibilities, planning, Measurement/Metrics (LOC, FP, Halstead's science), Size estimation techniques, COCOMO, Staffing level estimation, Scheduling, Organization/Team structures, Risk management.
-    *   *Module 5 (5 hrs):* Coding & Testing: Language selection, guidelines, writing code, documentation. Testing process, test case design, Functional testing (BVA, Equivalence class, Decision table, Cause-effect graphing), Structural testing (Control flow graphs, Path testing, Data flow/mutation), Unit/Integration/System testing, Debugging, Alpha/Beta, tools/standards.
-    *   *Module 6 (4 hrs):* Maintenance: Management of maintenance, process, models, Regression testing, Reverse engineering, Reengineering, Configuration management, documentation.
-    *   *Module 7 (3 hrs):* Reliability & Quality Mgmt: Intro to reliability/metrics, Overview of S/W QM System ISO 9000, SEI CMM.
-
-3.  **Structure the Output:** I'll follow the exact same format as previous responses:
-    - Title/Header
-    - Each Module with:
-        - 📖 Detailed Notes (concepts, explanations, examples)
-        - 📝 Important Questions & Solutions (theory + practical/problem-solving)
-    - 🎯 Exam Preparation Tips
-    - Consistent formatting, clear headings, bullet points where appropriate.
-
 4.  **Draft Content - Module by Module:**
 
     *Module 1: Introduction & SDLC Models*
@@ -1318,9 +1282,9 @@ Here's a thinking process:
     - Module 6 covers maintenance types and configuration management.
     - Module 7 covers ISO 9000 and CMMI levels.
     All align perfectly with the extracted syllabus. I will now generate the response. 
-    Structure: Header -&gt; Each module (Notes + Q&A) -&gt; Exam Tips. Consistent formatting. Ready.✅
+    Structure: Header -> Each module (Notes + Q&A) -> Exam Tips. Consistent formatting. Ready.✅
 
-&lt;/think&gt;
+</think>
 
 
 Here is a comprehensive, exam-focused study guide for **Software Engineering**. Each module includes detailed conceptual notes, step-by-step examples, and solved questions aligned with your syllabus.
@@ -1492,7 +1456,7 @@ Here is a comprehensive, exam-focused study guide for **Software Engineering**. 
 
 ### 📝 Important Questions & Solutions
 
-**Q1. Apply Equivalence Class Partitioning to a function `int getDiscount(int age)` where discount = 0 (age&lt;18), 10% (18-64), 20% (≥65).**
+**Q1. Apply Equivalence Class Partitioning to a function `int getDiscount(int age)` where discount = 0 (age<18), 10% (18-64), 20% (≥65).**
 *Solution:*
 - **Valid Classes:** `[0,17]`, `[18,64]`, `[65,∞)`
 - **Invalid Classes:** `[-∞,-1]` (negative age)
@@ -1583,37 +1547,9 @@ Here is a comprehensive, exam-focused study guide for **Software Engineering**. 
 4. **Testing Techniques:** Be ready to partition equivalence classes, draw control flow graphs, or calculate MTBF/MTTR.
 5. **Quality & Maintenance:** Understand CMM levels progression, ISO 9000 process focus, and Lehman's laws of evolution.
 6. **Time management:** Each module = 3-8 hrs → expect 1 long descriptive Q + 2-3 short conceptual/calculation Qs per paper.
-
-Would you like a quick revision sheet or flashcards for any specific module?
-
-### User
-now professional skill development 
-
-### Assistant
-Here's a thinking process:
-
-1.  **Analyze User Request:** The user wants a detailed study guide for "Professional Skill Development" (which corresponds to the second subject in the provided images, covering Communication Skills/Soft Skills). They want it structured like the previous ones: detailed notes per module, keywords, and solved questions/solutions aligned with the syllabus.
-
-2.  **Identify Source Material:** I need to refer back to the second image which covers "Communication Skills / Soft Skills" (Modules 1-4 + reference books + course outcomes).
-    - *Module 1:* Communication skills: Public speaking, Group discussion, Gestures and body language & professional presentation skills. (10 hrs)
-    - *Module 2:* Interpersonal skills: Group dynamics, Negotiation skills, Leadership, Emotional intelligence. (10 hrs)
-    - *Module 3:* Employability and Corporate Skills: Time management and effective planning, Stress management, People skills, Team work, development of leadership qualities, Decision making and Negotiation skills, Positive attitude, Self-motivation, Professional ethics, Business etiquettes, balancing board room. (10 hrs)
-    - *Module 4:* Business writing skills, Resume Writing. Interview Skills, Technical Presentation, Guest Lecture, Professional Ethics, Project Management, Entrepreneurship. (10 hrs)
-    - *Reference Books & Course Outcomes* are also listed.
-
-3.  **Structure the Output:** I'll follow the same format as before:
-    - Title header
-    - Module-by-module breakdown
-    - Each module contains: Detailed Notes, Keywords, Important Questions & Solutions
-    - Exam preparation tips at the end
-    - Consistent depth and academic tone
-
-4.  **Draft Content - Module by Module:**
-
-    *Module 1: Communication Skills (Lecture 10 hrs)*
     - *Notes:* Public speaking structure (intro-body-conclusion), vocal variety, eye contact, posture, gestures. Group discussion dynamics (role of leader, listener, contributor, timekeeper). Professional presentation skills (slide design, storytelling, handling Q&A).
     - *Keywords:* Verbal/Non-verbal communication, Active listening, Presentation architecture, Audience analysis, Body language cues.
-    - *Q1 & Solutions:* How to structure a 5-minute pitch? Solution: Hook -&gt; Problem -&gt; Solution -&gt; Evidence -&gt; Call to action. Example breakdown. How to handle nervousness in public speaking? Solution: Breathing techniques, visualization, practice, focusing on message not self.
+    - *Q1 & Solutions:* How to structure a 5-minute pitch? Solution: Hook -> Problem -> Solution -> Evidence -> Call to action. Example breakdown. How to handle nervousness in public speaking? Solution: Breathing techniques, visualization, practice, focusing on message not self.
 
     *Module 2: Interpersonal Skills (Lecture 10 hrs)*
     - *Notes:* Group dynamics (Tuckman's stages: forming, storming, norming, performing, adjourning). Negotiation skills (BATNA, ZOPA, win-win vs zero-sum, anchoring effect). Leadership styles (transformational, transactional, servant, situational). Emotional intelligence (Goleman's 5 components: self-awareness, self-regulation, motivation, empathy, social skill).
@@ -1663,7 +1599,7 @@ Here's a thinking process:
     *Output Generation* (matches the final response)
     "Here is a comprehensive, exam-focused study guide for **Professional Skill Development**..." etc.✅
 
-&lt;/think&gt;
+</think>
 
 
 Here is a comprehensive, exam-focused study guide for **Professional Skill Development**. Each module includes detailed conceptual notes, step-by-step examples, and solved questions aligned with your syllabus.
@@ -1798,7 +1734,7 @@ Here is a comprehensive, exam-focused study guide for **Professional Skill Devel
 
 **2. Interview Skills & Technical Presentation**
 - **STAR Method:** Situation, Task, Action, Result. Structures behavioral answers; prevents rambling.
-- **Technical Presentations for Non-Experts:** Analogies, visual metaphors, avoid jargon, focus on "why it matters" not "how it works". Demo &gt; slides when possible.
+- **Technical Presentations for Non-Experts:** Analogies, visual metaphors, avoid jargon, focus on "why it matters" not "how it works". Demo > slides when possible.
 
 **3. Project Management & Entrepreneurship Basics**
 - **Agile/Scrum:** Sprints, stand-ups, backlog grooming, velocity tracking. Adaptable to changing requirements.
@@ -1814,7 +1750,7 @@ Here is a comprehensive, exam-focused study guide for **Professional Skill Devel
 **Q2. Conduct a mock interview answer for: "Tell me about a time you failed."**
 *Solution:*
 - **Situation:** Led migration of legacy CRM to cloud platform; deadline was fixed.
-- **Task:** Ensure zero data loss and &lt;4hr downtime window.
+- **Task:** Ensure zero data loss and <4hr downtime window.
 - **Action:** Underestimated API rate limits; throttling caused 12hr delay. Implemented exponential backoff and parallelized batch processing.
 - **Result:** Delivered within 6hr window, documented lessons learned, adopted retry pattern for all future migrations. Shows humility, problem-solving, and growth mindset.
 
@@ -1842,3 +1778,7 @@ Here is a comprehensive, exam-focused study guide for **Professional Skill Devel
 5. **Time management:** Each module = 10 hrs → expect 2 long situational Qs + 3 short conceptual/definition Qs per paper.
 
 Would you like a printable one-page cheat sheet or flashcards for quick revision?
+
+
+
+
